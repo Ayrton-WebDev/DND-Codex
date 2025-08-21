@@ -84,11 +84,31 @@ th {
     background-color: rgba(189, 172, 128, 0.85);
 }
 table tbody tr:nth-child(even) {
-    background-color:rgba(180, 160, 100, 0.85)
+    background-color:rgba(165, 147, 91, 0.85)
 
 ;
 }
 
 table tbody tr:hover {
     background-color: rgb(255, 248, 216);
+}
+.eras-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.eras-menu h2{
+    text-align: center;
+     color: #a03e3e;
+}
+.eras-menu li {
+  border: 2px solid #6b4226;
+  margin: 5%;
+}
+.eras-menu li a{
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
