@@ -99,9 +99,7 @@ th {
     background-color: rgba(189, 172, 128, 0.85);
 }
 table tbody tr:nth-child(even) {
-    background-color:rgba(165, 147, 91, 0.85)
-
-;
+    background-color:rgba(165, 147, 91, 0.85);
 }
 
 table tbody tr:hover {
@@ -131,13 +129,50 @@ table tbody tr:hover {
 
 .title{color: #a03e3e;}
 
+/* map pages */
+
+.all-continents{display: inline-flex;}
+.continent-box{
+  border: 2px solid #6b4226;
+  justify-items: center;
+  padding: 5%;
+  margin: 1%;
+}
+.continent-img{
+  width: 100%;
+}
+.cont-size{max-width: 100%;max-height: 650px;}
+.map-container {
+  position: relative;
+  aspect-ratio: 16/9; /* maintain map shape */
+  width: 100%;
+  max-width: 1100px;
+}
+.pin {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: red;          /* pin color */
+  border: 2px solid white;  /* optional outline */
+  border-radius: 50%;       /* make it circular */
+   transform: translate(-50%, -50%); /* center pin at coordinates */
+  cursor: pointer;
+  opacity: 25%;
+}
+
+.pin:hover {
+  transform: translate(-50%, -50%) scale(1.5); /* enlarge on hover */
+  transition: transform 0.2s;
+  opacity: 50%;
+}
+
 @media (max-width: 1250px) {
-  .parent {
-display: grid;
-grid-template-columns: 1fr;
-grid-template-rows: repeat(2, 0.25fr) 7fr;
-grid-column-gap: 0px;
-grid-row-gap: 0px;
+.parent {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 0.25fr) 7fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
 }
 
 .navBar { 
