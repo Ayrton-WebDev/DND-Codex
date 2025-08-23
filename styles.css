@@ -7,7 +7,13 @@ grid-row-gap: 0px;
 }
 .navBar { grid-area: 1 / 1 / 2 / 3; background-color: yellow; max-height: 100px; }
 .subMenu { grid-area: 2 / 1 / 3 / 2; background-color: green; margin-top: 9%; padding: 5%; padding-top: 15%;}
-.mainCont { grid-area: 2 / 2 / 3 / 3;  ; height: 800px; background-color: #a03e3e; padding: 2%; margin-top: 1.15%;}
+.mainCont { 
+  grid-area: 2 / 2 / 3 / 3; 
+  height: 790px; 
+  background-color: #a03e3e; 
+  padding: 2%; 
+  margin-top: 1.15%;
+}
 .homeCont {
     grid-area: 2 / 1 / 3 / 3;  ; 
     height: 800px;
@@ -49,6 +55,12 @@ grid-row-gap: 0px;
     font-family: 'Garamond', serif; /* fancy, storybook font */
     border-radius: 8px;
     box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+    
+    max-height: 750px;
+}
+a{ color: #a03e3e}
+.scroll{
+  overflow-y: scroll;
 }
 .disclaimer-box h1 {
     color: #a03e3e; /* slightly dramatic color */
@@ -111,3 +123,5 @@ table tbody tr:hover {
   padding: 14px 16px;
   text-decoration: none;
 }
+
+.title{color: #a03e3e;}
