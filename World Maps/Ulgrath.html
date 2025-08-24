@@ -22,7 +22,7 @@
     <div class="subMenu"> 
         <div class="disclaimer-box sub-list"> 
           <ul class="eras-menu">
-            <h2>Eras</h2>
+            <h2>Continents</h2>
             <li><a href="./MapsCS.html">World Overview</a></li>
             <li><a href="./Ulgrath.html">Ulgrath</a></li>
             <li><a href="">Pilgror</a></li>
@@ -38,19 +38,25 @@
             <div class="map-container">
                 <h1>The Map of Ulgrath</h1>
                 <img class="cont-size" src="../images/Ulgrath.jpg" alt="">
-                <div class="pin" style="top: 82.5%; left: 39.5%;" title="Summinster"></div>
-                <div class="pin" style="top: 78.8%; left: 52.5%;" title="Saltcare"></div>
-                <div class="pin" style="top: 65%; left: 26%;" title="Rustview"></div>
-                <div class="pin" style="top: 86%; left: 56.5%;" title="Emberholst"></div>
-                <div class="pin" style="top: 52.5%; left: 70%;" title="Frostport"></div>
-                <div class="pin" style="top: 46%; left: 57.5%;" title="Ebonvale"></div>
-                <div class="pin" style="top: 42.5%; left: 31%;" title="Fargate"></div>
-                <div class="pin" style="top: 24%; left: 34.5%;" title="Nightside"></div>
-                <div class="pin" style="top: 26.5%; left: 20%;" title="Arrowborne"></div>
+                <div class="pin" style="top: 82.5%; left: 39.5%;" data-id="summinster"></div>
+                <div class="pin" style="top: 78.8%; left: 52.5%;" data-id="saltcare"></div>
+                <div class="pin" style="top: 65%; left: 26%;" data-id="rustview"></div>
+                <div class="pin" style="top: 86%; left: 56.5%;" data-id="emberholst"></div>
+                <div class="pin" style="top: 52.5%; left: 70%;" data-id="frostport"></div>
+                <div class="pin" style="top: 46%; left: 57.5%;" data-id="ebonvale"></div>
+                <div class="pin" style="top: 42.5%; left: 31%;" data-id="fargate"></div>
+                <div class="pin" style="top: 24%; left: 34.5%;" data-id="nightside"></div>
+                <div class="pin" style="top: 26.5%; left: 20%;" data-id="arrowborne"></div>
             </div>
+
+              <div id="infoBox" class="disclaimer-box">
+                <h2>Click a location to see more information</h2>
+                <p>Select one of the pins on the map to learn more about that location.</p>
+              </div>
         </div>
         
     </div>
 </div>
+<script src="../index.js"></script>
 </body>
 </html>

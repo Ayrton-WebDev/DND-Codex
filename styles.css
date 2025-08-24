@@ -66,11 +66,12 @@ grid-row-gap: 0px;
 }
 a{ color: #a03e3e}
 
-.disclaimer-box h1 {
+h1 {
     color: #a03e3e; /* slightly dramatic color */
     font-size: 2em;
     padding-bottom: 1%;
 }
+h2{color: #a03e3e;}
 .disclaimer-box p {
     font-size: 1.1em;
     line-height: 1.5em;
