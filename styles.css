@@ -72,6 +72,7 @@ h1 {
     padding-bottom: 1%;
 }
 h2{color: #a03e3e;}
+h3{color: #a03e3e;}
 .disclaimer-box p {
     font-size: 1.1em;
     line-height: 1.5em;
@@ -138,6 +139,7 @@ table tbody tr:hover {
   justify-items: center;
   padding: 5%;
   margin: 1%;
+  /* max-height: 270px; */
 }
 .continent-img{
   width: 100%;
@@ -179,6 +181,7 @@ table tbody tr:hover {
   width: 100%;
   height: auto;
 }
+#infoBox{margin-top: 1%;}
 
 @media (max-width: 1250px) {
 .parent {

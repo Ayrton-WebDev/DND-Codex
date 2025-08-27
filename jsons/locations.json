@@ -9,63 +9,63 @@
         "summinster": {
           "name": "Summinster",
           "coords": { "top": "81%", "left": "44%" },
-          "description": "The large city has a wall going around it that is oval shaped when seen from above. Near the entrances of each wall, are a few homes of locals who work the field or hunt or some other physical labour job. In the centre of the city is the high top district, a circular inner wall that makes the oval look similar to an eye. In the centre of this ring are 3 spires of equal height and width, these are the Animus Pillars - the royals, very high nobles and various mages live here, getting most of their supplies delivered, these royals rarely leave this areas of the city unless they have to.",
+          "description": "Encircled by sweeping oval walls, the capital city’s form resembles a colossal eye gazing upward from the earth, its gates flanked by the homes of hunters, farmers, and laborers who sustain its heart. At the core lies the High Top District, a perfect circle within the oval, where the Animus Pillars rise — three spires of flawless symmetry, equal in height and breadth, their shadows stretching over every street. Within these towers dwell the royals, the highest nobles, and the most esteemed mages, sustained by endless deliveries and ancient privilege, rarely descending into the city below; to the people, the Pillars are both marvel and omen, a reminder that power here gazes outward but seldom bends down.",
           "image": "",
           "population": "45,000"
         },
         "saltcare": {
           "name": "Saltcare",
           "coords": { "top": "76%", "left": "58.5%" },
-          "description": "A hardy coastal town famed for salt mining and resilient fisherfolk.",
+          "description": "Perched upon the restless edge of the desert, Saltcare stands as the Empire’s crucible of war. Here, raw recruits are tempered into soldiers, their oaths echoing beneath sun-scorched skies. The town thrives as a vital crossroads — a final bastion of water and respite for those bound toward the blazing heart of Emberholst, or the long, perilous road north to Frostport. Around it, a ring of humble villages feeds its forges and fills its stores, their toil sustaining the Empire’s armies. To dwell in Saltcare is to live in the shadow of war, where every hammer’s strike and every grain of grain speaks to the endless hunger of empire.",
           "image": "",
           "population": "12,000"
         },
         "rustview": {
           "name": "Rustview",
           "coords": { "top": "61%", "left": "29%" },
-          "description": "An old mining city, its iron-rich red cliffs give the city its distinctive hue.",
+          "description": "Perched against the perilous shallows of the western coast, Rustview rises behind stout walls that guard both land and water, daring only the skilled or foolhardy to traverse its approaches. The city thrives on the wealth of its surrounding forests, sending timber across Ulgrath and distant continents, and shaping the mighty ships that sustain the Empire’s reach. Yet it is not commerce alone that marks Rustview; the largest military garrison outside the capital calls the city home, its disciplined ranks ever vigilant against the northern threats, and its towers and battlements echo with the clang of steel and the whispered legends of warriors who have kept the Empire’s heart safe for generations.",
           "image": "",
           "population": "25,000"
         },
         "emberholst": {
           "name": "Emberholst",
           "coords": { "top": "85%", "left": "63%" },
-          "description": "A city built on volcanic rock, renowned for its forgecraft and weaponry.",
+          "description": "Forged between Ulgrath’s blazing desert and the scarred expanse of the Elemental Cataclysm, Emberholst stands as a city of fire and glass, its very foundations scorched by the death of a colossal fire primordial long ago. Though the elemental fell millennia past, the air still shimmers with lingering heat, a testament to its titanic fury, and only the dragonborn, hardened by flame, call this place home. From its mighty forges—renowned across the Empire and beyond—flow weapons and armor of unparalleled quality, while its skilled artisans shape glass and steel alike. Supplied with provisions from the western lands, Emberholst thrives as both a crucible of craft and a bastion of enduring heat, a city where fire itself has become both guardian and legacy.",
           "image": "",
           "population": "38,000"
         },
         "frostport": {
           "name": "Frostport",
           "coords": { "top": "47.5%", "left": "78%" },
-          "description": "Northern trade hub, ships pass through icy waters to bring goods across the realm.",
+          "description": "Perched where Ulgrath reaches toward Pilgror, Frostport rises as a bustling trade post and fishing town, its homes strung along wooden walkways over the shallow, sun-dappled waters, granting its people mastery of the seas despite ships that cannot venture far. Flanked by towering mountains guarding the lone road inland, the town relies on both natural fortifications and a dedicated, if occasionally lax, military presence to protect its vital commerce. Merchants and mariners from across the Empire traverse Frostport’s docks, bringing goods and stories from distant lands, while shadows of a growing criminal network whisper in the alleys, a reminder that even a city of trade and bounty cannot escape the hunger of ambition.",
           "image": "",
           "population": "30,000"
         },
         "ebonvale": {
           "name": "Ebonvale",
           "coords": { "top": "39.5%", "left": "64%" },
-          "description": "A shadowed valley city steeped in superstition and old magic.",
+          "description": "Nestled near Frostport, Ebonvale was born from the ambition of wealthy nobles who sought a city of their own, and it has since grown into the empire’s most notorious stronghold of opulence and corruption. Here, wealth rules unchecked—nobles control the land, the trade, and the very laws that others must obey, and any who challenge them find ruin swiftly following. Despite its proximity to the cursed isle, Ebonvale thrives as a bustling fishing hub, exporting rare and exotic aquatic ingredients to distant corners of Ulgrath, even as sea monsters relentlessly stalk its waters. Its people, though not all affluent, are tempered by hardship and danger, forged into resolute and fierce fighters who navigate both the greed of their rulers and the perils of the deep.",
           "image": "",
           "population": "20,000"
         },
         "fargate": {
           "name": "Fargate",
           "coords": { "top": "36.5%", "left": "34.5%" },
-          "description": "A frontier city guarding the passage between kingdoms, known for mercenary guilds.",
+          "description": "Perched at the base of the peakless mountains, Fargate thrives in the long shadow of ancient giants’ fortresses, remnants of a forgotten age. Serving as the first line of defence under the dominion of Zeplia, a kingdom of legendary might, the city now draws its fortune from the hidden tunnels within the mountains, where daring explorers seek long-lost artifacts and face peril for untold rewards. Fargate is a city tempered by vigilance, its streets filled with soldiers and watchmen, maintaining order amid the lingering tensions between north and south, and standing as both a bastion and a gateway to the mysterious riches buried deep in Ulgrath’s stone.",
           "image": "",
           "population": "18,000"
         },
         "nightside": {
           "name": "Nightside",
           "coords": { "top": "16%", "left": "38.5%" },
-          "description": "A city that rarely sees the sun, nestled against jagged cliffs under constant mist.",
+          "description": "Nightside is a city forged by strength and tradition, where power, courage, and skill in battle define one’s place in society. Its people revere Kord, seeing their god of strength and storms as the ultimate arbiter of worth, and they shape their lives around proving themselves worthy in his eyes. Encircled by towering wooden walls that stretch to the coast, the city dares outsiders to challenge its might, standing ever-ready to defend its people and honor Kord through acts of valor.",
           "image": "",
           "population": "10,000"
         },
         "arrowborne": {
           "name": "Arrowborne",
           "coords": { "top": "18%", "left": "23.5%" },
-          "description": "A rugged settlement of hunters and rangers, famed for their longbows.",
+          "description": "Cradled within a bowl of jagged, short mountains, the capital of the North stands as a fortress of knowledge and power, accessible only through winding tunnels that lead inland. Renowned across Ulgrath for its mastery of magic, the city’s towering peaks and hidden subterranean passages serve as sanctuaries for daring arcane experiments, whose brilliance—and occasional recklessness—draw the attention of subterranean creatures lurking beneath the earth. Though its mages are said to hold the balance of the war with the South in their hands, they would prefer to focus on their studies, and welcome those from across the world to aid in their various researches.",
           "image": "",
           "population": "8,000"
         }
