@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const params = new URLSearchParams(window.location.search);
   const continentKey = params.get("c");
 
-  fetch("./locations.json")
+  fetch("../jsons/locations.json")
     .then(res => res.json())
     .then(data => {
       const continent = data[continentKey];

@@ -1,0 +1,243 @@
+{
+  "eras": {
+    "era1": {
+      "title": "The First Dawn (600-800 years)",
+      "content": [
+        {
+          "type": "p",
+          "text": "When the gods first arrived in Takairim, they found only chaos: storms that tore the skies, seas that raged without end, and mountains that bled fire. Yet where others would see desolation, the gods beheld a canvas."
+        },
+        {
+          "type": "p",
+          "text": "With but a thought, they tamed the wilds. Forests rose, rivers carved their courses, and life blossomed across the land. In their great design, they mirrored Takairim into two reflections: the Feywild, where nature’s spirit dwelled, and Faramirr, rich with the bones of the earth. Thus were born three planes, each seeded with life."
+        },
+        {
+          "type": "p",
+          "text": "The first mortals rose upon these worlds. Humanity thrived in Takairim, mastering the seas and the hunt. The elves, dwelling in the Feywild, bent nature to their will and shared their secrets freely. The dwarves, in Faramirr, drew riches from the stone and shaped wonders from the deep. Trade and kinship bound the peoples together, for in these days travel between planes was effortless."
+        },
+        {
+          "type": "p",
+          "text": "Though the gods walked beside mortals, they gave aid sparingly, for they were weary from their long passage. Still, the world prospered."
+        },
+        {
+          "type": "p",
+          "text": "Yet beneath this newfound order, the old powers stirred. Storms raged anew, mountains roared, and the seas rose in fury. These were the first tremors of the Primordials — colossal beings of raw element who had once ruled Takairim… and now hungered to reclaim it."
+        }
+      ]
+    },
+    "era2": {
+      "title": "The Elemental Cataclysm (300–400 years)",
+      "content": [
+        {
+          "type": "p",
+          "text": "From the shadows of creation rose the Primordials — vast beings of fire, storm, stone, and sea. They had ruled Takairim before the gods first set foot upon it, and they raged to find their dominion usurped."
+        },
+        {
+          "type": "p",
+          "text": "Their awakening shattered the balance. Skies split with endless tempests, mountains cracked, and the seas swallowed whole kingdoms. Where the gods had sown harmony, the Primordials wrought ruin."
+        },
+        {
+          "type": "p",
+          "text": "The gods, still weary from their long passage, could not stand against such fury. With their mortal children, they fled across the veils to the Feywild and Faramirr, cutting off the bridges to Takairim. There, in refuge, they prepared for war. Elves bound the forests to their cause, dwarves summoned stone and steel, and humankind rallied behind both. For centuries the gods guided them, gifting courage, strength, and will — until mortals themselves stood as weapons of hope."
+        },
+        {
+          "type": "p",
+          "text": "When the Primordials struck again, mortals and gods met them in defiance. Though the cost was terrible, victories came. The gods learned to gather the essence of fallen titans, and from that terrible power they forged the elemental planes — prisons of fire, storm, earth, and sea. Into chosen mortals they breathed this same power, birthing heroes mighty enough to wound the unassailable."
+        },
+        {
+          "type": "p",
+          "text": "At last, the gods turned the Primordials’ own strength against them, banishing their forms into the newborn planes. There their bodies dissolved into raw element, scattering into the myriad beings that dwell there still."
+        },
+        {
+          "type": "p",
+          "text": "So ended the Cataclysm. Takairim was left scarred but unbroken. Yet for many centuries mortals lived in the shadow of their fallen foes, fearing that the Primordials were not destroyed, but only dreaming… waiting to rise once more."
+        }
+      ]
+    },
+    "era3": {
+      "title": "The Age of Harmony (2,000–2,300 years)",
+      "content": [
+    {
+      "type": "p",
+      "text": "With the Primordials cast down, Takairim entered an age of true peace. Gods and mortals had walked together since the First Dawn, but now their bond was tempered in war and sealed in trust. The gods, immortal and mighty, looked upon mortals not as fragile children, but as equals — worthy of love, faith, and friendship."
+    },
+    {
+      "type": "p",
+      "text": "At last, the world was free to flourish. The veils between planes lay open; travellers passed freely between Takairim, the Feywild, and Faramirr. Knowledge was shared without envy, and wonders beyond counting were wrought."
+    },
+    {
+      "type": "p",
+      "text": "The elves grew forests into shining halls, the dwarves carved mountains into kingdoms, and humankind built cities upon the rivers and seas. Trade and craft flourished, and peace bound the races together. The gods themselves walked among their children, offering counsel, blessing, and guidance."
+    },
+    {
+      "type": "p",
+      "text": "The gods created more children to share their worlds. The halflings and gnomes joined the human and elven realms. These beings, never having suffered the horrors of war, brought a joy and positivity that was scarce among the other races."
+    },
+    {
+      "type": "p",
+      "text": "Yet not all among the divine were content. In the hearts of some, jealousy took root. They looked upon mortals not as partners, but as playthings. Where their brethren fostered harmony, these gods sought dominion. Their whispers turned from creation to corruption."
+    },
+    {
+      "type": "p",
+      "text": "At first the changes were subtle — beasts twisted into crueller forms, shadows that clung too long at dusk. But soon monsters roamed the land: scaled horrors born of venom and fire, beasts whose hunger no feast could sate, and creatures that defied both nature and reason. Mortals who once walked without fear now looked to the dark with dread."
+    },
+    {
+      "type": "p",
+      "text": "Thus the seeds of discord were sown. Though the Age of Harmony endured for more than two thousand years, its end was foreshadowed in every monster’s cry and the long nights that accompanied them. For mortals, none could say why these gods had turned, only that they had."
+    },
+    {
+      "type": "p",
+      "text": "The Dread Lords had formed."
+    }
+  ]
+    },
+    "era4":{
+        "title": "the First Heavenly War (2,300–2,450 years)",
+        "content": [
+    {
+      "type": "p",
+      "text": "The peace of the Age of Harmony shattered when the Dread Lords rose in open defiance. What had been whispers and shadows became war — a war among the gods themselves. Many perished, their names lost to memory, their deeds erased from mortal recollection."
+    },
+    {
+      "type": "p",
+      "text": "From the chaos, the Hells were forged: vast realms of torment and fire, each bound to the Dread Lords’ will. From these infernal crucibles arose creatures of nightmare, forged to serve, hunt, and terrify. Chromatic dragons were born from the chaos of the elemental planes, mighty beings of scales and hunger, driven to gather precious stones and materials — a design meant to weaken mortals. In response, the Metallic dragons arose, champions of balance. Among these dragons, two immensely powerful beings emerged: Bahamut and Tiamat, joining the gods in name and might."
+    },
+    {
+      "type": "p",
+      "text": "The Dread Lords corrupted mortal races, twisting them to create goblins, bugbears, and other demi-human races. The Celestial Court and the mortal armies were overwhelmed by numbers and power. The gods were often unable to aid their allies, threatened by the presence of a Dread Lord upon the battlefield."
+    },
+    {
+      "type": "p",
+      "text": "In their desperation, mortals were granted magic, a gift from Mythra, who sought to empower them against the devastation. Yet this boon was fleeting; Mythra fell, and her stewardship passed to Corellon, who guided mortals in the new ways of arcane and divine arts. These new magics gave mortals the strength to withstand the hordes and stand against the creations of the betrayer gods."
+    },
+    {
+      "type": "p",
+      "text": "The war saw the betrayal and destruction of Faramirr, once a bastion of dwarven craft. The betrayer gods sought to sever mortals from the materials and knowledge that might allow them to resist. The mountains and mines of Faramirr were sundered, and from its ruins the Shadowfell arose, a realm of shadow and loss."
+    },
+    {
+      "type": "p",
+      "text": "Yet this ultimately turned against the Dread Lords. Shaken by the loss of their homeland, the dwarves fled into human lands. Their combined cities and armies could now match the numbers the Dread Lords sent, and the magic bestowed by Mythra gave them the upper hand."
+    },
+    {
+      "type": "p",
+      "text": "At last, the gods, weary and mourning, cast the Holy Blockade: a spell of immense power that sealed the Dread Lords beyond the planes, cutting them off from mortal and divine alike. They then helped push as many beings from the chaotic elemental planes and the Hells back beyond their portals and sealed them away."
+    },
+    {
+      "type": "p",
+      "text": "Takairim breathed again, though forever changed — the scars of war remained, and the shadow of the Dread Lords lingered, even as their influence was bound."
+    }
+  ]
+    },
+    "era5":{
+        "title": "the Age of Sorcery (2,450–2,650 years)",
+        "content": [
+    {
+      "type": "p",
+      "text": "The Celestial Court, weary and diminished from the First Heavenly War, turned inward. Many of the gods remained in recovery, their strength spent in the battles with the Primordials and the Dread Lords, and what power they could muster was devoted to maintaining the Holy Blockade. Mortals, left largely to their own devices, began to stretch the bounds of their gifts."
+    },
+    {
+      "type": "p",
+      "text": "Magic, once a tool granted in measured doses, grew in power and scope. Mortals constructed cities that defied reason, monuments that reached into the clouds and sank into the earth. They learned to shun the guidance of the gods, believing themselves the architects of their own destiny. This arrogance, a subtle inheritance of the Dread Lords’ corruption, crept through mortal hearts."
+    },
+    {
+      "type": "p",
+      "text": "In their pursuit of power and prolonged life, mortals twisted the gifts of Mythra. Nature’s balance was broken, a wound too great even for the God of Death to heal. From this hubris, immortality was forged in darkness: vampires stalked the night, and liches rose from their tombs, born not of godly design but of mortal folly and selfishness."
+    },
+    {
+      "type": "p",
+      "text": "Amidst this rise of mortal dominion, a coalition known as the Arcane Syndicate emerged. Gathering power and followers, they commanded undead servants and bent forbidden magics to their will. Through a mass ritual sacrifice, they shattered a fragment of the Holy Blockade, weakening the wards that had long kept the Dread Lords at bay. The shadow that had been bound so long surged back into the world, and with it came the first tremors of a new age of war and destruction."
+    },
+    {
+      "type": "p",
+      "text": "Thus the Age of Sorcery burned bright and perilous, a time when mortal ambition and divine absence collided — a crucible in which the Dread Lords returned, and the world teetered once more on the brink of destruction."
+    }
+  ]
+    },
+    "era6":{
+        "title": "The Second Heavenly War (2,650–2,750 years)",
+        "content": [
+    {
+      "type": "p",
+      "text": "The Dread Lords returned, and with them came an age of devastation the world had scarcely seen. Takairim, once bound by the guidance of gods and mortals alike, became a battlefield of ambition, fury, and terror. The Feywild, scarred by centuries of war, drew its veils tight and closed itself off, fearing the fate that had befallen Faramirr."
+    },
+    {
+      "type": "p",
+      "text": "The Celestial Court, weakened yet unyielding, called forth new children to aid in the coming struggle. These races, born of divine purpose, were crafted to bolster mortals and stand against the coming chaos. Corellon, seeing what mortal magic was capable of, limited their abilities. He and Ioun took knowledge of the most powerful spells and sealed it in her library on another plane. He then placed a ban on all spells above 9th level."
+    },
+    {
+      "type": "p",
+      "text": "Mortals, emboldened by the gifts of magic and left largely to their own devices, became ambitious and daring. Cities of flesh and shadow rose, grotesque abominations crafted by mortal hands yet guided by whispers of the betrayer gods. From their hubris, the Abyss was shaped — a realm of endless torment, born of mortal desire for power and immortality, yet influenced by the lingering corruption of the Dread Lords."
+    },
+    {
+      "type": "p",
+      "text": "The remainder of the war raged across Takairim for a millennium, reshaping mountains, rivers, and forests in its wake. Entire cities fell; the impossible cities created in the Age of Sorcery became tombs for those who lived there. With no safe way to escape the falling cities, most did not survive."
+    },
+    {
+      "type": "p",
+      "text": "At last, the Celestial Court, bound by desperation and sorrow, cast the final, unparalleled Holy Blockade. This spell drew upon their own divine essence and the twisted power of the Dread Lords alike, sealing all divine beings from the world. Takairim was left to its children alone; portals between planes were severed, leaving only a few lingering scars through which creatures might pass. The Blockade was absolute — unbroken, unyielding, and stronger than any mortal or god could undo."
+    },
+    {
+      "type": "p",
+      "text": "The spell that bound the Dread Lords carried unforeseen consequences. As the Holy Blockade sealed away divine and infernal powers, fragments of elemental energy bled back into Takairim. From storm and stone, flame and frost, great beings emerged — the first of the Giants. Though born of the raw elements themselves, they were not mindless forces like the Primordials before them. The Giants were willful, proud, and powerful, destined to carve their own place in the mortal world."
+    },
+    {
+      "type": "p",
+      "text": "Mortals, driven by survival, hunted the remaining planar creatures. Dragons, mighty and terrible, fought and vanished, their last sighting burned into legend. Their existence on other planes has been confirmed."
+    },
+    {
+      "type": "p",
+      "text": "The Second Heavenly War ended with silence, a world emptied of gods, yet alive with the consequences of mortal ambition, divine fury, and lingering shadows. The echoes of the war shaped the age to come, leaving scars both visible and hidden, and a caution to all who might forget the price of power."
+    }
+  ]
+    },
+    "era7":{
+        "title": "The Age of Ascendance (Current, year 663AB [After Blockade])",
+        "content": [
+    {
+      "type": "p",
+      "text": "The Age of Ascendance began when the Celestial Court sealed themselves away, ending the Second Heavenly War. The Holy Blockade was cast, severing the gods from Takairim, but the war did not end at once — for a few years, mortal armies still fought against the lingering hosts of the Dread Lords until, at last, the shadows were broken and victory claimed. In the wake of that final battle, many gods withdrew entirely, creating planes shaped from their own essence — sanctuaries apart from the world. Corellon claimed the Feywild as his dominion. Asmodeus and Tiamat were cast into the Hells, bound to its infernal prisons. The mortal world was left standing, scarred but free — and for the first time, wholly its own."
+    },
+    {
+      "type": "h3",
+      "text": "The Giant Wars (c. 0–120 AB)"
+    },
+    {
+      "type": "p",
+      "text": "The earliest century of this age was marred by the rise of the Giants. Born, it is said, from elemental energies that bled back into Takairim when the Blockade was sealed, they sought dominion over mortals by might and birth right. The Giant Wars lasted more than a century, their great fortresses shaking the earth itself. United mortal armies eventually shattered their strength, driving the giants into exile and ruin. Even so, their remnants endure — in ruins that crown mountains, in bloodlines whispered of with awe and dread, and in the dreams of those who would see their empires rise again."
+    },
+    {
+      "type": "h3",
+      "text": "The Rise of Vecna (c. 150 AB)"
+    },
+    {
+      "type": "p",
+      "text": "Not long after, another shadow rose. Vecna, the Whispered One, once a mortal and then a lich, ascended to godhood and carved an empire of dread. His dominion spread across much of Takairim, his power unchecked. Scholars agree that mortals themselves performed a desperate ritual to cast him beyond the Blockade, binding him where even gods are trapped. Yet though his empire fell, whispers of his name still linger — and some claim his voice can still be heard, promising secrets to those willing to listen."
+    },
+    {
+      "type": "h3",
+      "text": "The Wars of Tresylda (c. 250–350 AB)"
+    },
+    {
+      "type": "p",
+      "text": "Roughly a century later, Takairim faced Tresylda, the lich queen of the Arcane Syndicate. In pursuit of dominion, she orchestrated a mass ritual sacrifice, tearing open the balance of life and death. From this atrocity, the Arcane Plague was born — a sickness that spread undeath like fire. Those afflicted swelled her armies, until whole cities were emptied of life and raised in chains of shadow. For nearly a century, war raged against her and her legions. Though Tresylda was eventually defeated, accounts differ as to how: some say she was struck down in battle, others that she was unmade by a great ritual, and a few that betrayal from within broke her. What is certain is that the Arcane Plague was forced deep into the Underdark, where it festers still. Rare cases surface even today, though most dismiss them as remnants, not portents."
+    },
+    {
+      "type": "h3",
+      "text": "The Rise and Fall of Kingdoms (c. 350–600 AB)"
+    },
+    {
+      "type": "p",
+      "text": "With Tresylda’s fall, the Age of Ascendance entered a long era of ambition. Kingdoms rose and fell across every people of Takairim, some enduring centuries, others collapsing within a generation. The elves, divided by the choices of their kin, split their paths. Most remained in Takairim, intermingling with other races and shaping mortal cities with their artistry and knowledge. Yet a smaller number withdrew into the Feywild, sealing themselves off and declaring themselves above the folly of mortals. Across Takairim, alliances shifted, empires rose, and crowns were broken. The ruins of these kingdoms still scatter the land, reminders of mortal pride and fleeting power."
+    },
+    {
+      "type": "h3",
+      "text": "The Unwritten Years (600 AB – Present)"
+    },
+    {
+      "type": "p",
+      "text": "The Age of Ascendance is not yet finished. It is a living age, written still in the choices of rulers, the whispers of ambition, and the scars of war. Some call it the Age of Hubris, saying that mortals who claim “ascendance” merely walk the same path that doomed their forebears. What is certain is this: though the gods are gone, their echoes — and the shadows they left behind — still shape the world."
+    }
+  ]
+    }
+  }
+}
