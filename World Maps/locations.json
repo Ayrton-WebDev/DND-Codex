@@ -1,65 +1,73 @@
 {
+  "ulgrath": {
+    "default": {
+      "title": "Ulgrath, the Continent of Stone and Storms",
+      "description": "Ulgrath is a continent defined by rugged mountain ranges, storm-lashed coastlines, and vast fertile valleys. Its people are hardy and diverse, thriving in cities built on cliffs, volcanic plains, and icy northern harbors. Ulgrath’s history is steeped in ancient wars and forgotten empires, and its current politics are shaped by the balance between trade, magic, and survival.",
+      "image": "../images/Ulgrath.jpg"
+    },
+    "locations":{
   "summinster": {
     "name": "Summinster",
-    "coords": { "top": "82.5%", "left": "39.5%" },
+    "coords": { "top": "81%", "left": "44%" },
     "description": "The large city has a wall going around it that is oval shaped when seen from above. Near the entrances of each wall, are a few homes of locals who work the field or hunt or some other physical labour job. In the centre of the city is the high top district, a circular inner wall that makes the oval look similar to an eye. In the centre of this ring are 3 spires of equal height and width, these are the Animus Pillars - the royals, very high nobles and various mages live here, getting most of their supplies delivered, these royals rarely leave this areas of the city unless they have to.",
-    "image": "images/ulgrath/summinster.jpg",
+    "image": "",
     "population": "45,000"
   },
   "saltcare": {
     "name": "Saltcare",
-    "coords": { "top": "78.8%", "left": "52.5%" },
+    "coords": { "top": "76%", "left": "58.5%" },
     "description": "A hardy coastal town famed for salt mining and resilient fisherfolk.",
-    "image": "images/ulgrath/saltcare.jpg",
+    "image": "",
     "population": "12,000"
   },
   "rustview": {
     "name": "Rustview",
-    "coords": { "top": "65%", "left": "26%" },
+    "coords": { "top": "61%", "left": "29%" },
     "description": "An old mining city, its iron-rich red cliffs give the city its distinctive hue.",
-    "image": "images/ulgrath/rustview.jpg",
+    "image": "",
     "population": "25,000"
   },
   "emberholst": {
     "name": "Emberholst",
-    "coords": { "top": "86%", "left": "56.5%" },
+    "coords": { "top": "85%", "left": "63%" },
     "description": "A city built on volcanic rock, renowned for its forgecraft and weaponry.",
-    "image": "images/ulgrath/emberholst.jpg",
+    "image": "",
     "population": "38,000"
   },
   "frostport": {
     "name": "Frostport",
-    "coords": { "top": "52.5%", "left": "70%" },
+    "coords": { "top": "47.5%", "left": "78%" },
     "description": "Northern trade hub, ships pass through icy waters to bring goods across the realm.",
-    "image": "images/ulgrath/frostport.jpg",
+    "image": "",
     "population": "30,000"
   },
   "ebonvale": {
     "name": "Ebonvale",
-    "coords": { "top": "46%", "left": "57.5%" },
+    "coords": { "top": "39.5%", "left": "64%" },
     "description": "A shadowed valley city steeped in superstition and old magic.",
-    "image": "images/ulgrath/ebonvale.jpg",
+    "image": "",
     "population": "20,000"
   },
   "fargate": {
     "name": "Fargate",
-    "coords": { "top": "42.5%", "left": "31%" },
+    "coords": { "top": "36.5%", "left": "34.5%" },
     "description": "A frontier city guarding the passage between kingdoms, known for mercenary guilds.",
-    "image": "images/ulgrath/fargate.jpg",
+    "image": "",
     "population": "18,000"
   },
   "nightside": {
     "name": "Nightside",
-    "coords": { "top": "24%", "left": "34.5%" },
+    "coords": { "top": "16%", "left": "38.5%" },
     "description": "A city that rarely sees the sun, nestled against jagged cliffs under constant mist.",
-    "image": "images/ulgrath/nightside.jpg",
+    "image": "",
     "population": "10,000"
   },
   "arrowborne": {
     "name": "Arrowborne",
-    "coords": { "top": "26.5%", "left": "20%" },
+    "coords": { "top": "18%", "left": "23.5%" },
     "description": "A rugged settlement of hunters and rangers, famed for their longbows.",
-    "image": "images/ulgrath/arrowborne.jpg",
+    "image": "",
     "population": "8,000"
   }
 }
+  }}

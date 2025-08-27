@@ -147,7 +147,8 @@ table tbody tr:hover {
   position: relative;
   aspect-ratio: 16/9; /* maintain map shape */
   width: 100%;
-  max-width: 1100px;
+  max-width: 900px;
+  border: 2px solid #6b4226;
 }
 .pin {
   position: absolute;
@@ -159,12 +160,24 @@ table tbody tr:hover {
    transform: translate(-50%, -50%); /* center pin at coordinates */
   cursor: pointer;
   opacity: 25%;
+  transition: top 0.3s ease, left 0.3s ease;
 }
 
 .pin:hover {
   transform: translate(-50%, -50%) scale(1.5); /* enlarge on hover */
   transition: transform 0.2s;
   opacity: 50%;
+}
+.map-stage {
+  position: relative;           /* pins position against this */
+  width: min(100%, 1100px);     /* responsive, capped size */
+  margin: 0 auto;
+}
+
+.map-stage img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 @media (max-width: 1250px) {
@@ -207,4 +220,13 @@ table tbody tr:hover {
   justify-self: center; 
   justify-items: center;
 }
+
+.pin {
+  width: 15px;
+  height: 15px;
+}
+}
+
+@media (max-width: 600px){
+  .pin{width: 10px; height: 10px;}
 }

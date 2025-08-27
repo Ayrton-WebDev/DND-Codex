@@ -1,0 +1,45 @@
+/* large screen locations */
+#summinster{top: 80%; left: 44%;}
+#saltcare{top: 76%; left: 58.5%;}
+#rustview{top: 61%; left: 29%;}
+#emberholst{top: 85%; left: 63%;}
+#frostport{top: 47.5%; left: 78%;}
+#ebonvale{top: 39.5%; left: 64%;}
+#fargate{top: 36.5%; left: 34.5%;}
+#nightside{top: 16%; left: 38.5%;}
+#arrowborne{top: 18%; left: 23.5%;}
+
+/* @media (max-width: 600px){
+  #summinster{top: 83%; left: 44%;}
+#saltcare{top: 80%; left: 58.5%;}
+#rustview{top: 67%; left: 29.5%;}
+#emberholst{top: 86%; left: 63%;}
+#frostport{top: 57%; left: 77.5%;}
+#ebonvale{top: 51%; left: 63.5%;}
+#fargate{top: 48.5%; left: 34.5%;}
+#nightside{top: 32.5%; left: 38.5%;}
+#arrowborne{top: 34%; left: 23%;}  
+}
+
+@media (max-width: 500px){
+  #summinster{top: 83.5%; left: 44%;}
+#saltcare{top: 80%; left: 58.5%;}
+#rustview{top: 68%; left: 29.5%;}
+#emberholst{top: 86%; left: 63%;}
+#frostport{top: 58%; left: 77.5%;}
+#ebonvale{top: 52%; left: 63.5%;}
+#fargate{top: 50%; left: 34.5%;}
+#nightside{top: 34.5%; left: 38.5%;}
+#arrowborne{top: 36.5%; left: 23%;}  
+}
+@media (max-width: 400px){
+  #summinster{top: 83.5%; left: 44%;}
+#saltcare{top: 81%; left: 58.5%;}
+#rustview{top: 70%; left: 29.5%;}
+#emberholst{top: 87%; left: 63%;}
+#frostport{top: 60%; left: 77.5%;}
+#ebonvale{top: 54%; left: 63.5%;}
+#fargate{top: 52.5%; left: 34.5%;}
+#nightside{top: 37.5%; left: 38.5%;}
+#arrowborne{top: 39.5%; left: 23%;}  
+} */
