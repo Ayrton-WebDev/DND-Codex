@@ -1,0 +1,132 @@
+{
+  "celestial_court": {
+    "default": {
+      "title": "Celestial Court",
+      "description": "The Celestial Court are the prime deities who shaped the world and guided mortals through the ages. They embody creation, justice, and divine inspiration."
+    },
+    "gods": {
+      "velis_sunheart": {
+        "name": "Velis Sunheart",
+        "title": "The Dawnfire",
+        "allied": "The Celestial Court",
+        "dominions": ["Redemption", "Healing", "Sun"],
+        "appearance": "A radiant figure with golden hair and eyes like molten light, cloaked in flowing robes that shimmer with sunlight.",
+        "mythos": ""
+      },
+      "isyra_verdantborn": {
+        "name": "Isyra Verdantborn",
+        "title": "The Bloom Eternal",
+        "allied": "The Celestial Court",
+        "dominions": ["Nature", "Growth", "Fertility"],
+        "appearance": "A lithe figure wreathed in leaves and flowers, skin like bark, eyes glimmering green with life.",
+        "mythos": ""
+      },
+      "thyros_ironlaw": {
+        "name": "Thyros Ironlaw",
+        "title": "The Unyielding Judge",
+        "allied": "The Celestial Court",
+        "dominions": ["Civilization", "Justice", "Order"],
+        "appearance": "Stern, armored figure, bronze skin, carrying a gavel that glows with divine authority, eyes like polished steel.",
+        "mythos": ""
+      },
+      "khuldros_forgefather": {
+        "name": "Khuldros Forgefather",
+        "title": "The Eternal Anvil",
+        "allied": "The Celestial Court",
+        "dominions": ["Craft", "Invention", "Community"],
+        "appearance": "Broad-shouldered, bronze-skinned figure, beard like molten metal, hands glowing with the heat of creation, wielding a massive hammer.",
+        "mythos": ""
+      },
+      "ultharion": {
+        "name": "Ultharion",
+        "title": "The painted Soul",
+        "allied": "The Celestial Court",
+        "dominions": ["Beauty", "Art", "Arcana"],
+        "appearance": "Androgynous, ever-shifting form, adorned in living starlight, skin shimmering with ethereal hues, eyes like a prism of colours.",
+        "mythos": ""
+      },
+      "kaelor": {
+        "name": "Kaelor",
+        "title": "Keeper of the Golden Hours",
+        "allied": "The Celestial Court",
+        "dominions": ["Sun", "Agriculture", "Time"],
+        "appearance": "Luminous figure, golden hair and robes like sunrise, holding an hourglass with sands of shifting light.",
+        "mythos": ""
+      },
+      "lyessa_windstep": {
+        "name": "Lyessa Windstep",
+        "title": "The Whispering Wanderer",
+        "allied": "The Celestial Court",
+        "dominions": ["Luck", "Trickery", "Change"],
+        "appearance": "Agile, travel-stained figure, cloak flowing like the wind, eyes like shifting skies, often accompanied by a faint trail of breezes.",
+        "mythos": ""
+      },
+      "nythira": {
+        "name": "Nythira",
+        "title": "Mistress of Hidden Paths",
+        "allied": "The Celestial Court",
+        "dominions": ["Illusion", "Secrets", "Love"],
+        "appearance": "Veiled figure of night, hair like starlit mist, eyes obscured but glimmering with hidden truths.",
+        "mythos": ""
+      },
+      "aurelion": {
+        "name": "Aurelion",
+        "title": "Warden of the Just",
+        "allied": "The Celestial Court",
+        "dominions": ["honour", "Justice", "Nobility", "Metallic Dragons"],
+        "appearance": "Majestic platinum dragon, wings tipped in silver flame, occasionally taking the form of a humanoid knight of shining armor.",
+        "mythos": ""
+      },
+      "orris_dream-seer": {
+        "name": "Orris Dream-Seer",
+        "title": "The Silent Quill",
+        "allied": "The Celestial Court",
+        "dominions": ["Knowledge", "Prophecy", "Skill"],
+        "appearance": "Blindfolded, cloaked in starlight, silver quill always in hand, floating pages orbiting silently.",
+        "mythos": ""
+      },
+       "myrrath": {
+        "name": "Myrrath",
+        "title": "Lady of Quiet Ends",
+        "allied": "The Celestial Court",
+        "dominions": ["Death", "Fate", "Memory"],
+        "appearance": "Shadowed figure with pale, moonlit skin, feathered robes, eyes dim as dying moons.",
+        "mythos": ""
+      },
+      "tharos_stormbreaker": {
+        "name": "Tharos Stormbreaker",
+        "title": "The Roaring Flame of Valor",
+        "allied": "The Celestial Court",
+        "dominions": ["Storms", "Strength", "Battle"],
+        "appearance": "Towering storm-wreathed warrior, hair of lightning, eyes flashing like thunder, wielding a great axe of stormfire.",
+        "mythos": ""
+      }
+    }
+  },
+
+  "dread_lords": {
+    "default": {
+      "group_name": "Dread Lords",
+      "description": "The Dread Lords are deities of domination, corruption, and destruction. They oppose the Celestial Court and sow chaos across the world."
+    },
+    "gods": {
+      "azrakar": {
+        "name": "Azrakar",
+        "title": "The Infernal Sovereign",
+        "allied": "betrayer",
+        "dominions": ["Tyranny", "Domination", "Fire"],
+        "appearance": "A towering, armored figure wreathed in black flames, eyes burning with malevolent fire.",
+        "mythos": "Azrakar forged the Hells and created the Devil Kin during the First Heavenly War. In the Second Heavenly War, he commanded legions of fire and corruption to challenge the Celestial Court."
+      },
+      "vorathul": {
+        "name": "Vorathul",
+        "title": "The Chained Maw",
+        "allied": "betrayer",
+        "dominions": ["Madness", "Entropy", "Annihilation"],
+        "appearance": "A shadowy, shifting mass of eyes and teeth, bound in chains that pulse with dark energy.",
+        "mythos": "Ultharion spread madness and corruption during the Elemental Cataclysm. In the wars, he shattered mortals' resolve and opened rifts to the Abyss."
+      }
+      
+    }
+  }
+}
