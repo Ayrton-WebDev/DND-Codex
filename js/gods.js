@@ -46,8 +46,7 @@ if (!god) {
 
       // If a specific god exists, populate info, otherwise clear god fields
       if (god) {
-        godNameElem.textContent = god.name;
-        godTitleElem.textContent = god.title;
+        godNameElem.textContent = god.name + " - " + god.title;
         godAlliedElem.textContent = `Allied: ${god.allied}`;
         godDominionsElem.textContent = `Dominions: ${god.dominions.join(", ")}`;
         godAppearanceElem.textContent = god.appearance;
@@ -63,3 +62,27 @@ if (!god) {
     })
     .catch(err => console.error("Error loading gods.json:", err));
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const toggles = document.querySelectorAll("#side-menu .toggle");
+
+  toggles.forEach(toggle => {
+    toggle.addEventListener("click", (e) => {
+      e.preventDefault(); // prevent jump
+
+      const parent = toggle.parentElement;
+      const isOpen = parent.classList.contains("open");
+
+      // Close all other open menus
+      document.querySelectorAll("#side-menu .menu-parent").forEach(item => {
+        item.classList.remove("open");
+      });
+
+      // Toggle current one (if it wasn't already open)
+      if (!isOpen) {
+        parent.classList.add("open");
+      }
+    });
+  });
+});
+

@@ -74,7 +74,7 @@
         "title": "Warden of the Just",
         "allied": "The Celestial Court",
         "dominions": ["honour", "Justice", "Nobility", "Metallic Dragons"],
-        "appearance": "Majestic platinum dragon, wings tipped in silver flame, occasionally taking the form of a humanoid knight of shining armor.",
+        "appearance": "The purest golden dragon, his scales so polished they reflect the world like mirrors, fracturing sunlight into dazzling beams like a living prism. When he flies, the sky itself shimmers as though dawn is breaking.",
         "mythos": ""
       },
       "orris_dream-seer": {
@@ -95,7 +95,7 @@
       },
       "tharos_stormbreaker": {
         "name": "Tharos Stormbreaker",
-        "title": "The Roaring Flame of Valor",
+        "title": "The Roaring Storm",
         "allied": "The Celestial Court",
         "dominions": ["Storms", "Strength", "Battle"],
         "appearance": "Towering storm-wreathed warrior, hair of lightning, eyes flashing like thunder, wielding a great axe of stormfire.",
@@ -106,25 +106,105 @@
 
   "dread_lords": {
     "default": {
-      "group_name": "Dread Lords",
+      "group_name": "The Dread Lords",
       "description": "The Dread Lords are deities of domination, corruption, and destruction. They oppose the Celestial Court and sow chaos across the world."
     },
     "gods": {
       "azrakar": {
         "name": "Azrakar",
         "title": "The Infernal Sovereign",
-        "allied": "betrayer",
+        "allied": "The Dread Lords",
         "dominions": ["Tyranny", "Domination", "Fire"],
         "appearance": "A towering, armored figure wreathed in black flames, eyes burning with malevolent fire.",
-        "mythos": "Azrakar forged the Hells and created the Devil Kin during the First Heavenly War. In the Second Heavenly War, he commanded legions of fire and corruption to challenge the Celestial Court."
+        "mythos": ""
       },
       "vorathul": {
         "name": "Vorathul",
         "title": "The Chained Maw",
-        "allied": "betrayer",
-        "dominions": ["Madness", "Entropy", "Annihilation"],
+        "allied": "The Dread Lords",
+        "dominions": ["Madness", "Entropy", "Cosmic Ruin"],
         "appearance": "A shadowy, shifting mass of eyes and teeth, bound in chains that pulse with dark energy.",
-        "mythos": "Ultharion spread madness and corruption during the Elemental Cataclysm. In the wars, he shattered mortals' resolve and opened rifts to the Abyss."
+        "mythos": ""
+      },
+      "veylmar_dreadhelm": {
+        "name": "Veylmar Dreadhelm",
+        "title": "The Chain-Forged God",
+        "allied": "The Dread Lords",
+        "dominions": ["Conquest", "Pain", "Domination"],
+        "appearance": "Massive, spiked figure encased in black iron, chains writhing as if alive, eyes glowing through a visored helm.",
+        "mythos": ""
+      },
+      "dolmarr": {
+        "name": "Dolmarr",
+        "title": "The Forge Tyrant",
+        "allied": "The Dread Lords",
+        "dominions": ["Enslavement", "Cruel Industry"],
+        "appearance": "Hulking, molten-metal body, hammer fused to hand, glowing red eyes, rivulets of molten iron run across skin.",
+        "mythos": ""
+      },
+      "sharizeth": {
+        "name": "Sharizeth",
+        "title": "The Queen Below",
+        "allied": "The Dread Lords",
+        "dominions": ["Deceit", "Spiders", "Chaos"],
+        "appearance": "Spider-like, shadowed form, eight limbs spinning webs of black silk, eyes glinting malevolently",
+        "mythos": ""
+      },
+      "grond_one-eye": {
+        "name": "Grond One-Eye",
+        "title": "The Blade of Endless Fury",
+        "allied": "The Dread Lords",
+        "dominions": ["Destruction", "War", "Hatred"],
+        "appearance": "Giant, battle-scarred with a single glowing eye, massive axe that seems to thirst for blood.",
+        "mythos": ""
+      },
+      "ssythys_blackvein": {
+        "name": "Ssythys Blackvein",
+        "title": "The Whispering Fang",
+        "allied": "The Dread Lords",
+        "dominions": ["Poison", "Assassins", "Darkness"],
+        "appearance": "Sinister, serpentine figure, black scales with crimson veins, fangs glimmering with poison, eyes slitted with cunning.",
+        "mythos": ""
+      },
+       "vaerthis": {
+        "name": "Vaerthis",
+        "title": "The Scaled Tyrant",
+        "allied": "The Dread Lords",
+        "dominions": ["Greed", "Vengeance", "Chromatic Dragons"],
+        "appearance": "A three-headed dragon, each head monstrous and regal, her scales constantly shifting colors and elements. At one moment obsidian-black dripping acid, the next molten-red belching flame, the next icy-blue with wings like jagged glaciers. No two witnesses ever describe her the same way — for her form embodies chaos itself.",
+        "mythos": ""
+      },
+      "veykor": {
+        "name": "Veykor",
+        "title": "The Undying Scribe",
+        "allied": "The Dread Lords",
+        "dominions": ["Secrets", "Forbidden Knowledge", "Undeath"],
+        "appearance": "Tall, skeletal figure with an ever-blinking eye at its forehead, quill of bone in hand, tattered robes of dark script.",
+        "mythos": ""
+      },
+       "morgroth": {
+        "name": "Morgroth",
+        "title": "The Hollow King",
+        "allied": "The Dread Lords",
+        "dominions": ["Torture", "Enslavement", "Underdark"],
+        "appearance": "Humanoid shell filled with writhing void and broken limbs, constantly bleeding shadows.",
+        "mythos": ""
+      },
+      "orrath": {
+        "name": "Orrath",
+        "title": "The Hallowed Corpse",
+        "allied": "The Dread Lords",
+        "dominions": ["Undeath", "Gluttony", "Necromancy"],
+        "appearance": "Rotting skeletal figure shrouded in black mist, carrying a staff dripping with necrotic energy.",
+        "mythos": ""
+      },
+      "gnorr": {
+        "name": "Gnorr",
+        "title": "The Howling Maw",
+        "allied": "The Dread Lords",
+        "dominions": ["Savagery", "Hunger", "Slaughter"],
+        "appearance": "Gigantic, wolf-like maw with gaping teeth, howling constantly, body coiled with muscle and shadow.",
+        "mythos": ""
       }
       
     }

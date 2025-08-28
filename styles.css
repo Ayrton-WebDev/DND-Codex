@@ -1,5 +1,5 @@
 body{
-  background-color: #EEE5CE; 
+  background-color: #1E1B16; 
 }
 .parent {
 display: grid;
@@ -8,26 +8,33 @@ grid-template-rows: 0.5fr 7fr;
 grid-column-gap: 0px;
 grid-row-gap: 0px;
 }
-.navBar { grid-area: 1 / 1 / 2 / 3; background-color: yellow; max-height: 100px; }
+.navBar { grid-area: 1 / 1 / 2 / 3; max-height: 100px; margin-bottom: 2%;}
 .subMenu { 
   grid-area: 2 / 1 / 3 / 2; 
-  background-color: green; 
-  height: 100%; 
-  margin-top: 9%; 
+  background-color: #a03e3e; 
+  /* height: 100%;  */ 
   padding: 5%; 
-  padding-top: 15%;}
+  padding-top: 22%;
+}
 .mainCont { 
   grid-area: 2 / 2 / 3 / 3; 
   /* height: 100%;  */
   background-color: #a03e3e; 
-  padding: 2%; 
-  margin-top: 1.15%;
 }
+.flexit{display: flex; justify-content: center;}
+.histBox{width: 45%;}
+.imgCont{width: 45%;}
+.imgCont img{max-width: 75%;}
 .homeCont {
     grid-area: 2 / 1 / 3 / 3;
     background-color: #a03e3e;  
-    padding: 2%;
-    margin-top: 5%;
+    padding: 1%;
+    }
+    .largeCont {
+    grid-area: 2 / 1 / 3 / 3;
+    background-color: #a03e3e;  
+    display: flex;
+    justify-content: space-around;
     }
 
 .navBar ul {
@@ -35,7 +42,7 @@ grid-row-gap: 0px;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #3B3328;
 }
 
 .navBar li {
@@ -51,20 +58,22 @@ grid-row-gap: 0px;
 }
 
 .navBar li a:hover {
-  background-color: #111;
+  background-color: #C9A66B;
+  color: black;
 }
 .navBar .active {
-  background-color: #04AA6D;
+  background-color: #A47551;
 }
 .subMenu .disclaimer-box{max-height: 100%;}
 
 .disclaimer-box {
-    border: 2px solid #6b4226; /* dark brown border */
+    border: 2px solid #5C2B2B; /* dark brown border */
     background-color: #EEE5CE; /* parchment-like background */
     padding: 2%;
+    margin: 1%;
     font-family: 'Garamond', serif; /* fancy, storybook font */
     border-radius: 8px;
-    box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
     overflow-y: auto;
 }
 a{ color: #a03e3e}
@@ -72,7 +81,7 @@ a{ color: #a03e3e}
 h1 {
     color: #a03e3e; /* slightly dramatic color */
     font-size: 2em;
-    padding-bottom: 1%;
+    margin: 5px;
 }
 h2{color: #a03e3e;}
 h3{color: #a03e3e;}
@@ -138,7 +147,7 @@ table tbody tr:hover {
 
 .all-continents{display: inline-flex;}
 .continent-box{
-  border: 2px solid #6b4226;
+  border: 2px solid #5C2B2B;
   justify-items: center;
   padding: 5%;
   margin: 1%;
@@ -153,7 +162,7 @@ table tbody tr:hover {
   aspect-ratio: 16/9; /* maintain map shape */
   width: 100%;
   max-width: 900px;
-  border: 2px solid #6b4226;
+  border: 2px solid #5C2B2B;
 }
 .pin {
   position: absolute;
@@ -188,8 +197,46 @@ table tbody tr:hover {
 
 /* pantheon pages */
 .tableCont{display: flex; width: 100%; justify-content: space-around;}
-.panthBox{max-width: 60%; padding: 1%; border: 2px solid #6b4226; justify-items: center;}
+.panthBox{width: 45%; padding: 1%; border: 2px solid #5C2B2B; justify-items: center;}
 .panthBox td, th{text-align: center;}
+.sideHide li{display: hidden;}
+
+#side-menu {
+  margin: 1%;
+  padding: 1%;
+  /* background: #3B3328; dark background for contrast */
+  font-family: 'Garamond', serif;
+  font-size: 1.25rem;
+}
+
+#side-menu ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#side-menu a {
+  display: block;
+  padding-top: 10px;
+  color: black; /* parchment tone text */
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+#side-menu a:hover {
+  background: #C9A66B;
+  color: black;
+}
+
+
+.submenu {
+  display: none; /* hidden by default */
+  margin-left: 20px;
+}
+
+.menu-parent.open .submenu {
+  display: block; /* visible when parent is toggled */
+}
+
 
 @media (max-width: 1250px) {
 .parent {
@@ -211,8 +258,14 @@ table tbody tr:hover {
   padding: 0px;
 }
 .mainCont { 
-  grid-area: 3 / 1 / 4 / 2; 
+  grid-area: 3 / 1 / 4 / 2;
+  display: block; 
+  align-items: center;
+  justify-items: center;
 }
+.imgCont{width: 96%; align-content: center; display: flex; justify-content: center;}
+.imgCont img{max-width: 50%;}
+.histBox{width: 95%; justify-items: center;}
 
 .eras-menu h2 {display: block; margin: 1%;}
 .eras-menu li {

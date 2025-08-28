@@ -21,42 +21,72 @@
 
       <div class="subMenu"> 
         <div class="disclaimer-box"> 
-          <ul class="eras-menu">
-            <h2>Gods</h2>
-            <li><a href="">Gods Overview</a></li>
-            <li><a href="">The Celestial Court</a></li>
-            <li><a href="">Velis Sunheart</a></li>
-            <li><a href="">Isyra Verdantborn</a></li>
-            <li><a href="">Thyros Ironlaw</a></li>
-            <li><a href="">Khuldros Forgefather</a></li>
-            <li><a href="">Ultharion</a></li>
-            <li><a href="">Kaelor</a></li>
-            <li><a href="">Lyessa Windstep</a></li>
-            <li><a href="">Nythira</a></li>
-            <li><a href="">Aurelion</a></li>
-            <li><a href="">Orris Dream-Seer</a></li>
-            <li><a href="">Myrrath</a></li>
-            <li><a href="">Tharos Stormbreaker</a></li>
-          </ul>
+          <div id="side-menu">
+  <ul>
+    <li><a href="./PanthCS.html">Gods Overview</a></li>
+
+    <li class="menu-parent">
+      <a href="#" class="toggle">The Celestial Court</a>
+      <ul class="submenu">
+        <li><a href="./gods.html?g=celestial_court.default">The Celestial Court Overveiw</a></li>
+        <li><a href="./gods.html?g=celestial_court.velis_sunheart">Velis Sunheart</a></li>
+        <li><a href="./gods.html?g=celestial_court.isyra_verdantborn">Isyra Verdantborn</a></li>
+        <li><a href="./gods.html?g=celestial_court.thyros_ironlaw">Thyros Ironlaw</a></li>
+        <li><a href="./gods.html?g=celestial_court.khuldros_forgefather">Khuldros Forgefather</a></li>
+        <li><a href="./gods.html?g=celestial_court.ultharion">Ultharion</a></li>
+        <li><a href="./gods.html?g=celestial_court.kaelor">Kaelor</a></li>
+        <li><a href="./gods.html?g=celestial_court.lyessa_windstep">Lyessa Windstep</a></li>
+        <li><a href="./gods.html?g=celestial_court.nythira">Nythira</a></li>
+        <li><a href="./gods.html?g=celestial_court.aurelion">Aurelion</a></li>
+        <li><a href="./gods.html?g=celestial_court.orris_dream-seer">Orris Dream-Seer</a></li>
+        <li><a href="./gods.html?g=celestial_court.myrrath">Myrrath</a></li>
+        <li><a href="./gods.html?g=celestial_court.tharos_stormbreaker">Tharos Stormbreaker</a></li>
+        <!-- add the rest -->
+      </ul>
+    </li>
+
+    <li class="menu-parent">
+      <a href="#" class="toggle">The Dread Pantheon</a>
+      <ul class="submenu">
+        <li><a href="./gods.html?g=dread_lords.default">The Dread Lords</a></li>
+        <li><a href="./gods.html?g=dread_lords.azrakar">Azrakar</a></li>
+        <li><a href="./gods.html?g=dread_lords.vorathul">Vorathul</a></li>
+        <li><a href="./gods.html?g=dread_lords.veylmar_dreadhelm">Veylmar Dreadhelm</a></li>
+        <li><a href="./gods.html?g=dread_lords.dolmarr">Dolmarr</a></li>
+        <li><a href="./gods.html?g=dread_lords.sharizeth">Sharizeth</a></li>
+        <li><a href="./gods.html?g=dread_lords.grond_one-eye">Grond One-Eye</a></li>
+        <li><a href="./gods.html?g=dread_lords.ssythys_blackvein">Ssythys Blackvein</a></li>
+        <li><a href="./gods.html?g=dread_lords.morgroth">Morgroth</a></li>
+        <li><a href="./gods.html?g=dread_lords.vaerthis">Vaerthis</a></li>
+        <li><a href="./gods.html?g=dread_lords.veykor">Veykor</a></li>
+        <li><a href="./gods.html?g=dread_lords.orrath">Orrath</a></li>
+        <li><a href="./gods.html?g=dread_lords.gnorr">Gnorr</a></li>
+        <!-- add the rest -->
+      </ul>
+    </li>
+  </ul>
+</div>
+
         </div>
     </div>
 
     <div class="mainCont"> 
-        <div class="disclaimer-box">
+        <div class="flexit">
+        <div class="disclaimer-box histBox">
              <h1>The Pantheon of Takairim</h1>
-            <p>Several thousands of years ago, for unknown reasons, the Gods fled their home and came to Takairim. Their journey left them tired, but they found the energy to create the first of civilisation. 
-                Over the next 10,000 years, the gods would fight primordials and each other, in the hope of protecting their mortal children. No one knows why The Dread Lords betrayed The Celestial Court, 
-                though there are many theories.</p>
             <h2 id="god-group-title"></h2>
             <p id="god-group-desc"></p>
 
-            <h3 id="god-name"></h3>
-            <p id="god-title"></p>
+            <h2 id="god-name"></h2>
             <p id="god-allied"></p>
             <p id="god-dominions"></p>
             <p id="god-appearance"></p>
             <p id="god-mythos"></p>
         </div>
+        <div class="disclaimer-box imgCont">
+          <img src="../images/Icon-round-Question_mark.svg.png" alt="">
+        </div>
+      </div>
     </div>
 </div>
 <script src="../js/gods.js"></script>
