@@ -263,9 +263,22 @@ table tbody tr:hover {
   align-items: center;
   justify-items: center;
 }
-.imgCont{width: 96%; align-content: center; display: flex; justify-content: center;}
-.imgCont img{max-width: 50%;}
-.histBox{width: 95%; justify-items: center;}
+.largeCont { 
+  grid-area: 3 / 1 / 4 / 2;
+  display: block; 
+  align-items: center;
+  justify-items: center;
+}
+.tableCont { 
+  grid-area: 3 / 1 / 4 / 2;
+  display: block; 
+  align-items: center;
+  justify-items: center;
+}
+.panthBox{width: 95%; padding: 1%; border: 2px solid #5C2B2B; justify-items: center; margin: 1%;}
+.flexit{display: block; justify-items: center;}
+.histBox{width: 90%;}
+.imgCont{width: 90%;}
 
 .eras-menu h2 {display: block; margin: 1%;}
 .eras-menu li {
