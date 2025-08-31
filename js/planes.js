@@ -10,16 +10,17 @@ function placeRing(selector, count, radius) {
 // Center circles (around center)
 const center = document.querySelectorAll('.center-circle a');
 const centerOffsets = [
-  {x: -7, y: 5},   // left
-  {x: 7, y: 5},    // right
-  {x: 0, y: -5}    // top
+  {x: -8, y: 7},   // left
+  {x: 8, y: 7},    // right
+  {x: 0, y: -7}    // top
 ];
 center.forEach((el, i) => {
   el.style.transform = `translate(${centerOffsets[i].x}vmin, ${centerOffsets[i].y}vmin)`;
 });
 
+
 // Mid ring (4 items)
-placeRing('.mid-ring.ring1 a', 4, 23);
+// placeRing('.mid-ring.ring1 a', 4, 23);
 
 // Outer ring (24 items)
 placeRing('.outer-ring a', 24, 35);
