@@ -241,7 +241,7 @@ table tbody tr:hover {
   justify-content: center;
   align-items: center;
 }
-.info{width: 30%;}
+.info{width: 25%;}
 
 .plane-ring-container {
   width: 100%;   /* original logical size */
@@ -274,11 +274,12 @@ table tbody tr:hover {
 .outer { background-color: #9b59b6; }  /* purple */
 .center {
   position: absolute;
-  top: 30%;
-  left: 50%;
+  top: 25%;
+  left: 50.5%;
   transform-origin: center center;
   z-index: 100;
 }
+
 
 .center span {
   display: flex;
@@ -315,8 +316,8 @@ table tbody tr:hover {
 
 .mid-ring-svg {
   position: absolute;
-  top: 35%;
-  left: 53%;
+  top: 30%;
+  left: 52.5%;
   transform: translate(-50%, -50%);
   width: 60vmin;      /* matches your mid-ring radius ~20vmin (diameter = 40vmin) */
   height: 60vmin;
@@ -350,7 +351,7 @@ table tbody tr:hover {
 }
 .outer {
   position: absolute;
-  top: 30%;
+  top: 25%;
   left: 50%;
   transform-origin: center center;
   z-index: 100;
