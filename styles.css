@@ -310,12 +310,13 @@ table tbody tr:hover {
   border-radius: 50%;
   clip-path: polygon(50% 50%, 100% 0, 100% 100%); /* default quarter */
   background: rgba(52, 152, 219, 0.3); /* translucent blue */
+  color: #1E1B16;
 }
 
 .mid-ring-svg {
   position: absolute;
   top: 35%;
-  left: 52%;
+  left: 53%;
   transform: translate(-50%, -50%);
   width: 60vmin;      /* matches your mid-ring radius ~20vmin (diameter = 40vmin) */
   height: 60vmin;
@@ -324,7 +325,6 @@ table tbody tr:hover {
 /* arc styling = “pizza crust” */
 .mid-arc {
   fill: none;
-  stroke: #3498db;    /* your mid color */
   stroke-width: 7;   /* thickness in viewBox units; scales with SVG */
   cursor: pointer;
   transition: stroke-width .2s, filter .2s, stroke .2s;
@@ -333,6 +333,10 @@ table tbody tr:hover {
 /* hover/active feedback */
 .mid-arc:hover {
   stroke-width: 10;
+}
+.air{
+  background: #87CEFA;
+  
 }
 
 /* Outer circle */
