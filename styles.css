@@ -334,10 +334,6 @@ table tbody tr:hover {
 .mid-arc:hover {
   stroke-width: 10;
 }
-.air{
-  background: #87CEFA;
-  
-}
 
 /* Outer circle */
 .outer {
@@ -449,6 +445,9 @@ table tbody tr:hover {
 .mid-ring-svg {
   top: 50%;
   left: 50%;
+}
+.outer {
+  font-size: 0.5vmin;
 }
 }
 
