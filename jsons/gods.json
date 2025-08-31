@@ -73,7 +73,7 @@
         "name": "Aurelion",
         "title": "Warden of the Just",
         "allied": "The Celestial Court",
-        "dominions": ["honour", "Justice", "Nobility", "Metallic Dragons"],
+        "dominions": ["honour", "Nobility", "Metallic Dragons"],
         "appearance": "The purest golden dragon, his scales so polished they reflect the world like mirrors, fracturing sunlight into dazzling beams like a living prism. When he flies, the sky itself shimmers as though dawn is breaking.",
         "mythos": ""
       },

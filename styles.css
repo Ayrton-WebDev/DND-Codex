@@ -200,6 +200,8 @@ table tbody tr:hover {
 .tableCont{display: flex; width: 100%; justify-content: space-around;}
 .panthBox{width: 45%; padding: 1%; border: 2px solid #5C2B2B; justify-items: center;}
 .panthBox td, th{text-align: center;}
+/* .panthBox table{width: 100%; table-layout: fixed;} */
+/* .panthBox td, .panthBox th{word-wrap: break-word; white-space: normal; padding: 4px;} */
 .sideHide li{display: hidden;}
 #side-menu {
   margin: 1%;
