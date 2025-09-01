@@ -23,4 +23,4 @@ center.forEach((el, i) => {
 // placeRing('.mid-ring.ring1 a', 4, 23);
 
 // Outer ring (24 items)
-placeRing('.outer-ring a', 24, 35);
+placeRing('.outer-ring a', 14, 35);

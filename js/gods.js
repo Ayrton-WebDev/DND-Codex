@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const godAlliedElem = document.getElementById("god-allied");
   const godDominionsElem = document.getElementById("god-dominions");
   const godAppearanceElem = document.getElementById("god-appearance");
+  const godHomePlaneElem = document.getElementById("god-home-plane");
   const godMythosElem = document.getElementById("god-mythos");
   const godGroupTitleElem = document.getElementById("god-group-title");
   const godGroupDescElem = document.getElementById("god-group-desc");
@@ -17,7 +18,6 @@ document.addEventListener("DOMContentLoaded", () => {
       let god = null;
       let group = null;
 
-      // Determine group
       // Determine group
     if (godKey?.startsWith("celestial_court")) {
         group = data.celestial_court.default;
@@ -45,20 +45,40 @@ if (!god) {
 
 
       // If a specific god exists, populate info, otherwise clear god fields
-      if (god) {
-        godNameElem.textContent = god.name + " - " + god.title;
-        godAlliedElem.textContent = `Allied: ${god.allied}`;
-        godDominionsElem.textContent = `Dominions: ${god.dominions.join(", ")}`;
-        godAppearanceElem.textContent = god.appearance;
-        godMythosElem.textContent = god.mythos;
-      } else {
-        godNameElem.textContent = "";
-        godTitleElem.textContent = "";
-        godAlliedElem.textContent = "";
-        godDominionsElem.textContent = "";
-        godAppearanceElem.textContent = "";
-        godMythosElem.textContent = "";
-      }
+    if (god) {
+    godNameElem.textContent = god.name + " - " + god.title;
+    godAlliedElem.textContent = `Allied: ${god.allied}`;
+    godDominionsElem.textContent = `Dominions: ${god.dominions.join(", ")}`;
+    godAppearanceElem.textContent = god.appearance;
+    godHomePlaneElem.textContent = `Home Plane: ${god.home_plane || "Unknown"}`;
+
+    // Clear previous mythos content
+    godMythosElem.innerHTML = "";
+
+    // Add each mythos block
+    if (Array.isArray(god.mythos)) {
+        god.mythos.forEach(block => {
+            const titleEl = document.createElement("h4");
+            titleEl.textContent = block.title;
+
+            const textEl = document.createElement("p");
+            textEl.textContent = block.text;
+
+            godMythosElem.appendChild(titleEl);
+            godMythosElem.appendChild(textEl);
+        });
+    }
+} else {
+    // Clear everything
+    godNameElem.textContent = "";
+    godAlliedElem.textContent = "";
+    godDominionsElem.textContent = "";
+    godAppearanceElem.textContent = "";
+    godHomePlaneElem.textContent = "";
+    godMythosElem.innerHTML = "";
+}
+
+
     })
     .catch(err => console.error("Error loading gods.json:", err));
 });

@@ -11,7 +11,36 @@
         "allied": "The Celestial Court",
         "dominions": ["Redemption", "Healing", "Sun"],
         "appearance": "A radiant figure with golden hair and eyes like molten light, cloaked in flowing robes that shimmer with sunlight.",
-        "mythos": ""
+        "home_plane": "Plane of Light",
+        "mythos": [
+    {
+        "title": "The First Dawn",
+        "text": "It is said that in the first shaping of Takairim, when the air still carried the howl of the Primordials’ chaos, Velis joined her strength to that of Kaelor. Together, they cast the first true light into the new-born world, kindling the sun so that world would no longer suffer in unbroken shadow. ..."
+    },
+    {
+        "title": "The Elemental Cataclysm",
+        "text": "When the earth quaked and the skies split under the Primordials’ wrath, Velis stood apart from her kin. While the other gods held the enemy at bay, she turned to the mortals themselves, shielding them with fire-bright wings. ..."
+    },
+    {
+        "title": "The Age of Harmony",
+        "text": "When silence at last followed the thunder of war, mortals faced a quieter battle—the weight of loss. Velis taught them to face grief not as a wound to be hidden, but as a scar to be honoured. Shrines to the Dawnfire became places not only of healing but of remembrance, where names of the fallen were etched into flame-lit stone. Folklore says that in this age she wept with mortals, her tears turning into crystal drops of amber—treasured relics said to soothe sorrow even now."
+    },
+    {
+      "text":"Yet Velis knew mortals needed more than memory; they needed joy to endure. And so, it is said, she kindled sparks of her own flame and shaped the halflings. Small in stature but great in heart, they embodied cheer, resilience, and the warmth of the hearth. Where sorrow threatened to drown mortals, the halflings brought laughter, stories, and song. Some sages argue this tale is metaphorical, but the halflings themselves proudly declare Velis as their mother, calling themselves her 'children of the firelight.'"
+    },
+    {
+        "title": "The First Heavenly War",
+        "text": "As the Dread Lords first bared their fangs, Velis turned her light upon the walls of mortal cities, shielding them from ruin. She walked beside dwarves fleeing the shattered realm of Faramirr, bearing their grief as though it were her own. Many priests whisper that it was then Velis first placed her fire into mortal hands, granting them divine magic that they might strike with her light when shadows closed in. The truth of this tale is uncertain—but the oldest hymns of the Dawnfire speak of 'flame gifted from the hand of the goddess.'"
+    },
+     {
+        "title": "The Age of Sorcery",
+        "text": "Strange tales linger of this time—when Velis did not fight the Dread Lords with fire and blade, but instead sought to cleanse them of the stain that blackened their souls. Some claim she drew too close, and in her compassion glimpsed the wound that turned them against the light. What she discovered is lost to mortal memory, though it is whispered she alone bore the burden of the first holy blockade, suffering the weight of endless shadows until her kin could recover their power. Sceptics call this little more than legend; yet the priests of Velis still light a solitary flame at the start of every blockade to honour her sacrifice."
+    },
+    {
+        "title": "The Second Heavenly War",
+        "text": "When the darkness rose once more, Velis again gathered mortals beneath her wings. It was she who rekindled hope in her fellow gods, urging them to attempt another blockade when doubt threatened to sunder their will. In that war, her light did not burn to destroy, but to shield—to give mortals the chance to fight, and to endure."
+    }
+]
       },
       "isyra_verdantborn": {
         "name": "Isyra Verdantborn",
@@ -19,7 +48,33 @@
         "allied": "The Celestial Court",
         "dominions": ["Nature", "Growth", "Fertility"],
         "appearance": "A lithe figure wreathed in leaves and flowers, skin like bark, eyes glimmering green with life.",
-        "mythos": ""
+        "home_plane":"Verdant Wilds",
+        "mythos": [
+    {
+        "title": "The First Dawn",
+        "text": "When the world was still raw and unstable, Isyra breathed harmony into chaos. It is said she shaped the forests and carved the mountains with her hand, lifting the sky above Takairim. Where the Primordials had left only violent storms and shifting seas, she tamed those forces into gentle winds, rains, and cycles of life. With Kaelor at her side, she laid down the fertile soil and taught the first mortals how to till the land, plant seed, and reap harvest. Many claim that the first stalks of wheat and the first fruit-bearing trees were her direct gift, touched by divine breath."
+    },
+    {
+        "title": "The Elemental Cataclysm",
+        "text": "When the Primordials returned in fury, Isyra bent the wilds themselves into walls of living wood and stone, but such barriers faltered against creatures older than the world. Still, she did not abandon her flock. With Ultharion’s guidance, she shaped pockets of the Feywild into havens for mortals, weaving forests of eternal twilight where refugees could rest. "
+    },
+    {
+        "title": "The Age of Harmony",
+        "text": "As the wars subsided, Isyra gave herself wholly to restoring Takairim. She drew poison from rivers and coaxed life into barren soil, ensuring the land could again cradle her mortal children. Before her long rest, she filled granaries and fields with bounty, giving mortals a chance to stand without her constant hand. During this age, she wove the gnomes into being—a people of curiosity, resilience, and hidden strength, born of her fertile imagination and the deep places of the world. Where Velis gifted the halflings joy and hearthfire, Isyra made the gnomes clever and enduring, so that even in the darkest ages mortals would find wonder and invention in the natural world."
+    },
+    {
+        "title": "The First Heavenly War",
+        "text": "When the Dread Lords descended, Isyra turned her gaze once more toward mortal survival. While others waged war, she quietly sustained the cities, making crops bloom in the shadow of siege and keeping famine from the gates. To the dwarves fleeing their fallen home of Faramirr, she gifted hidden valleys where food and water seemed to spring endlessly from the earth. The elders whisper that her unseen hand was the true reason the mortal hosts endured long enough to fight back."
+    },
+     {
+        "title": "The Age of Sorcery",
+        "text": "Tales divide on this era. Some claim she was among the first to turn from the Dread Lords, recognizing corruption within them and withdrawing her blessing. Others insist her fury was not for them, but for mortals—who, in her absence, had scarred her forests and burned her meadows to fuel their growing empires. When she finally awoke from her long slumber, nature ran rampant, fuelled by her fury many regions fell back into natures embrace. Entire regions were reclaimed by forest and swamp, as if the world itself sought vengeance."
+    },
+    {
+        "title": "The Second Heavenly War",
+        "text": "Isyra returned not as a gentle nurturer but as a force of untamed nature. Hardened by the betrayals of gods and mortals alike, she strode into battle at the head of armies, clothing her chosen in storm and root. Those blessed by her became wild-shaped warriors, wielding the fury of claw, flame, and storm. Many druids claim that their first transformations were her direct gift—that the Bloom Eternal showed mortals how to become nature itself, so that the world could defend itself when gods could not."
+    }
+]
       },
       "thyros_ironlaw": {
         "name": "Thyros Ironlaw",
@@ -27,7 +82,33 @@
         "allied": "The Celestial Court",
         "dominions": ["Civilization", "Justice", "Order"],
         "appearance": "Stern, armored figure, bronze skin, carrying a gavel that glows with divine authority, eyes like polished steel.",
-        "mythos": ""
+        "home_plane":"Civilisation Heights",
+        "mythos": [
+    {
+        "title": "The First Dawn",
+        "text": "Thyros stood beside Khuldros Forgefather when the foundations of Faramirr were laid. As Khuldros hammered stone and fire into mountains, Thyros gave form to law itself, binding creation to order. He then birthed the dwarves, children of stone and discipline, who would inherit the halls of Faramirr as its first people. Where others sowed light, life, and beauty, Thyros ensured the world would not collapse into chaos again, etching the principles of justice into the bones of the earth itself."
+    },
+    {
+        "title": "The Elemental Cataclysm",
+        "text": "When fire, sea, and storm tore at Takairim, mortals turned on one another in desperation. Thyros did not abandon them. He walked among the three mortal races—elf, dwarf, and human—and forged the first codes of law. With his guidance, city-states were ordered, councils convened, and even amidst ruin, justice gave mortals a chance to endure. When the Primordials pressed hardest, he fought side by side with soldiers and kings, his great hammer said to ring like a gavel each time it struck."
+    },
+    {
+        "title": "The Age of Harmony",
+        "text": "In this age of peace, Thyros became arbiter not only of mortals but of gods. No great decision was made by the Celestial Court without his voice, for he weighed fairness above favour. Yet his stern watchfulness was not without compassion; he believed justice must shield as well as punish. To mortals, he was not a distant judge but a living covenant: proof that fairness and order could hold the races together."
+    },
+    {
+        "title": "The First Heavenly War",
+        "text": "When the Dread Lords first rose, it was Thyros who perceived the creeping corruption—the strange beasts that stalked villages, the subtle distortions of law and nature. He raised alarm, urging the Court to act, and marched himself to the walls of mortal cities. Where chaos gnawed, Thyros held firm, binding fractured peoples together with the promise of fairness and order. To the dwarves fleeing Faramirr’s collapse, he gave his word of protection, and his word was iron."
+    },
+     {
+        "title": "The Age of Sorcery",
+        "text": "The rise of mortal spellcraft tested his resolve. Magic swept unchecked across the lands, beyond the scope of law as it was written. By his own account, Thyros failed then—he had not prepared the codes of justice for such power, and so mortals bent it to their own ambition. His regret weighed heavily, and he withdrew into silence, conserving his strength. Yet it is whispered that even as he rested, he carved edicts into stone tablets deep within the earth, awaiting the time mortals would need his guidance once more."
+    },
+    {
+        "title": "The Second Heavenly War",
+        "text": "When battle raged anew, Thyros rose renewed. He forged the first Oaths of Justice, binding mortal paladins with divine conviction. These champions became the hands of his law, wielding judgment as both shield and sword. Though he fought with fire in his veins, Thyros was among those who urged the Second Blockade, believing that even the gods themselves had become a threat to the balance of creation. For Thyros Ironlaw, justice was not a mantle of comfort, but a burden he bore unyieldingly—even when it meant condemning his own kin."
+    }
+]
       },
       "khuldros_forgefather": {
         "name": "Khuldros Forgefather",
@@ -35,7 +116,33 @@
         "allied": "The Celestial Court",
         "dominions": ["Craft", "Invention", "Community"],
         "appearance": "Broad-shouldered, bronze-skinned figure, beard like molten metal, hands glowing with the heat of creation, wielding a massive hammer.",
-        "mythos": ""
+        "home_plane":"Forge & Industry",
+        "mythos": [
+    {
+        "title": "The First Dawn",
+        "text": "When the bones of the world were still raw and unshaped, it was Khuldros who struck the first sparks upon the anvil of creation. With sweat, stone, and fire, he raised the mountains of Faramirr, a realm of deep caverns and unyielding peaks, meant to stand as the fortress of mortals. Where others gave light, law, or growth, Khauldros gave flame—the gift of fire and the first tools, setting mortals on the long path toward mastery of craft. His hammer rang in the new-born world like a heartbeat, steady and enduring."
+    },
+    {
+        "title": "The Elemental Cataclysm",
+        "text": "As the Primordials stirred, pouring ruin across Takairim, Khuldros did not retreat into the heavens. He waded into the chaos, shielding mortals from devastation, and armed them with knowledge of smithing. With his guidance, mortals forged their first true weapons—iron, bronze, and steel hammered in desperation but strengthened by hope. The sparks from their forges became symbols of defiance, small lights that stood against the consuming storm."
+    },
+    {
+        "title": "The Age of Harmony",
+        "text": "When peace returned, Khuldros turned his hammer to building rather than war. He showed mortals the strength found not in solitary survival but in community—stone walls raised by many hands, hearth-fires shared by neighbours, and cities bound together like the links of a chain. To the dwarves of Faramirr, he was more than a god—he was the first craftsman, the eternal teacher whose hammer stroke still echoes in every hall and hearth."
+    },
+    {
+        "title": "The First Heavenly War",
+        "text": "As the Dread Lords rose to sow ruin, Khuldros armed mortals with weapons of new might, drawn from the ores of Faramirr itself. It was said blades quenched in his forges burned with the heat of the earth’s heart. But this bounty drew the gaze of the Dread Lords, who coveted the deep realm. Their corruption spread until even Faramirr itself crumbled beneath the assault, scattering the dwarves and breaking their ancestral home. Still, Khauldros did not falter—he worked tirelessly to hold the remnants of mortal communities together, hammering them back into unity when despair threatened to fracture them."
+    },
+     {
+        "title": "The Age of Sorcery",
+        "text": "While mortals turned to new powers and arcane arts, Khuldros embraced invention as a spark of divine fire. He whispered inspiration into mortal minds, kindling creativity that reshaped their tools, crafts, and designs. Though he withdrew for a time to regain his strength, the world never ceased to feel the weight of his forge-fire, glowing faintly in every new creation born of mortal ingenuity."
+    },
+    {
+        "title": "The Second Heavenly War",
+        "text": "When war rose again, Khuldros took up the hammer not only as smith but as armorer of gods. He worked alongside mortal artisans and Ultharion, infusing weapons with enchantments that struck fear even into the Dread Lords. His crowning work was the forging of obsidian rods, conduits of unbreakable power, by which the Holy Blockade was cast. It was said that each rod bore the weight of his soul, quenched not in water, but in the unyielding fire of his resolve."
+    }
+]
       },
       "ultharion": {
         "name": "Ultharion",
@@ -43,7 +150,33 @@
         "allied": "The Celestial Court",
         "dominions": ["Beauty", "Art", "Arcana"],
         "appearance": "Androgynous, ever-shifting form, adorned in living starlight, skin shimmering with ethereal hues, eyes like a prism of colours.",
-        "mythos": ""
+        "home_plane":"Arcane Peaks",
+        "mythos": [
+    {
+        "title": "The First Dawn",
+        "text": "In the earliest light of creation, Ultharion walked beside Lyessa Windstep, and together they shaped the Feywilds. It is said the two painted the plane as one paints a canvas—her winds weaving vibrant colours, his hand drawing form and grace into the raw magic of the world. When their masterpiece was complete, Ultharion birthed the elves: mortals of unparalleled beauty, meant to live in harmony with the Feywild itself. To the elves he gave the soul-deep gift of wonder, so they might not only endure the world, but find joy within it."
+    },
+    {
+        "title": "The Elemental Cataclysm",
+        "text": "When chaos swept Takairim, Ultharion did not abandon his children. He stood among the elves, his radiant presence anchoring the Feywild against the chaos, and welcomed refugees into its safety. With his guidance, the elves wove havens of glamour and protection, sanctuaries where other races could rest while the storm of the Primordials raged beyond. In those years, the Feywild became a beacon of mercy and sanctuary, a place where fractured mortals could remember what it meant to dream."
+    },
+    {
+        "title": "The Age of Harmony",
+        "text": "When peace returned, Ultharion sought to lift mortals from grief by awakening their capacity for beauty. From him came the first spark of artistry—songs that outlived their singers, colours that stirred the heart, and monuments that raised mortal eyes to the skies. His touch lingered in brushstrokes, in melodies, in stone shaped not for utility but for wonder. Through him, mortals learned not merely to survive but to celebrate, finding beauty even in a world scarred by war."
+    },
+    {
+        "title": "The First Heavenly War",
+        "text": "Ultharion entered the First Heavenly War weakened, for he had poured much of his essence into the gifts he gave to mortals. Yet when the dread corruption spread, and beasts poured forth to devour creation, he did not falter. With sorrow he took up the mantle of magic after Mytheris fell, weaving together divine power and mortal art. It was his steady hand, guiding and binding, that helped cast the First Holy Blockade alongside the other gods of the Celestial Court, locking away the Dread Lords for an age."
+    },
+     {
+        "title": "The Age of Sorcery",
+        "text": "In the dawning of mortal arcana, Ultharion stepped back, watching as mortals bent the Weave with reckless hunger. His gift of creativity—joined with Khauldros’ spark of invention—fuelled their experiments, giving rise to wonders and terrors alike. Some say he wept as he watched them reshape magic, but he did not interfere, believing even flawed art was still an echo of the beauty he had planted within them."
+    },
+    {
+        "title": "The Second Heavenly War",
+        "text": "When the Dread Lords returned, Ultharion stood at the heart of the Celestial Court, yet his spirit quailed at the sight of worlds undone—the lands of beauty and art, once vibrant, now scarred by chaos. Sorrow weighed upon him, but he steeled his will. He persuaded Orris to conceal forbidden knowledge from mortals, deeming the potent spells they could weave far too perilous; she did so, though with heavy heart. Joining his power with his kin once more, Ultharion channelled immense torrents of divine magic, weaving the Second Heavenly Blockade. The act threatened to unravel him, yet he endured, for the light of creation—the harmony of the worlds he had shaped—could not be lost to shadow."
+    }
+]
       },
       "kaelor": {
         "name": "Kaelor",
@@ -51,7 +184,33 @@
         "allied": "The Celestial Court",
         "dominions": ["Sun", "Agriculture", "Time"],
         "appearance": "Luminous figure, golden hair and robes like sunrise, holding an hourglass with sands of shifting light.",
-        "mythos": ""
+        "home_plane":"Dawnspire",
+        "mythos": [
+    {
+        "title": "The First Dawn",
+        "text": "When Takairim first stirred, Kaelor raised his hand and set the world into motion. With Velis beside him, he kindled the first sun, bringing light to the land and dividing shadow from day. Yet Kaelor’s greater gift was subtler still—he began the great turning of time itself. The dance of day and night, the slow march of the seasons, and the endless passing of years all flowed from his will. It was Kaelor who taught mortals the secrets of agriculture, that they might sow with patience and reap with wisdom, tethered to the rhythm of the world he had set in motion."
+    },
+    {
+        "title": "The Elemental Cataclysm",
+        "text": "When the Primordials rose in fury, Kaelor pondered whether time itself might be their undoing. For they had once slumbered while the world grew around them—had time not dulled even their strength? To test this, he twisted the flow of hours across Takairim, quickening the days and nights so that centuries passed in mere moments. Yet the Primordials were not so easily defeated. Though their movements slowed and their might waned, the effect was fleeting. Before gods and mortals rallied for open battle, Kaelor restored the balance, wary of destroying the world he meant to preserve."
+    },
+    {
+        "title": "The Age of Harmony",
+        "text": "Weary from bending the current of time, Kaelor entered into deep rest as peace blossomed across Takairim. Still, his mark remained—fields ripened with abundance, and mortals found new harvests and fruits springing from the land. They looked upon the sunlit skies and measured their days, never knowing how much of their steady lives were gifts born of Kaelor’s silent vigil."
+    },
+    {
+        "title": "The First Heavenly War",
+        "text": "When the Dread Lords emerged and war blackened the heavens, Kaelor’s efforts turned to preservation. He kept mortals fed amidst devastation, ensuring crops flourished even as cities burned. But when Faramirr fell, he saw the devastation unspool before his eyes like an unravelling thread of fate. With solemn resolve, Kaelor became one of the strongest voices calling for the Heavenly Blockade, believing that without it, time itself would collapse beneath the weight of chaos."
+    },
+     {
+        "title": "The Age of Sorcery",
+        "text": "At the urging of Lyessa and Ultharion, Kaelor turned his gaze upon the Feywild. There, he wove his craft once more, slowing the flow of time so that the Fey might exist apart from the mortal world. Short moments became days, the shift was small, but noticeable to those looking. To the eldest Fey he granted fragments of this gift, that they might shape pockets of timelessness within their realm. Spent from such efforts, Kaelor again withdrew into quiet slumber, his strength held in reserve for the days to come."
+    },
+    {
+        "title": "The Second Heavenly War",
+        "text": "When war once more threatened creation, Kaelor did not stand apart. He marched beside mortals, his presence steadying their hearts as his power kept their crops and stores full in the darkest of times. In the final battle, as the Celestial Court cast the Second Heavenly Blockade, Kaelor bent time itself—speeding the work of his kin, slowing the wrath of their foes. His hand upon the hourglass ensured the spell was woven in time, and so the world endured another age."
+    }
+]
       },
       "lyessa_windstep": {
         "name": "Lyessa Windstep",
@@ -59,7 +218,33 @@
         "allied": "The Celestial Court",
         "dominions": ["Luck", "Trickery", "Change"],
         "appearance": "Agile, travel-stained figure, cloak flowing like the wind, eyes like shifting skies, often accompanied by a faint trail of breezes.",
-        "mythos": ""
+        "home_plane":"Misted Paths",
+        "mythos": [
+    {
+        "title": "The First Dawn",
+        "text": "At the dawn of Takairim, Lyessa’s laughter danced across the untouched world. With Ultharion’s guidance, she shaped the Feywilds, a mirror realm of Takairim where the colours of the skies shimmered differently and the rivers sang melodies unknown to mortal ears. With Nythira’s cunning, Lyessa wove illusions into this new world, crafting landscapes of wonder and trickery. Mortals who wandered there found themselves lost in beauty or confusion, and on occasion, even the two goddesses themselves delighted in playful ruses upon each other. The Feywild became a realm where reality bent and danced under her fingertips, a reflection of her restless, curious spirit."
+    },
+    {
+        "title": "The Elemental Cataclysm",
+        "text": "When the Primordials rose, Lyessa’s Feywilds faced a dire threat. She battled to shield her realm, bending its illusions and paths to confound the titanic forces that sought to undo creation. Beyond her own realm, she encouraged mortals to embrace change as refugees poured into the Feywild from devastated lands. Under her guidance, they learned that adaptability and cleverness could be strong weapons, and she revelled in their ingenuity."
+    },
+    {
+        "title": "The Age of Harmony",
+        "text": "With Nythira, Lyessa’s playful influence spilled into Takairim and Faramirr. She brought illusions and subtle tricks to the lands, shaping festivals, art, and mysteries that delighted mortals and confounded scholars alike. Rumors whispered among the mortal races claimed that the two goddesses shared more than mischief—that they were lovers, bound in love as much as in trickery. Mortals who glimpsed their power saw the Feywild reflected in their own lands, and a touch of enchantment lingered in forests, rivers, and hidden glades."
+    },
+    {
+        "title": "The First Heavenly War",
+        "text": "As the Dread Lords unleashed terror, Lyessa was among the first to perceive the shifting balance of divinity, embracing the change even as many gods fell or withdrew. She trained mortals to fight the creatures that spilled from the planes, gifting them subtle strategies, the art of misdirection, and the courage to face impossible odds. Though she played tricks upon them, it was always to teach, never to harm."
+    },
+     {
+        "title": "The Age of Sorcery",
+        "text": "Lyessa’s fascination with mortal ingenuity grew. She extended their magical potential, allowing mortals to wield illusions far beyond their natural capacity. Unlike many of her peers, she did not rest during this era, delighting in the experiments of the mortals and watching how they bent magic to their will. She played countless pranks, sometimes assisting, sometimes confounding, but ever lonely as Nythira slept—the only being capable of truly outwitting her."
+    },
+    {
+        "title": "The Second Heavenly War",
+        "text": "When the final clash erupted, Lyessa once again defended the mortals, guiding them through chaos with subtlety and insight. She accepted the irrevocable changes wrought by the Second Heavenly Blockade, embracing the new order even as it tore her from Nythira. Yet even in separation, her spirit whispered through the Feywild, her presence felt in every clever trick and fleeting vision that graced the mortal world."
+    }
+]
       },
       "nythira": {
         "name": "Nythira",
@@ -67,7 +252,33 @@
         "allied": "The Celestial Court",
         "dominions": ["Illusion", "Secrets", "Love"],
         "appearance": "Veiled figure of night, hair like starlit mist, eyes obscured but glimmering with hidden truths.",
-        "mythos": ""
+        "home_plane":"Shadowed Vale",
+        "mythos": [
+    {
+        "title": "The First Dawn",
+        "text": "Nythira lent her cunning and insight to Lyessa as they twisted and shaped the Feywilds, turning the plane into a playground of illusions and paths that tested mortals’ wits. After the creation of the planes, she wove the Veil, a barrier separating the realms yet leaving carefully constructed paths that connected them. Her guidance helped a forgotten god establish the portals that allowed mortals and divine beings to traverse the planes safely. In this era, she gifted mortals with love—encouraging bonds of family, friendship, and romance that would endure through ages of hardship."
+    },
+    {
+        "title": "The Elemental Cataclysm",
+        "text": "As the Primordials rose, Nythira sought to shield the mortals of Takairim from annihilation. She cloaked them in powerful illusions, hiding them from the titanic forces that destroyed their homes. When evacuation became necessary, she ensured the mortals’ flight went unseen, guiding them to safety with subtle manipulations and protective enchantments of illusion."
+    },
+    {
+        "title": "The Age of Harmony",
+        "text": "In quieter times, Nythira continued her playful rivalry with Lyessa, weaving tricks and illusions in ways that delighted and challenged her companion. Rumors whisper that her heart leaned toward Lyessa first, setting the stage for a bond that would endure through divine strife."
+    },
+    {
+        "title": "The First Heavenly War",
+        "text": "Nythira faced the cruel reality that her siblings had turned against each other. Though she fought alongside her brethren, her love and compassion forbade her from slaying any of the Dread Lords. She doubled her efforts to protect the mortals she cherished, weaving subtle manipulations that strengthened their bonds and, at times, thwarted the aggression of other gods. Some tales suggest she even twisted events so that Dread Lords turned against one another, though the truth remains hidden in whispers."
+    },
+     {
+        "title": "The Age of Sorcery",
+        "text": "Weakened from the trials of war, Nythira rested and sought to persuade Lyessa to join her in caution and recovery. Her efforts met with gentle refusal, leaving her to meditate and regain her strength, preparing for the looming dangers yet to come."
+    },
+    {
+        "title": "The Second Heavenly War",
+        "text": "Reunited with Lyessa, Nythira poured the full measure of her divine will into protecting her companion and the mortals she had cherished since the First Dawn. With Lyessa by her side, Nythira ensnared the Dread Lords in a cunning trap, bending their ambition and wrath to the design of the Celestial Court. From their diverted strength, the gods drew the power to forge the Second Holy Blockade, sealing the rift between worlds and ensuring that her guidance and love would endure for ages to come."
+    }
+]
       },
       "aurelion": {
         "name": "Aurelion",
@@ -75,7 +286,16 @@
         "allied": "The Celestial Court",
         "dominions": ["honour", "Nobility", "Metallic Dragons"],
         "appearance": "The purest golden dragon, his scales so polished they reflect the world like mirrors, fracturing sunlight into dazzling beams like a living prism. When he flies, the sky itself shimmers as though dawn is breaking.",
-        "mythos": ""
+        "home_plane":"Celestial Peaks",
+       "mythos": [
+    {
+        "title": "The Second Heavenly War",
+        "text": "Aurelion’s birth was unlike any other: a dragon egg stolen from the clutches of Gnorr, imbued with the essence of a fallen god. From this miraculous vessel hatched a being of purest gold, radiant and untouchable, whose very presence inspired awe and reverence among mortals and immortals alike. Witnessing the chaos wrought by the chromatic dragons across the world, Aurelion chose to counterbalance their destructive fury. From his own hands and with the spark of divine purpose, he created the metallic dragons, creatures of discipline and honour, meant to bring stability and justice to a world teetering on the brink."
+    },
+    {
+      "text":"In his vigilance, Aurelion became a guardian of order among mortals and gods alike. The power granted to him by the fallen god enabled him to impose a domain of honour, maintaining the delicate balance between mortals, dragons, and deities. During the Second Heavenly War, his newfound might allowed him to act as a stalwart defender during the casting of the Heavenly Blockade. While other gods poured their essence into the spell, Aurelion both repelled attackers seeking to disrupt it and lent the full strength of his being to the ritual, ensuring its success and the protection of countless lives."
+    }
+]
       },
       "orris_dream-seer": {
         "name": "Orris Dream-Seer",
@@ -83,7 +303,33 @@
         "allied": "The Celestial Court",
         "dominions": ["Knowledge", "Prophecy", "Skill"],
         "appearance": "Blindfolded, cloaked in starlight, silver quill always in hand, floating pages orbiting silently.",
-        "mythos": ""
+        "home_plane":"Library of Knowledge",
+        "mythos": [
+    {
+        "title": "The First Dawn",
+        "text": "Orris arrived upon Takairim bearing knowledge as her gift, a guiding light for both gods and mortals. She taught the fledgling races how to thrive, weaving understanding into the fabric of creation itself. Language flowed from her lips like a blessing, uniting disparate peoples and allowing civilizations to flourish. Her guidance extended even to the gods, offering insights into the shaping of the world and the nurturing of its children."
+    },
+    {
+        "title": "The Elemental Cataclysm",
+        "text": "A pacifist at heart, Orris did not confront the Primordials directly but instead sought to understand them. She observed the devastation and studied the mortals who had fled to the Feywild and Faramirr, marvelling at their resilience and ingenuity. Whispers tell that she provided Khuldros with knowledge of arms, that he might teach mortals the tools needed to survive the chaos, though Orris herself remained a scholar rather than a warrior."
+    },
+    {
+        "title": "The Age of Harmony",
+        "text": "Drawn to the mysteries that lay behind the Primordials, Orris delved into their origins, seeking truths hidden even from the other gods. Mortals, in her eyes, became subjects of curiosity; she tested their limits and studied their behaviors as a scientist examines her experiments, not always kindly but always with purpose. Knowledge became her playground, and the world her living laboratory."
+    },
+    {
+        "title": "The First Heavenly War",
+        "text": "When the Dread Lords rose, Orris’ strength shone among the Celestial Court. She engaged in battle with precise intent, driven by curiosity and the pursuit of understanding rather than vengeance. She guided Mytheris in the gift of magic to mortals and orchestrated the creation of the First Holy Blockade, instructing her fellow gods in its casting. Her wisdom ensured that mortals, though fragile, were not left unprepared for the tides of war."
+    },
+     {
+        "title": "The Age of Sorcery",
+        "text": "Mortals’ mastery of magic fascinated Orris. She inspired a thirst for knowledge that drove the earliest sorceries, gifted writing to record discoveries, and compiled vast libraries to contain the fruits of mortal experimentation. Those same mortals who had once been her subjects now fed her insatiable hunger for understanding, each experiment, each discovery, a testament to her guidance."
+    },
+    {
+        "title": "The Second Heavenly War",
+        "text": "Weakened from prior exertions and her lack of rest, Orris did not engage as directly in battle during the Second Heavenly War. Instead, she turned her mind to the flaws of the First Blockade, discerning why it had faltered and devising the methods to repair it. Before the renewed casting, she hid dangerous knowledge from mortals, fearing their inexperience and the perils that untethered power could bring. Her prudence ensured the survival of both mortals and the divine machinations of the Celestial Court."
+    }
+]
       },
        "myrrath": {
         "name": "Myrrath",
@@ -91,7 +337,33 @@
         "allied": "The Celestial Court",
         "dominions": ["Death", "Fate", "Memory"],
         "appearance": "Shadowed figure with pale, moonlit skin, feathered robes, eyes dim as dying moons.",
-        "mythos": ""
+        "home_plane":"Deathlands",
+        "mythos": [
+    {
+        "title": "The First Dawn",
+        "text": "Myrrath watched over the fledgling world with a sombre eye, allowing her siblings to revel in creation while she guided the natural order of life and death. Like a careful mother, she urged caution and reminded the others that even as mortals rose, the cycle of birth and passing must be respected. Her presence lent structure to the chaos, ensuring that every beginning would meet its inevitable end, and that life and death remained in delicate balance."
+    },
+    {
+        "title": "The Elemental Cataclysm",
+        "text": "When the Primordials awoke, Myrrath refrained from direct interference. She understood that the forces of destruction, however terrifying, were part of the natural cycle, and that to intervene would unmake the very order she sought to preserve. Though mortals suffered and cities fell, she let the currents of fate flow, believing that some lessons could only be learned through loss."
+    },
+    {
+        "title": "The Age of Harmony",
+        "text": "Her restraint drew ire from mortals and gods alike, who had lost so much during the chaos. Yet Myrrath taught a deeper lesson: the importance of remembrance and reverence. She guided mortals and divine beings to honour the fallen, to recognize that the spirits of loved ones could endure beyond the veil of death. Through her, mortals learned that mourning and memory were sacred arts, as vital as any act of creation."
+    },
+    {
+        "title": "The First Heavenly War",
+        "text": "Though she maintained her philosophy of restraint, Myrrath’s judgment shifted when the Dread Lords sought to obliterate Faramirr. The unnatural destruction of life and order provoked her divine wrath, turning the tide of the war. While sceptical of the Holy Blockade, viewing it as a violation of the natural cycle, she joined her kin in its casting, lending her power reluctantly but decisively. Her actions reminded both mortals and gods that death was neither cruel nor arbitrary—it was a force to respect and reckon with."
+    },
+     {
+        "title": "The Age of Sorcery",
+        "text": "Shaken by the consequences of her own choices, Myrrath observed the world with renewed scrutiny. She intervened selectively, ensuring that mortals did not defy the limits of life and death. Through clerics of death, she monitored those who sought immortality, punishing hubris when necessary, though occasionally her agents failed. Her watchful presence underscored the delicate balance between ambition and the natural order, shaping mortal understanding of mortality itself."
+    },
+    {
+        "title": "The Second Heavenly War",
+        "text": "During the Second Heavenly War, Myrrath fought alongside the Celestial Court when the Dread Lords’ rampage threatened the world’s balance. Yet she remained wary of the Holy Blockade, one of only two among the Court to withhold wholehearted dedication. In her eyes, the spell was a temporary solution that could not restore true equilibrium. She foresaw that the casting would be only the beginning of new struggles, and that the stewardship of life and death remained her solemn duty above all else."
+    }
+]
       },
       "tharos_stormbreaker": {
         "name": "Tharos Stormbreaker",
@@ -99,7 +371,36 @@
         "allied": "The Celestial Court",
         "dominions": ["Storms", "Strength", "Battle"],
         "appearance": "Towering storm-wreathed warrior, hair of lightning, eyes flashing like thunder, wielding a great axe of stormfire.",
-        "mythos": ""
+        "home_plane":"Stormlands",
+        "mythos": [
+    {
+        "title": "The First Dawn",
+        "text": "Tharos Stormbreaker’s fury stirred the skies over Takairim, calling storms to challenge the mortals and sharpen their resolve. He watched them struggle and grow stronger under the lash of wind and rain, seeing in their endurance the promise of greatness yet to come. Yet much of this age left him restless; he was aware of a longing he could not name, a spark of destiny that had not yet awakened."
+    },
+    {
+        "title": "The Elemental Cataclysm",
+        "text": "When the Primordials rose, Tharos was among the first to charge into the fray, revelling in the clash of titanic forces. As gods and mortals alike retreated from the devastation, he followed—training mortals to stand, teaching them the arts of combat and survival. From these lessons, the first rebellion against the Primordials was born, a testament to his vision that strength through struggle could overcome even the mightiest of foes."
+    },
+    {
+        "title": "The Age of Harmony",
+        "text": "Boredom returned, yet Tharos remained ever vigilant, overseeing the mortals’ ongoing training. None could rival his skill save for a few of the other gods who sought to temper his nature. Even as peace spread, he understood that the calm was temporary, and that the forces of chaos would one day rise again."
+    },
+    {
+        "title": "The First Heavenly War",
+        "text": "Combat called to him like a clarion, and Tharos thrived amid the chaos of the First Heavenly War. The Dread Lords fell before his wrath, their assaults met with the unyielding might of his storms and his own hands. Though he recognized the necessity of the Holy Blockade, he opposed it, preferring the path of decisive battle over delay. His philosophy was simple: war must be won through strength, not stalling."
+    },
+     {
+        "title": "The Age of Sorcery",
+        "text": "The advent of mortal magic did not distract him; Tharos continued his training, forging the goliath race into a warrior people who would endure for ages to come. He harnessed the energies of storm, sea, and sky, creating beasts to serve as guardians and instruments of future conflict, believing that one day they would be required to face the Dread Lords once more."
+    },
+    {
+        "title": "The Second Heavenly War",
+        "text": "In the Second Heavenly War, Tharos again strode into battle, leading his forces of mortals and beasts with unrelenting fury. Rumors whispered that he had taught mortals the secrets needed to breach the first Holy Blockade. Despite being outnumbered, he won countless skirmishes, proving that courage and skill could rival overwhelming odds. Yet the Second Holy Blockade brought him into uneasy alliance with his enemies; Nythira’s cunning compelled him to lend his power to the spell, ensuring its success even against his will. "
+    },
+    {
+        "text": "Though Nythira’s trick forced him into the Second Holy Blockade, Tharos’ pride flared with indignation. None had bested him in battle, and yet here was a subtle mind at work, bending events without a single strike. Frustration and admiration warred within him, for while he seethed at being outwitted, he could not deny the brilliance of her cunning—and a grudging respect took root alongside his ire."
+    }
+]
       }
     }
   },
