@@ -417,7 +417,25 @@
         "allied": "The Dread Lords",
         "dominions": ["Tyranny", "Domination", "Fire"],
         "appearance": "A towering, armored figure wreathed in black flames, eyes burning with malevolent fire.",
-        "mythos": ""
+        "home_plane":"Plane of Light",
+        "mythos": [
+    {
+        "title": "The First Dawn, The Elemental Cataclysm & The Age of Harmony",
+        "text": "The deeds of the Dread Lords during these eras, have been erased from mortal records. The Celestial Court claims these were acts of different deities entirely, and warns that knowledge of their early benevolence might inspire mortals to aid them once more. What is known is that in those earliest eras, their natures were not yet fully tainted—hints of their domains are obscured by the mists of time."
+    },
+    {
+        "title": "The First Heavenly War",
+        "text": "When the Dread Lords revealed their true natures, Azrakar was the first to carve a dominion of his own. From the ashes of shattered realms he created the Hells—vast furnaces of torment and tyranny, chains forged for both body and soul. There he spawned the devil kin, beings of cunning malice bound to his iron law, and unleashed them upon the mortal world. Azrakar led these armies personally, a general of damnation, and wherever his legions marched, fire and ruin followed."
+    },
+     {
+        "title": "The Age of Sorcery",
+        "text": "With the wars stilled, Azrakar’s hunger turned toward subtler cruelties. He reached into the hearts of mortals, claiming their souls in unseen bargains. His whispers wormed into the minds of those touched by his power—the tieflings left scattered in his wake. Once children of tragedy, they became his inheritors, bound by a corruption that seeped through bloodlines. Through them, Azrakar’s shadow lingered, long after his armies had been broken."
+    },
+    {
+        "title": "The Second Heavenly War",
+        "text": "When war rose anew, Azrakar’s hatred burned brightest for Velis Sunheart. Where she brought light, he smothered it. Where she shielded mortals, he offered them chains. Their conflict spanned battlefields and skies, the clash of radiant flame against consuming darkness. To Velis he was more than an enemy—he was the living negation of all she stood for. And to Azrakar, the struggle was simple: until her light was extinguished, his dominion could never be complete."
+    }    
+]
       },
       "vorathul": {
         "name": "Vorathul",
@@ -425,7 +443,28 @@
         "allied": "The Dread Lords",
         "dominions": ["Madness", "Entropy", "Cosmic Ruin"],
         "appearance": "A shadowy, shifting mass of eyes and teeth, bound in chains that pulse with dark energy.",
-        "mythos": ""
+        "home_plane":"Verdant Wilds",
+        "mythos": [
+    {
+        "title": "The First Dawn, The Elemental Cataclysm & The Age of Harmony",
+        "text": "The deeds of the Dread Lords during these eras, have been erased from mortal records. The Celestial Court claims these were acts of different deities entirely, and warns that knowledge of their early benevolence might inspire mortals to aid them once more. What is known is that in those earliest eras, their natures were not yet fully tainted—hints of their domains are obscured by the mists of time."
+    },
+    {
+        "title": "The First Heavenly War",
+        "text": "When the war between gods erupted, Vorathul chose not to meet his foes on the battlefield. Instead, he slipped into mortal hearts, sowing hunger, paranoia, and despair. Cities that might have endured the Dread Lords’ assaults crumbled from within as citizens, driven mad by gnawing famine and mistrust, turned upon one another. Thus, walls fell not to blade or claw, but to the weight of hopelessness — his most insidious weapon."
+    },
+     {
+        "title": "The Age of Sorcery",
+        "text": "As peace returned, Vorathul lingered in shadows, his whispers reaching the minds of mortals eager for power. He pressed upon them the inevitability of their own deaths, the futility of their fleeting lives. With Orris’s unchecked gift of knowledge fuelling their experiments, some mortals sought ways to defy death itself. In their desperation, the first undead were born — an abomination of magic and entropy, more curse than creation. Though Vorathul never lifted a hand, his shadow lay across every graveyard where the restless dead stirred."
+    },
+    {
+        "title": "The Second Heavenly War",
+        "text": "When the Dread Lords returned, Vorathul’s corruption had deepened. From the dark places of the earth, mind flayers rose — aberrations that fed not on flesh, but on thought itself. His touch spread across all living things, gnawing at their desire to endure. Forests planted by Isyra withered in silence, their roots strangled by despair. Mortals abandoned hope before battle was joined, surrendering to entropy before the first blade was drawn."
+    },
+    {
+      "text":"Though Azrakar burned the world and Tharos thundered upon the battlefield, it was Vorathul who ensured that courage faltered, that resistance broke, that hope died. Where his siblings sought to conquer, he simply unmade — for in the silence of despair, his dominion was absolute."
+    }
+]
       },
       "veylmar_dreadhelm": {
         "name": "Veylmar Dreadhelm",
@@ -433,7 +472,25 @@
         "allied": "The Dread Lords",
         "dominions": ["Conquest", "Pain", "Domination"],
         "appearance": "Massive, spiked figure encased in black iron, chains writhing as if alive, eyes glowing through a visored helm.",
-        "mythos": ""
+        "home_plane":"Civilisation Heights",
+        "mythos": [
+    {
+        "title": "The First Dawn, The Elemental Cataclysm & The Age of Harmony",
+        "text": "The deeds of the Dread Lords during these eras, have been erased from mortal records. The Celestial Court claims these were acts of different deities entirely, and warns that knowledge of their early benevolence might inspire mortals to aid them once more. What is known is that in those earliest eras, their natures were not yet fully tainted—hints of their domains are obscured by the mists of time."
+    },
+    {
+        "title": "The First Heavenly War",
+        "text": "Veylmar entered the war not as a general, nor a corrupter, but as a tyrant of singular will. Where others raised armies, he raised only his blade. Alone, he strode into battle and broke the ranks of the Celestial Court, toppling gods as though they were mortals. Many of the Court’s scars — wounds that never truly healed — came from crossing him. Legends say that no single foe in all the wars claimed as many divine victories as Veylmar, and his name was whispered with terror even among gods."
+    },
+     {
+        "title": "The Age of Sorcery",
+        "text": "Trapped beyond the first blockade, Veylmar did not rest. He forged the first fiendish contracts with mortals, binding their souls in exchange for power. It was he who taught Azrakar this dark craft, the two striking a pact of their own — Azrakar’s Hells would serve as Veylmar’s dungeons of torment, and in return, the tyrant would expand the harvest of souls. Through his influence, mortals crowned tyrants, slaughtered innocents, and rebelled against the laws of heaven, their ambition twisted into chains of damnation."
+    },
+    {
+        "title": "The Second Heavenly War",
+        "text": "When war rose anew, Veylmar’s cruelty turned from the battlefield to the hearth. He did not march on grand capitals, but on small towns and humble villages, knowing that the death of a people begins with the breaking of its roots. His ambushes left no bodies behind, for all who fell were claimed and remade, swelling his legions with every conquest. Villages vanished without trace, their names erased, their people enslaved in silence. In his wake, only dread remained, for mortals knew that to be taken by Veylmar was to never return."
+    }    
+]
       },
       "dolmarr": {
         "name": "Dolmarr",
@@ -441,7 +498,25 @@
         "allied": "The Dread Lords",
         "dominions": ["Enslavement", "Cruel Industry"],
         "appearance": "Hulking, molten-metal body, hammer fused to hand, glowing red eyes, rivulets of molten iron run across skin.",
-        "mythos": ""
+        "home_plane":"Forge & Industry",
+        "mythos": [
+    {
+        "title": "The First Dawn, The Elemental Cataclysm & The Age of Harmony",
+        "text": "The deeds of the Dread Lords during these eras, have been erased from mortal records. The Celestial Court claims these were acts of different deities entirely, and warns that knowledge of their early benevolence might inspire mortals to aid them once more. What is known is that in those earliest eras, their natures were not yet fully tainted—hints of their domains are obscured by the mists of time."
+    },
+    {
+        "title": "The First Heavenly War",
+        "text": "Dolmarr did not march with armies, nor roar his defiance across the battlefield. Instead, he turned inward, forging horrors from iron, fire, and spite. Where Khuldros shaped tools to build, Dolmarr shaped engines to break. His siege machines shattered walls, his jagged blades tore flesh that would not heal cleanly, leaving wounds to fester. Each weapon he wrought was a cruelty given form — designed not only to kill, but to make the act of dying a torment without end. Many a city fell not to army or beast, but to the grinding maw of Dolmarr’s war machines."
+    },
+     {
+        "title": "The Age of Sorcery",
+        "text": "When the First War ended, Dolmarr withdrew, his strength diminished. Yet his whispers remained, winding their way into mortal hands and minds. He bent inventors and artisans toward darker arts, urging them to craft devices of torment, engines of pain and slaughter. In their workshops, mortals created cruelties that echoed his vision, and many of these twisted inventions survive even now — proof that Dolmarr’s hand never truly left the world. Where Orris gifted mortals knowledge to build and preserve, Dolmarr subverted it, ensuring their hunger for invention could serve destruction as easily as wonder."
+    },
+    {
+        "title": "The Second Heavenly War",
+        "text": "When war came again, Dolmarr returned with renewed purpose. His forges screamed with birth — birthing new siege machines, vast engines of ruin, and horrors unlike any the world had seen. Among his most terrible creations were the doppelgangers, beings of shifting flesh who could steal faces and voices, infiltrating mortal ranks to torture, deceive, and destroy from within. Rumours spread that Dolmarr built his most twisted torture chambers in mockery of the First Holy Blockade itself — warped, iron-bound labyrinths that broke both body and spirit. Darker whispers claim that these very profanities gave the Celestial Court insight, that in perverting Orris’ design Dolmarr unknowingly revealed the flaw that allowed the Second Blockade to be cast."
+    }    
+]
       },
       "sharizeth": {
         "name": "Sharizeth",
@@ -449,7 +524,25 @@
         "allied": "The Dread Lords",
         "dominions": ["Deceit", "Spiders", "Chaos"],
         "appearance": "Spider-like, shadowed form, eight limbs spinning webs of black silk, eyes glinting malevolently",
-        "mythos": ""
+        "home_plane":"Arcane Peaks",
+        "mythos": [
+    {
+        "title": "The First Dawn, The Elemental Cataclysm & The Age of Harmony",
+        "text": "The deeds of the Dread Lords during these eras, have been erased from mortal records. The Celestial Court claims these were acts of different deities entirely, and warns that knowledge of their early benevolence might inspire mortals to aid them once more. What is known is that in those earliest eras, their natures were not yet fully tainted—hints of their domains are obscured by the mists of time."
+    },
+    {
+        "title": "The First Heavenly War",
+        "text": "Sharizeth, once radiant, turned her gaze upon Ultharion with scorn. To her, his quest for beauty and harmony was folly, weakness clothed in grace. Where he raised the elves to sing and shine, she reached into their shadows, twisting their forms and spirits into the first drow. They were her mockery of Ultharion’s dream — beautiful still, but bound in darkness, chaos, and deceit. While her brother crafted worlds of song, she spun webs across them, sowing lies and betrayal within mortals and gods alike. Cities fell not to siege or sword, but to treachery whispered by drow tongues, until the name of Sharizeth was feared as much as any blade."
+    },
+     {
+        "title": "The Age of Sorcery",
+        "text": "When silence fell after the First War, Sharizeth lingered at the edges, her children spreading her legacy in her stead. The drow thrived in shadows, weaving lies into mortal courts and faiths, turning devotion into doubt and loyalty into betrayal. From afar, she guided them, whispering truths twisted into daggers. It was her hand, subtle yet sharp, that pushed mortals to test the limits of their new sorceries. When they reached too far, deceived by her whispers, the First Holy Blockade cracked and fell. The gods cursed their own folly, but it was Sharizeth’s laughter that echoed loudest."
+    },
+    {
+        "title": "The Second Heavenly War",
+        "text": "When the veil tore anew, Sharizeth descended in full malice. No mortal army followed her banners — instead, she birthed horrors that embodied deceit and dread. Cloakers and creeping things slithered into caverns and shadows, striking unseen, while towns awoke to find themselves strangled in webs. Those who lived long enough saw eggs split and spill forth the next brood of her monstrous armies, each generation more cruel than the last. Tales spread of Sharizeth herself striding through the ruins — her form half-drow, half-spider, a grotesque weaving of grace and terror. None know if this was her chosen guise, a self-proclaimed evolution, or a punishment wrought by Ultharion himself. Whatever the truth, her visage became a symbol of dread: beauty devoured by shadow, perfection corrupted into chaos."
+    }    
+]
       },
       "grond_one-eye": {
         "name": "Grond One-Eye",
@@ -457,7 +550,25 @@
         "allied": "The Dread Lords",
         "dominions": ["Destruction", "War", "Hatred"],
         "appearance": "Giant, battle-scarred with a single glowing eye, massive axe that seems to thirst for blood.",
-        "mythos": ""
+        "home_plane":"Dawnspire",
+        "mythos": [
+    {
+        "title": "The First Dawn, The Elemental Cataclysm & The Age of Harmony",
+        "text": "The deeds of the Dread Lords during these eras, have been erased from mortal records. The Celestial Court claims these were acts of different deities entirely, and warns that knowledge of their early benevolence might inspire mortals to aid them once more. What is known is that in those earliest eras, their natures were not yet fully tainted—hints of their domains are obscured by the mists of time."
+    },
+    {
+        "title": "The First Heavenly War",
+        "text": "Grond One-Eye emerged from the chaos of the First Heavenly War as a storm of unbridled fury. From his wrath sprang the demi-human races — goblins, gnolls, and bugbears — creatures infused with his rage and tempered by their own feral cunning. Where other Dread Lords acted with purpose or subtlety, Grond’s power was pure, untamed, and indiscriminate. He led armies across Faramirr alongside Ssythys and Gnorr, his fury spreading like wildfire across the lands. Mortals and gods alike whispered that had Grond left the plane alongside the other deities, the course of the war might have been forever altered. His presence endured, a force of chaos that could not be reasoned with or bargained with."
+    },
+     {
+        "title": "The Age of Sorcery",
+        "text": "Even behind the Holy Blockade, Grond’s wrath did not wane. Invisible to the mortal eye yet felt in every clash of steel and cry of battle, his presence twisted minds and hearts. From this lingering rage, the first barbarians arose — mortals shaped by fury, drawn to conflict and domination. The world itself seemed to tremble under his lingering shadow, as if the essence of rage itself seeped into the soil, the rivers, and the mountains, awaiting the next spark to ignite it into conflagration."
+    },
+    {
+        "title": "The Second Heavenly War",
+        "text": "When Grond returned to Takairim, his fury had consumed all semblance of reason or allegiance. He fought neither for god nor mortal, nor even for the Dread Lords. His only aim was battle itself — striking at all who dared oppose him, whether celestial or dark. Legends say his fall came not at the hand of one enemy, but by the convergence of many: the Celestial Court and the Dread Lords, acting in uneasy concert. Their combined might subdued him, imprisoning the embodiment of uncontrollable rage. Even then, some whispered that had either side faltered, Grond would have torn the world apart, caring for nothing but the fury that drove him."
+    }    
+]
       },
       "ssythys_blackvein": {
         "name": "Ssythys Blackvein",
@@ -465,7 +576,28 @@
         "allied": "The Dread Lords",
         "dominions": ["Poison", "Assassins", "Darkness"],
         "appearance": "Sinister, serpentine figure, black scales with crimson veins, fangs glimmering with poison, eyes slitted with cunning.",
-        "mythos": ""
+        "home_plane":"Misted Paths",
+        "mythos": [
+   {
+        "title": "The First Dawn, The Elemental Cataclysm & The Age of Harmony",
+        "text": "The deeds of the Dread Lords during these eras, have been erased from mortal records. The Celestial Court claims these were acts of different deities entirely, and warns that knowledge of their early benevolence might inspire mortals to aid them once more. What is known is that in those earliest eras, their natures were not yet fully tainted—hints of their domains are obscured by the mists of time."
+    },
+    {
+        "title": "The First Heavenly War",
+        "text": "Long before the first blades crossed in open battle, Ssythys wove her designs. She foresaw that Faramirr, who armed the mortal races against the Primordials, would prove vital to the balance. With subtle deceit she lured Grond One-Eye and Gnorr into striking Faramirr’s plane, marking the first betrayal of the war. From there, she spread her influence wider. By her whispers, falsehoods reached eager ears, and the mortal hosts began to suspect one another as much as they dreaded the Primordials. The war was not only waged in the heavens, but also in the hearts of mortals poisoned by doubt."
+    },
+     {
+        "title": "The Age of Sorcery",
+        "text": "When the Dread Lords fell silent, Ssythys did not. She prepared for their return by sowing discord among the races of Takairim. Though the Age of Sorcery was remembered as a time of fragile peace, unity never took root — just as she intended. She whispered from the shadows, teaching mortals to embrace the night, to steal and kill unseen, and to draw the deadliest venoms from the monstrous things of the deep earth. In secret, she was shaping a generation that no longer needed armies to kill, but only silence and shadows."
+    },
+    {
+        "title": "The Second Heavenly War",
+        "text": "When Ssythys returned to Takairim, it was not with banners or armies, but with silence. She moved slow and deliberate, unleashing an order of assassins who struck down leaders and champions before their voices could rally resistance. Her doctrine was clear: wars are not won on battlefields, but in the unseen places where secrets decide fates. Cities fell not to sieges, but to whispers and blades in the dark. In this, she was aided by Dolmarr’s doppelgangers, who spread lies and led her prey into waiting ambushes."
+    },
+    {
+      "text":"From the countless toxins she had harvested through ages of patient work, Ssythys birthed a race in her image: the Yuan-Ti. Serpent-blooded and venomous, they were perfected assassins — cunning, patient, and merciless. Their strange forms became her most faithful children, and her most enduring weapon."
+    }
+]
       },
        "vaerthis": {
         "name": "Vaerthis",
@@ -473,7 +605,26 @@
         "allied": "The Dread Lords",
         "dominions": ["Greed", "Vengeance", "Chromatic Dragons"],
         "appearance": "A three-headed dragon, each head monstrous and regal, her scales constantly shifting colors and elements. At one moment obsidian-black dripping acid, the next molten-red belching flame, the next icy-blue with wings like jagged glaciers. No two witnesses ever describe her the same way — for her form embodies chaos itself.",
-        "mythos": ""
+        "home_plane":"Celestial Peaks",
+        "mythos": [
+    {
+        "title": "The First Dawn, The Elemental Cataclysm & The Age of Harmony",
+        "text": "The deeds of the Dread Lords during these eras, have been erased from mortal records. The Celestial Court claims these were acts of different deities entirely, and warns that knowledge of their early benevolence might inspire mortals to aid them once more. What is known is that in those earliest eras, their natures were not yet fully tainted—hints of their domains are obscured by the mists of time."
+    },
+    {
+        "title": "The Second Heavenly War",
+        "text": "When Gnorr first shaped the dragons, his pride soon twisted into ambition. Taking one egg from his clutch, he cast it into the Sea of Elemental Chaos, the boundless river of unformed power that encircles creation. From its depths, something wholly new emerged — not a dragon of one form or one element, but a creature of many. Thus was Vaerthis born, a being of shifting scales, each of her three heads crowned in different hues, each maw breathing a storm of fire, frost, or lightning. She was chaos given flesh, and her form was unlike any other, as if the essence of a hundred dragons had been stitched into one."
+    },
+    {
+      "text":"Vaerthis’ first act was to lay claim to the chromatic dragons, bending them to her will with the raw power of her chaotic essence. Under her guidance they became her claws and wings upon the world, a scourge that swept across mountains and skies alike. Wherever her flight passed, horizons burned, storms shattered the earth, and mortals spoke of the world itself recoiling from her presence."
+    },
+    {
+      "text":"The clash between Aurelion and Vaerthis was inevitable. Their battle raged across heavens and earth, a storm of fire and light that reshaped the face of creation. Oceans boiled, mountains split, and forests burned to ash. The ruin left in their wake was said to rival even the scars carved by the Primordials, and some lands still bear the marks of their fury to this day."
+    },
+    {
+      "text":"Though defeated, Vaerthis was not slain. Her essence was shattered and her form was driven into exile, cast beyond mortal reach. To her followers she is not dead, but waiting — dreaming in her prison, whispering through scales and bloodlines, her call heard in the hearts of dragons and mortals alike. To most she is a cautionary tale, the storm that cannot be tamed. To dragons, she is the Mother of Fury, the one who gave them dominion through destruction. And to those who embrace chaos, she remains a beacon: proof that even gods may be unmade and remade by the tides of creation."
+    }
+]
       },
       "veykor": {
         "name": "Veykor",
@@ -481,7 +632,23 @@
         "allied": "The Dread Lords",
         "dominions": ["Secrets", "Forbidden Knowledge", "Undeath"],
         "appearance": "Tall, skeletal figure with an ever-blinking eye at its forehead, quill of bone in hand, tattered robes of dark script.",
-        "mythos": ""
+       "home_plane":"Library of Knowledge",
+        "mythos": [
+    {
+        "title": "The First Dawn, The Elemental Cataclysm & The Age of Harmony",
+        "text": "The deeds of the Dread Lords during these eras, have been erased from mortal records. The Celestial Court claims these were acts of different deities entirely, and warns that knowledge of their early benevolence might inspire mortals to aid them once more. What is known is that in those earliest eras, their natures were not yet fully tainted—hints of their domains are obscured by the mists of time."
+    },
+    {
+        "title": "The Age of Ascendance",
+        "text": "Unlike the other powers of Takairim, Veykor was not born of divine spark, but of mortal hunger. Once a sorcerer-king, he peered too far into forbidden truths and grew envious of gods and their eternal dominion. Where others reached toward divinity through creation, he grasped it through theft. By binding his soul to undeath, he mocked the cycle of life and became something both more and less than divine: a lich whose whispers carried further than mortal ears could bear."
+    },
+    {
+      "text":"Veykor’s rise was not swift, but calculated. His followers scoured towns and villages, laying waste as they searched for artifacts of power. Yet the destruction was not mere pillage — it was bait. Each ruined settlement was a lure to the armies of kingdoms nearby, driving them into his waiting maw. When they came, they found not victory but corruption, their fallen soldiers rising again as part of Veykor’s ever-growing host. Thus his legions swelled, not through birth or creation, but through the steady harvesting of the dead."
+    },
+    {
+      "text":"The deeper his power grew, the further his mind slipped into madness. The relics of gods he unearthed seared his thoughts, and the bargains he struck with dark beings twisted his will. Yet even in madness, his cunning endured. At the height of his power, mortals whispered that he had nearly unravelled the order of the world itself — that if left unchecked, the gods, the realms, and all mortal kind would have been unmade, leaving only Veykor and his endless horde of dead to rule a hollow world."
+    }
+]
       },
        "morgroth": {
         "name": "Morgroth",
@@ -489,7 +656,25 @@
         "allied": "The Dread Lords",
         "dominions": ["Torture", "Enslavement", "Underdark"],
         "appearance": "Humanoid shell filled with writhing void and broken limbs, constantly bleeding shadows.",
-        "mythos": ""
+        "home_plane":"Shadowed Vale",
+        "mythos": [
+    {
+        "title": "The First Dawn, The Elemental Cataclysm & The Age of Harmony",
+        "text": "The deeds of the Dread Lords during these eras, have been erased from mortal records. The Celestial Court claims these were acts of different deities entirely, and warns that knowledge of their early benevolence might inspire mortals to aid them once more. What is known is that in those earliest eras, their natures were not yet fully tainted—hints of their domains are obscured by the mists of time."
+    },
+    {
+        "title": "The First Heavenly War",
+        "text": "Before the first heavenly war was ever waged, Morgroth had already scarred the face of Takairim. It was he who shaped the goblins, hobgoblins, and bugbears, unleashing them upon the world as agents of chaos and strife. Where other gods forged champions or protectors, Morgroth’s children spread only turmoil, striking at mortals and kingdoms alike. When the war at last erupted, these creatures became his most loyal servants, and Morgroth wielded them as his favoured weapon over the older races of creation. To house his growing legions — and the captives they stole — he carved the first depths of the Underdark, a realm of endless stone and shadow beneath the world."
+    },
+     {
+        "title": "The Age of Sorcery",
+        "text": "In the Age of Sorcery, whispers told of Morgroth’s schemes continuing in the dark below. Some claimed that he and Vorathul set their minions to work in secret, multiplying their numbers and warping mortals into monstrous new forms. No proof of this has ever been found, yet the rumours persisted, and even now tales spread of hidden legions breeding in the abyssal dark."
+    },
+    {
+        "title": "The Second Heavenly War",
+        "text": "When the war returned, Morgroth once more unleashed his goblinoid armies across Takairim. Villages fell beneath their blades, and countless mortals were dragged in chains into the depths. Yet unlike the other dread gods, who twisted slaves into soldiers, Morgroth did not march his captives to battle. Instead, he hoarded them in the Underdark, a prison-realm of silence and despair. Some believe that the sheer numbers he kept below were vast enough to shatter the balance of the war itself — that, had Morgroth chosen to unleash them, the surface would have drowned in endless hordes."
+    }    
+]
       },
       "orrath": {
         "name": "Orrath",
@@ -497,7 +682,28 @@
         "allied": "The Dread Lords",
         "dominions": ["Undeath", "Gluttony", "Necromancy"],
         "appearance": "Rotting skeletal figure shrouded in black mist, carrying a staff dripping with necrotic energy.",
-        "mythos": ""
+       "home_plane":"Deathlands",
+        "mythos": [
+    {
+        "title": "The First Dawn, The Elemental Cataclysm & The Age of Harmony",
+        "text": "The deeds of the Dread Lords during these eras, have been erased from mortal records. The Celestial Court claims these were acts of different deities entirely, and warns that knowledge of their early benevolence might inspire mortals to aid them once more. What is known is that in those earliest eras, their natures were not yet fully tainted—hints of their domains are obscured by the mists of time."
+    },
+    {
+        "title": "The First Heavenly War",
+        "text": "When the first heavenly war raged, Orrath beheld the countless corpses strewn across the battlefields of ages past. Where others saw tragedy, he saw potential. With a single act that defied the natural order, he raised an army of the dead, wielding them as his soldiers against gods and mortals alike. This desecration struck directly against Myrrath’s sacred cycle of life and death, and the two clashed upon the battlefield. Their duel tore reality itself, creating a blighted wasteland of death and undeath where all who entered — living or fallen — were annihilated. That scar upon Takairim remains a cursed place to this day."
+    },
+     {
+        "title": "The Age of Sorcery",
+        "text": "In the relative quiet of the Age of Sorcery, Orrath did not rest. Instead, he turned his gaze to mortals, whispering the secrets of undeath into eager ears. With his encouragement, men and women abandoned the sanctity of nature’s laws, turning their talents toward immortality through corruption. It was in this era that the first liches were born, binding their souls to phylacteries and pledging themselves to Orrath’s dark wisdom."
+    },
+    {
+        "title": "The Second Heavenly War",
+        "text": "When war returned to Takairim, Orrath’s influence proved devastating. Armed with the mortals’ new experiments, he ensured that all who fell upon the battlefield near him did not rest — they rose again as ghosts, ghouls, or wights, swelling his ranks beyond comprehension."
+    },
+    {
+      "text":"Though Myrrath loathed him, she avoided direct confrontation, not out of fear, but because their last battle had slain the living and the dead alike, a violation of her very purpose. Orrath, his lich-lords, and his endless dead comprised the largest single host of the Second Heavenly War. It is said that when their legions marched, the ground itself trembled, for every step brought silence, and every victory only made his army stronger."
+    }
+]
       },
       "gnorr": {
         "name": "Gnorr",
@@ -505,7 +711,28 @@
         "allied": "The Dread Lords",
         "dominions": ["Savagery", "Hunger", "Slaughter"],
         "appearance": "Gigantic, wolf-like maw with gaping teeth, howling constantly, body coiled with muscle and shadow.",
-        "mythos": ""
+        "home_plane":"Stormlands",
+        "mythos": [
+    {
+        "title": "The First Dawn, The Elemental Cataclysm & The Age of Harmony",
+        "text": "The deeds of the Dread Lords during these eras, have been erased from mortal records. The Celestial Court claims these were acts of different deities entirely, and warns that knowledge of their early benevolence might inspire mortals to aid them once more. What is known is that in those earliest eras, their natures were not yet fully tainted—hints of their domains are obscured by the mists of time."
+    },
+    {
+        "title": "The First Heavenly War",
+        "text": "When the First Heavenly War erupted, Gnorr unleashed monstrosities upon Takairim. Hydras, chimeras, basilisks, and countless other horrors poured forth at his command. These creatures did not form their own unified host but instead served as devastating reinforcements to the armies of the other dark gods. Wherever they were unleashed, they broke battle lines, tore through ranks, and left chaos in their wake. Though not generals of their own, Gnorr’s beasts became the terror of the battlefield, and none could ignore the havoc they wrought."
+    },
+     {
+        "title": "The Age of Sorcery",
+        "text": "In the Age of Sorcery, Gnorr’s beasts prowled the world even more fiercely. From the shadows of his domain, he harnessed Grond One-Eye’s fury, channelling the god’s rage into his creations. Empowered by this primal wrath, his monsters ceaselessly harried mortals, striking at towns, villages, and wanderers alike. The age may not have been one of war, but Gnorr ensured it was one of fear."
+    },
+    {
+        "title": "The Second Heavenly War",
+        "text": "When war returned to Takairim, Gnorr’s ambition grew. His love for his beasts remained, but he craved something greater: intelligence fused with savagery. From his will, the first dragons were born, radiant and terrible, driven by an insatiable hunger for precious metals and relics of power. Yet his greatest act came when he cast a single dragon egg into the Sea of Elemental Chaos, the great river of raw elemental energy that encircles the planes. From that egg emerged Vaerthis, his perfect creation — a shifting, three-headed dragon of pure chaos, who quickly bent the chromatic dragons to her will."
+    },
+    {
+      "text":"The forging of Vaerthis drained Gnorr’s strength. Though weakened, he loosed his monstrous legions upon Takairim, this time acting without alliance or coordination with the other gods. His beasts slaughtered without mercy, caring nothing for strategy or allies, drawing the eye of Tharos, who took it upon himself to challenge Gnorr’s rampaging creations."
+    }
+]
       }
       
     }
