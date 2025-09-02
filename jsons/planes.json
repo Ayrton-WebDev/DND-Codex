@@ -1,5 +1,33 @@
 {
   "planes": {
+    "takairim": {
+      "name": "Takairim",
+      "description": "Takairim"
+    },
+    "shadowfell": {
+      "name": "Shadowfell",
+      "description": "The Shadowfell"
+    },
+    "feywild": {
+      "name": "Feywilds",
+      "description": "The Feywilds"
+    },
+    "earth": {
+      "name": "Earth",
+      "description": "The elemental plane of Earth"
+    },
+    "air": {
+      "name": "Air",
+      "description": "The elemental plane of Air"
+    },
+    "fire": {
+      "name": "Fire",
+      "description": "The elemental plane of Fire"
+    },
+    "water": {
+      "name": "Water",
+      "description": "The elemental plane of Water"
+    },
     "plane_of_light": {
       "name": "Plane of Light",
       "description": "A radiant plane caught between salvation and domination.",
@@ -199,35 +227,7 @@
     "nine_hells": {
       "name": "Nine Hells",
       "description": "A realm of law and cruelty, where every action is weighed, judged, and punished. Infernal hierarchies dominate, and ambition, fear, and suffering drive the denizens to rise—or fall—through nine meticulously ordered layers."      
-    },
-    "earth": {
-      "name": "Earth",
-      "description": "The elemental plane of Earth"
-    },
-    "air": {
-      "name": "Air",
-      "description": "The elemental plane of Air"
-    },
-    "fire": {
-      "name": "Fire",
-      "description": "The elemental plane of Fire"
-    },
-    "water": {
-      "name": "Water",
-      "description": "The elemental plane of Water"
-    },
-    "takairim": {
-      "name": "Takairim",
-      "description": "Takairim"
-    },
-    "shadowfell": {
-      "name": "Shadowfell",
-      "description": "The Shadowfell"
-    },
-    "feywild": {
-      "name": "Feywilds",
-      "description": "The Feywilds"
-    }
+    }    
     }
   }
 
