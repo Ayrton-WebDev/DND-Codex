@@ -194,35 +194,40 @@
     },
     "pandemonium": {
       "name": "Pandemonium",
-      "description": "A chaotic, windswept labyrinth of endless storms and shifting landscapes. Reality bends unpredictably, and whispers of madness echo across jagged cliffs and dark chasms. Mortals who enter risk losing their minds—or discovering hidden truths about themselves in the chaos.",
-      "regions": {
-        "celestial_court": {
-          "god": "",
-          "name": "",
-          "description": ""
-        },
-        "dread_lords": {
-          "god": "",
-          "name": "",
-          "description": ""
-        }
-      }
+      "description": "A chaotic, windswept labyrinth of endless storms and shifting landscapes. Reality bends unpredictably, and whispers of madness echo across jagged cliffs and dark chasms. Mortals who enter risk losing their minds—or discovering hidden truths about themselves in the chaos."
     },
     "nine_hells": {
       "name": "Nine Hells",
-      "description": "A realm of law and cruelty, where every action is weighed, judged, and punished. Infernal hierarchies dominate, and ambition, fear, and suffering drive the denizens to rise—or fall—through nine meticulously ordered layers.",
-      "regions": {
-        "celestial_court": {
-          "god": "",
-          "name": "",
-          "description": ""
-        },
-        "dread_lords": {
-          "god": "",
-          "name": "",
-          "description": ""
-        }
-      }
+      "description": "A realm of law and cruelty, where every action is weighed, judged, and punished. Infernal hierarchies dominate, and ambition, fear, and suffering drive the denizens to rise—or fall—through nine meticulously ordered layers."      
+    },
+    "earth": {
+      "name": "Earth",
+      "description": "The elemental plane of Earth"
+    },
+    "air": {
+      "name": "Air",
+      "description": "The elemental plane of Air"
+    },
+    "fire": {
+      "name": "Fire",
+      "description": "The elemental plane of Fire"
+    },
+    "water": {
+      "name": "Water",
+      "description": "The elemental plane of Water"
+    },
+    "takairim": {
+      "name": "Takairim",
+      "description": "Takairim"
+    },
+    "shadowfell": {
+      "name": "Shadowfell",
+      "description": "The Shadowfell"
+    },
+    "feywild": {
+      "name": "Feywilds",
+      "description": "The Feywilds"
+    }
     }
   }
-}
+

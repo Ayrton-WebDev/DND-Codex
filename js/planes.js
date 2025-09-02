@@ -56,18 +56,36 @@ document.addEventListener('DOMContentLoaded', () => {
 
             document.getElementById('plane-name').textContent = plane.name;
             document.getElementById('plane-description').textContent = plane.description;
+            
+            // Pull regions safely
+            const cc = plane.regions.celestial_court;
+            const dl = plane.regions.dread_lords;
 
             // Celestial Court region
-            const cc = plane.regions.celestial_court;
-            document.getElementById('cc-domain-name').textContent = cc ? cc.name : '';
-            document.getElementById('cc-god-name').textContent = cc && cc.god ? 'God: ' + humanizeGodName(cc.god) : '';
-            document.getElementById('cc-domain-description').textContent = cc ? cc.description : '';
+            if (cc) {
+                document.getElementById('cc-title').textContent = 'Celestial Court';
+                document.getElementById('cc-domain-name').textContent = cc.name;
+                document.getElementById('cc-god-name').textContent = cc.god ? 'God: ' + humanizeGodName(cc.god) : '';
+                document.getElementById('cc-domain-description').textContent = cc.description;
+            } else {
+                document.getElementById('cc-title').textContent = '';
+                document.getElementById('cc-domain-name').textContent = '';
+                document.getElementById('cc-god-name').textContent = '';
+                document.getElementById('cc-domain-description').textContent = '';
+            }
 
-            // Dread Lords region
-            const dl = plane.regions.dread_lords;
-            document.getElementById('dl-domain-name').textContent = dl ? dl.name : '';
-            document.getElementById('dl-god-name').textContent = dl && dl.god ? 'God: ' + humanizeGodName(dl.god) : '';
-            document.getElementById('dl-domain-description').textContent = dl ? dl.description : '';
-        })
+           // Dread Lords
+if (dl) {
+    document.getElementById('dl-title').textContent = 'Dread Lords';
+    document.getElementById('dl-domain-name').textContent = dl.name;
+    document.getElementById('dl-god-name').textContent = dl.god ? 'God: ' + humanizeGodName(dl.god) : '';
+    document.getElementById('dl-domain-description').textContent = dl.description;
+} else {
+    document.getElementById('dl-title').textContent = '';
+    document.getElementById('dl-domain-name').textContent = '';
+    document.getElementById('dl-god-name').textContent = '';
+    document.getElementById('dl-domain-description').textContent = '';
+}
+})
         .catch(err => console.error('Error loading planes.json:', err));
 });

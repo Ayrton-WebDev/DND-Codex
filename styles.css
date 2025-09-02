@@ -80,11 +80,10 @@ grid-row-gap: 0px;
 a{ color: #a03e3e}
 
 h1 {
-    color: #a03e3e; /* slightly dramatic color */
     font-size: 2em;
     margin: 5px;
 }
-h2, h3, h4, h5, h6{color: #a03e3e;}
+h1, h2, h3, h4, h5, h6{color: #a03e3e;}
 .disclaimer-box p {
     font-size: 1.1em;
     line-height: 1.5em;
@@ -375,6 +374,8 @@ table tbody tr:hover {
   box-shadow: 0 0 0.8vmin rgba(0,0,0,0.4);
   z-index: 10;
 }
+
+#cc-domain-name, #dl-domain-name{color: #a03e3e;}
 
 @media (max-width: 800px) {
 .parent {
