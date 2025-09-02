@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
           // Create clickable link to the plane page
           godHomePlaneElem.innerHTML = `
-            <strong>Plane:</strong> <a href="planes.html?p=${planeKey}">${planeName}</a><br>
+            <strong>Plane:</strong> <a href="../Planes/planes.html?plane=${planeKey}">${planeName}</a><br>
             <strong>Region:</strong> ${regionName}<br>
             <em>${region.description}</em>
           `;

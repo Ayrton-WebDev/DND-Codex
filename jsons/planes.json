@@ -48,8 +48,8 @@
         }
       }
     },
-    "forge_&_industry": {
-      "name": "Forge & Industry",
+    "molten_bastion": {
+      "name": "Molten Bastion",
       "description": "Where creation and enslavement clash in steel and fire.",
       "regions": {
         "celestial_court": {
@@ -194,7 +194,7 @@
     },
     "pandemonium": {
       "name": "Pandemonium",
-      "description": "Chaos incarnate, a plane of madness and disorder.",
+      "description": "A chaotic, windswept labyrinth of endless storms and shifting landscapes. Reality bends unpredictably, and whispers of madness echo across jagged cliffs and dark chasms. Mortals who enter risk losing their minds—or discovering hidden truths about themselves in the chaos.",
       "regions": {
         "celestial_court": {
           "god": "",
@@ -202,15 +202,15 @@
           "description": ""
         },
         "dread_lords": {
-          "god": "vorathul",
-          "name": "Fractured Peaks",
-          "description": "Torn-apart cliffs and floating debris swept by endless howling winds."
+          "god": "",
+          "name": "",
+          "description": ""
         }
       }
     },
     "nine_hells": {
       "name": "Nine Hells",
-      "description": "Layers of infernal torment, where the Dread Lords reign.",
+      "description": "A realm of law and cruelty, where every action is weighed, judged, and punished. Infernal hierarchies dominate, and ambition, fear, and suffering drive the denizens to rise—or fall—through nine meticulously ordered layers.",
       "regions": {
         "celestial_court": {
           "god": "",
@@ -218,9 +218,9 @@
           "description": ""
         },
         "dread_lords": {
-          "god": "azrakar_veylmar",
-          "name": "Infernal Layers",
-          "description": "Molten spires, chained devils, oppressive heat, and jagged fortresses."
+          "god": "",
+          "name": "",
+          "description": ""
         }
       }
     }

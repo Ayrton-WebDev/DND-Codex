@@ -116,7 +116,7 @@
         "allied": "The Celestial Court",
         "dominions": ["Craft", "Invention", "Community"],
         "appearance": "Broad-shouldered, bronze-skinned figure, beard like molten metal, hands glowing with the heat of creation, wielding a massive hammer.",
-        "home_region":"forge_&_industry.celestial_court",
+        "home_region":"molten_bastion.celestial_court",
         "mythos": [
     {
         "title": "The First Dawn",
@@ -498,7 +498,7 @@
         "allied": "The Dread Lords",
         "dominions": ["Enslavement", "Cruel Industry"],
         "appearance": "Hulking, molten-metal body, hammer fused to hand, glowing red eyes, rivulets of molten iron run across skin.",
-        "home_region":"forge_&_industry.dread_lords",
+        "home_region":"molten_bastion.dread_lords",
         "mythos": [
     {
         "title": "The First Dawn, The Elemental Cataclysm & The Age of Harmony",
