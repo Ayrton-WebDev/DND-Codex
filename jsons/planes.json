@@ -1,0 +1,228 @@
+{
+  "planes": {
+    "plane_of_light": {
+      "name": "Plane of Light",
+      "description": "A radiant plane caught between salvation and domination.",
+      "regions": {
+        "celestial_court": {
+          "god": "velis_sunheart",
+          "name": "Fields of Redemption",
+          "description": "Golden fields and radiant spires where dawn never fades. Healing light and warmth flow freely here."
+        },
+        "dread_lords": {
+          "god": "azrakar",
+          "name": "The Blazing Planes",
+          "description": "Molten rivers and burning skies where tyrants are forged in torment."
+        }
+      }
+    },
+    "verdant_wilds": {
+      "name": "Verdant Wilds",
+      "description": "The endless struggle between growth and entropy manifests here.",
+      "regions": {
+        "celestial_court": {
+          "god": "isyra_verdantborn",
+          "name": "Emerald Canopy",
+          "description": "Twisting forests, floating islands, and fertile rivers, alive with growth and vibrant energy."
+        },
+        "dread_lords": {
+          "god": "vorathul",
+          "name": "Withering Expanse",
+          "description": "Storm-ravaged lands, jagged rocks, and forests choking under entropy, hunger, and decay."
+        }
+      }
+    },
+    "civilisation_heights": {
+      "name": "Civilisation Heights",
+      "description": "The battleground of ideology, law, and conquest.",
+      "regions": {
+        "celestial_court": {
+          "god": "thyros_ironlaw",
+          "name": "Monumental Courts",
+          "description": "Towering cities, structured roads, and grand halls dedicated to justice and order."
+        },
+        "dread_lords": {
+          "god": "veylmar_dreadhelm",
+          "name": "Shadow Bastions",
+          "description": "Fortresses of domination, siegeworks, and smoke-choked towns where cruelty reigns."
+        }
+      }
+    },
+    "forge_&_industry": {
+      "name": "Forge & Industry",
+      "description": "Where creation and enslavement clash in steel and fire.",
+      "regions": {
+        "celestial_court": {
+          "god": "khuldros_forgefather",
+          "name": "Molten Heights",
+          "description": "Vast forges, molten rivers, and mountains echoing with the clang of creation and invention."
+        },
+        "dread_lords": {
+          "god": "dolmarr",
+          "name": "Chains of Iron",
+          "description": "Smoke-choked valleys filled with enslaved laborers, torturous devices, and cruel machinery."
+        }
+      }
+    },
+    "arcane_peaks": {
+      "name": "Arcane Peaks",
+      "description": "The battlefield of beauty, magic, and deceit.",
+      "regions": {
+        "celestial_court": {
+          "god": "ultharion",
+          "name": "Crystal Spires",
+          "description": "Floating gardens and spires shimmering with magic, art, and radiant beauty."
+        },
+        "dread_lords": {
+          "god": "sharizeth",
+          "name": "Webbed Shadows",
+          "description": "Canyons darkened by webs and illusions, where deceit and monstrous creations lurk."
+        }
+      }
+    },
+    "dawnspire": {
+      "name": "Dawnspire",
+      "description": "A land of agricultural peace, threatened by war and hatred.",
+      "regions": {
+        "celestial_court": {
+          "god": "kaelor",
+          "name": "Golden Plains",
+          "description": "Sun-drenched fields and fertile lands where agriculture and time flow in harmony."
+        },
+        "dread_lords": {
+          "god": "grond_one_eye",
+          "name": "Scorched Battlefields",
+          "description": "Shattered towns, burned plains, and the chaotic remnants of war driven by rage."
+        }
+      }
+    },
+    "misted_paths": {
+      "name": "Misted Paths",
+      "description": "A realm of chance, trickery, and deadly secrets.",
+      "regions": {
+        "celestial_court": {
+          "god": "lyessa_windstep",
+          "name": "Foggy Glens",
+          "description": "Twisting fog-laden paths and mysterious crossroads alive with luck and trickery."
+        },
+        "dread_lords": {
+          "god": "ssythys_blackvein",
+          "name": "Shadow Alleys",
+          "description": "Silent, poisonous corridors where assassins and dark forces prowl."
+        }
+      }
+    },
+    "shadowed_vale": {
+      "name": "Shadowed Vale",
+      "description": "Where love, secrets, and torture entwine.",
+      "regions": {
+        "celestial_court": {
+          "god": "nythira",
+          "name": "Veiled Groves",
+          "description": "Hidden valleys and reflective lakes where illusion and love flourish."
+        },
+        "dread_lords": {
+          "god": "morgroth",
+          "name": "Iron Prisons",
+          "description": "Deep caverns filled with enslaved mortals and the tools of torture."
+        }
+      }
+    },
+    "celestial_peaks": {
+      "name": "Celestial Peaks",
+      "description": "The home of dragonkind and their eternal struggle.",
+      "regions": {
+        "celestial_court": {
+          "god": "aurelion",
+          "name": "Golden Spires",
+          "description": "Snow-capped peaks adorned with golden and silver dragons of nobility."
+        },
+        "dread_lords": {
+          "god": "vaerthis",
+          "name": "Chromatic Abyss",
+          "description": "Volcanic fissures and magma flows where chaotic chromatic dragons wreak havoc."
+        }
+      }
+    },
+    "library_of_knowledge": {
+      "name": "Library of Knowledge",
+      "description": "Endless pursuit of wisdom and forbidden power.",
+      "regions": {
+        "celestial_court": {
+          "god": "orris_dream_seer",
+          "name": "Luminous Halls",
+          "description": "Floating libraries and towers filled with knowledge, prophecy, and skill."
+        },
+        "dread_lords": {
+          "god": "veykor",
+          "name": "Necrotic Archives",
+          "description": "Cursed tomes, spectral scribes, and undead librarians guarding forbidden knowledge."
+        }
+      }
+    },
+    "deathlands": {
+      "name": "Deathlands",
+      "description": "A realm where death and undeath intertwine.",
+      "regions": {
+        "celestial_court": {
+          "god": "myrrath",
+          "name": "Silent Graves",
+          "description": "Ossuaries and tombstones where fate and memory are preserved."
+        },
+        "dread_lords": {
+          "god": "orrath",
+          "name": "Necrotic Mists",
+          "description": "Haunted forests and landscapes of undeath and gluttony."
+        }
+      }
+    },
+    "stormlands": {
+      "name": "Stormlands",
+      "description": "The domain of tempestuous battle and uncontrolled fury.",
+      "regions": {
+        "celestial_court": {
+          "god": "tharos_stormbreaker",
+          "name": "Thunder Peaks",
+          "description": "Mountains split by lightning, crashing seas, and storms filled with strength."
+        },
+        "dread_lords": {
+          "god": "gnorr",
+          "name": "Savage Wastes",
+          "description": "Wildlands where monstrous beasts roam unchecked amidst violent storms."
+        }
+      }
+    },
+    "pandemonium": {
+      "name": "Pandemonium",
+      "description": "Chaos incarnate, a plane of madness and disorder.",
+      "regions": {
+        "celestial_court": {
+          "god": "",
+          "name": "",
+          "description": ""
+        },
+        "dread_lords": {
+          "god": "vorathul",
+          "name": "Fractured Peaks",
+          "description": "Torn-apart cliffs and floating debris swept by endless howling winds."
+        }
+      }
+    },
+    "nine_hells": {
+      "name": "Nine Hells",
+      "description": "Layers of infernal torment, where the Dread Lords reign.",
+      "regions": {
+        "celestial_court": {
+          "god": "",
+          "name": "",
+          "description": ""
+        },
+        "dread_lords": {
+          "god": "azrakar_veylmar",
+          "name": "Infernal Layers",
+          "description": "Molten spires, chained devils, oppressive heat, and jagged fortresses."
+        }
+      }
+    }
+  }
+}

@@ -2,7 +2,7 @@
   "celestial_court": {
     "default": {
       "title": "Celestial Court",
-      "description": "The Celestial Court are the prime deities who shaped the world and guided mortals through the ages. They embody creation, justice, and divine inspiration."
+      "description": "The Celestial Court stands as the antithesis of the Dread Lords: a pantheon of deities devoted to order, creation, and the preservation of life and light. Their dominion extends over morality, justice, nature, and the cosmic balance that sustains Takairim. Though often viewed as distant and unyielding, the Court has repeatedly intervened in mortal affairs, guiding kingdoms, inspiring heroes, and forging alliances to prevent chaos from overwhelming the world. Each member of the Court embodies a distinct aspect of divine influence: Velis Sunheart brings radiant protection and hope to the helpless; Ultharion fosters beauty, art, and harmony among mortal races; Myrrath safeguards the cycle of life and death, ensuring that the natural order remains unbroken; and Aurelion commands the skies, fire, and elemental forces to defend the realms of existence. Other members—Isyra, Khuldros, Tharos, and Orris—represent growth, craftsmanship, valor, and the pursuit of knowledge, working tirelessly to shape mortals into beings capable of virtue, wisdom, and resilience. United, the Celestial Court acts as both mentor and judge, striving to maintain the fragile balance between freedom and responsibility, creation and destruction. Their influence is subtle yet pervasive, guiding the evolution of societies, the rise of civilizations, and the shaping of destiny itself. Where they intervene, life flourishes, communities endure, and the forces of darkness are held at bay—but even the Court’s power has limits, and their victories often come at great cost, leaving mortals to bear the weight of divine will."
     },
     "gods": {
       "velis_sunheart": {
@@ -11,7 +11,7 @@
         "allied": "The Celestial Court",
         "dominions": ["Redemption", "Healing", "Sun"],
         "appearance": "A radiant figure with golden hair and eyes like molten light, cloaked in flowing robes that shimmer with sunlight.",
-        "home_plane": "Plane of Light",
+        "home_region": "plane_of_light.celestial_court",
         "mythos": [
     {
         "title": "The First Dawn",
@@ -48,7 +48,7 @@
         "allied": "The Celestial Court",
         "dominions": ["Nature", "Growth", "Fertility"],
         "appearance": "A lithe figure wreathed in leaves and flowers, skin like bark, eyes glimmering green with life.",
-        "home_plane":"Verdant Wilds",
+        "home_region":"verdant_wilds.celestial_court",
         "mythos": [
     {
         "title": "The First Dawn",
@@ -82,7 +82,7 @@
         "allied": "The Celestial Court",
         "dominions": ["Civilization", "Justice", "Order"],
         "appearance": "Stern, armored figure, bronze skin, carrying a gavel that glows with divine authority, eyes like polished steel.",
-        "home_plane":"Civilisation Heights",
+        "home_region":"civilisation_heights.celestial_court",
         "mythos": [
     {
         "title": "The First Dawn",
@@ -116,7 +116,7 @@
         "allied": "The Celestial Court",
         "dominions": ["Craft", "Invention", "Community"],
         "appearance": "Broad-shouldered, bronze-skinned figure, beard like molten metal, hands glowing with the heat of creation, wielding a massive hammer.",
-        "home_plane":"Forge & Industry",
+        "home_region":"forge_&_industry.celestial_court",
         "mythos": [
     {
         "title": "The First Dawn",
@@ -150,7 +150,7 @@
         "allied": "The Celestial Court",
         "dominions": ["Beauty", "Art", "Arcana"],
         "appearance": "Androgynous, ever-shifting form, adorned in living starlight, skin shimmering with ethereal hues, eyes like a prism of colours.",
-        "home_plane":"Arcane Peaks",
+        "home_region":"arcane_peaks.celestial_court",
         "mythos": [
     {
         "title": "The First Dawn",
@@ -184,7 +184,7 @@
         "allied": "The Celestial Court",
         "dominions": ["Sun", "Agriculture", "Time"],
         "appearance": "Luminous figure, golden hair and robes like sunrise, holding an hourglass with sands of shifting light.",
-        "home_plane":"Dawnspire",
+        "home_region":"dawnspire.celestial_court",
         "mythos": [
     {
         "title": "The First Dawn",
@@ -218,7 +218,7 @@
         "allied": "The Celestial Court",
         "dominions": ["Luck", "Trickery", "Change"],
         "appearance": "Agile, travel-stained figure, cloak flowing like the wind, eyes like shifting skies, often accompanied by a faint trail of breezes.",
-        "home_plane":"Misted Paths",
+        "home_region":"misted_paths.celestial_court",
         "mythos": [
     {
         "title": "The First Dawn",
@@ -252,7 +252,7 @@
         "allied": "The Celestial Court",
         "dominions": ["Illusion", "Secrets", "Love"],
         "appearance": "Veiled figure of night, hair like starlit mist, eyes obscured but glimmering with hidden truths.",
-        "home_plane":"Shadowed Vale",
+        "home_region":"shadowed_vale.celestial_court",
         "mythos": [
     {
         "title": "The First Dawn",
@@ -286,7 +286,7 @@
         "allied": "The Celestial Court",
         "dominions": ["honour", "Nobility", "Metallic Dragons"],
         "appearance": "The purest golden dragon, his scales so polished they reflect the world like mirrors, fracturing sunlight into dazzling beams like a living prism. When he flies, the sky itself shimmers as though dawn is breaking.",
-        "home_plane":"Celestial Peaks",
+        "home_region":"celestial_peaks.celestial_court",
        "mythos": [
     {
         "title": "The Second Heavenly War",
@@ -303,7 +303,7 @@
         "allied": "The Celestial Court",
         "dominions": ["Knowledge", "Prophecy", "Skill"],
         "appearance": "Blindfolded, cloaked in starlight, silver quill always in hand, floating pages orbiting silently.",
-        "home_plane":"Library of Knowledge",
+        "home_region":"library_of_knowledge.celestial_court",
         "mythos": [
     {
         "title": "The First Dawn",
@@ -337,7 +337,7 @@
         "allied": "The Celestial Court",
         "dominions": ["Death", "Fate", "Memory"],
         "appearance": "Shadowed figure with pale, moonlit skin, feathered robes, eyes dim as dying moons.",
-        "home_plane":"Deathlands",
+        "home_region":"deathlands.celestial_court",
         "mythos": [
     {
         "title": "The First Dawn",
@@ -371,7 +371,7 @@
         "allied": "The Celestial Court",
         "dominions": ["Storms", "Strength", "Battle"],
         "appearance": "Towering storm-wreathed warrior, hair of lightning, eyes flashing like thunder, wielding a great axe of stormfire.",
-        "home_plane":"Stormlands",
+        "home_region":"stormlands.celestial_court",
         "mythos": [
     {
         "title": "The First Dawn",
@@ -408,7 +408,7 @@
   "dread_lords": {
     "default": {
       "group_name": "The Dread Lords",
-      "description": "The Dread Lords are deities of domination, corruption, and destruction. They oppose the Celestial Court and sow chaos across the world."
+      "description": "The Dread Lords are a pantheon of deities defined by ambition, cruelty, and the relentless pursuit of dominion over mortals, monsters, and even other gods. Though their earliest deeds were said to be benevolent, erased from mortal memory by the Celestial Court, their true nature revealed itself in ages of war, corruption, and conquest. Each lord leaves a distinct mark upon the world: Azrakar forges infernal dominions and enslaves souls in the Hells; Vorathul spreads madness and despair, unraveling hope before a blade is ever drawn; Sharizeth twists beauty into deceit, birthing the drow to mock the light; Grond One-Eye and Gnorr embody unbridled fury, shaping savage races and dragons alike; and Veykor, Orrath, and Morgroth manipulate death itself, creating armies of the dead and shaping necromantic power for their own ends. Other lords—Veylmar Dreadhelm, Dolmarr, Ssythys Blackvein, and Vaerthis—exert dominion through tyranny, craft, subtle deceit, and chaos, ensuring that their influence persists long after the battles have ended. Together, the Dread Lords do not act as a harmonious force but as a coalition of ambition and malevolence, each pursuing their own ends while leaving the world scarred by fire, blood, and shadow. Where they walk, civilizations crumble, mortals falter, and the very forces of life and hope are twisted into instruments of their will, ensuring that no corner of Takairim is untouched by dread."
     },
     "gods": {
       "azrakar": {
@@ -417,7 +417,7 @@
         "allied": "The Dread Lords",
         "dominions": ["Tyranny", "Domination", "Fire"],
         "appearance": "A towering, armored figure wreathed in black flames, eyes burning with malevolent fire.",
-        "home_plane":"Plane of Light",
+        "home_region":"plane_of_light.dread_lords",
         "mythos": [
     {
         "title": "The First Dawn, The Elemental Cataclysm & The Age of Harmony",
@@ -443,7 +443,7 @@
         "allied": "The Dread Lords",
         "dominions": ["Madness", "Entropy", "Cosmic Ruin"],
         "appearance": "A shadowy, shifting mass of eyes and teeth, bound in chains that pulse with dark energy.",
-        "home_plane":"Verdant Wilds",
+        "home_region":"verdant_wilds.dread_lords",
         "mythos": [
     {
         "title": "The First Dawn, The Elemental Cataclysm & The Age of Harmony",
@@ -472,7 +472,7 @@
         "allied": "The Dread Lords",
         "dominions": ["Conquest", "Pain", "Domination"],
         "appearance": "Massive, spiked figure encased in black iron, chains writhing as if alive, eyes glowing through a visored helm.",
-        "home_plane":"Civilisation Heights",
+        "home_region":"civilisation_heights.dread_lords",
         "mythos": [
     {
         "title": "The First Dawn, The Elemental Cataclysm & The Age of Harmony",
@@ -498,7 +498,7 @@
         "allied": "The Dread Lords",
         "dominions": ["Enslavement", "Cruel Industry"],
         "appearance": "Hulking, molten-metal body, hammer fused to hand, glowing red eyes, rivulets of molten iron run across skin.",
-        "home_plane":"Forge & Industry",
+        "home_region":"forge_&_industry.dread_lords",
         "mythos": [
     {
         "title": "The First Dawn, The Elemental Cataclysm & The Age of Harmony",
@@ -524,7 +524,7 @@
         "allied": "The Dread Lords",
         "dominions": ["Deceit", "Spiders", "Chaos"],
         "appearance": "Spider-like, shadowed form, eight limbs spinning webs of black silk, eyes glinting malevolently",
-        "home_plane":"Arcane Peaks",
+        "home_region":"arcane_peaks.dread_lords",
         "mythos": [
     {
         "title": "The First Dawn, The Elemental Cataclysm & The Age of Harmony",
@@ -550,7 +550,7 @@
         "allied": "The Dread Lords",
         "dominions": ["Destruction", "War", "Hatred"],
         "appearance": "Giant, battle-scarred with a single glowing eye, massive axe that seems to thirst for blood.",
-        "home_plane":"Dawnspire",
+        "home_region":"dawnspire.dread_lords",
         "mythos": [
     {
         "title": "The First Dawn, The Elemental Cataclysm & The Age of Harmony",
@@ -576,7 +576,7 @@
         "allied": "The Dread Lords",
         "dominions": ["Poison", "Assassins", "Darkness"],
         "appearance": "Sinister, serpentine figure, black scales with crimson veins, fangs glimmering with poison, eyes slitted with cunning.",
-        "home_plane":"Misted Paths",
+        "home_region":"misted_paths.dread_lords",
         "mythos": [
    {
         "title": "The First Dawn, The Elemental Cataclysm & The Age of Harmony",
@@ -605,7 +605,7 @@
         "allied": "The Dread Lords",
         "dominions": ["Greed", "Vengeance", "Chromatic Dragons"],
         "appearance": "A three-headed dragon, each head monstrous and regal, her scales constantly shifting colors and elements. At one moment obsidian-black dripping acid, the next molten-red belching flame, the next icy-blue with wings like jagged glaciers. No two witnesses ever describe her the same way — for her form embodies chaos itself.",
-        "home_plane":"Celestial Peaks",
+        "home_region":"celestial_peaks.dread_lords",
         "mythos": [
     {
         "title": "The First Dawn, The Elemental Cataclysm & The Age of Harmony",
@@ -632,7 +632,7 @@
         "allied": "The Dread Lords",
         "dominions": ["Secrets", "Forbidden Knowledge", "Undeath"],
         "appearance": "Tall, skeletal figure with an ever-blinking eye at its forehead, quill of bone in hand, tattered robes of dark script.",
-       "home_plane":"Library of Knowledge",
+       "home_region":"library_of_knowledge.dread_lords",
         "mythos": [
     {
         "title": "The First Dawn, The Elemental Cataclysm & The Age of Harmony",
@@ -656,7 +656,7 @@
         "allied": "The Dread Lords",
         "dominions": ["Torture", "Enslavement", "Underdark"],
         "appearance": "Humanoid shell filled with writhing void and broken limbs, constantly bleeding shadows.",
-        "home_plane":"Shadowed Vale",
+        "home_region":"shadowed_vale.dread_lords",
         "mythos": [
     {
         "title": "The First Dawn, The Elemental Cataclysm & The Age of Harmony",
@@ -682,7 +682,7 @@
         "allied": "The Dread Lords",
         "dominions": ["Undeath", "Gluttony", "Necromancy"],
         "appearance": "Rotting skeletal figure shrouded in black mist, carrying a staff dripping with necrotic energy.",
-       "home_plane":"Deathlands",
+        "home_region":"deathlands.dread_lords",
         "mythos": [
     {
         "title": "The First Dawn, The Elemental Cataclysm & The Age of Harmony",
@@ -711,7 +711,7 @@
         "allied": "The Dread Lords",
         "dominions": ["Savagery", "Hunger", "Slaughter"],
         "appearance": "Gigantic, wolf-like maw with gaping teeth, howling constantly, body coiled with muscle and shadow.",
-        "home_plane":"Stormlands",
+        "home_region":"stormlands.dread_lords",
         "mythos": [
     {
         "title": "The First Dawn, The Elemental Cataclysm & The Age of Harmony",
