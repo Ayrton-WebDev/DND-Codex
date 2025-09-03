@@ -68,8 +68,8 @@
         }
       }
     },
-    "civilisation_heights": {
-      "name": "Civilisation Heights",
+    "the_citadel": {
+      "name": "The Citadel",
       "description": "The battleground of ideology, law, and conquest.",
       "regions": {
         "celestial_court": {

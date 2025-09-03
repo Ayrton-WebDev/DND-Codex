@@ -17,18 +17,22 @@ function placeRing(selector, count, radius) {
     });
 }
 
-// Center circles (around center)
 const center = document.querySelectorAll('.center-circle a');
 const centerOffsets = [
     {x: -8, y: 8},   // shadowfell
     {x: 8, y: 8},    // feywilds
-    {x: 0, y: 0},   // takairim
-    {x: -0, y: -10},     // ethereal
-    {x: 0, y: 0}
+    {x: 0, y: 0},    // takairim
+    {x: -0, y: -10}, // ethereal
+    {x: 0, y: 0}     // astral sea stays centered
 ];
+
 center.forEach((el, i) => {
-    el.style.transform = `translate(${centerOffsets[i].x}vmin, ${centerOffsets[i].y}vmin)`;
+    // only apply offset if not astral
+    if (!el.classList.contains('astral')) {
+        el.style.transform = `translate(${centerOffsets[i].x}vmin, ${centerOffsets[i].y}vmin)`;
+    }
 });
+
 
 // Outer ring (14 items)
 placeRing('.outer-ring a', 15, 35);
