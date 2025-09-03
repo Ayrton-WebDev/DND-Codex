@@ -20,32 +20,25 @@ function placeRing(selector, count, radius) {
 // Center circles (around center)
 const center = document.querySelectorAll('.center-circle a');
 const centerOffsets = [
-    {x: -8, y: 7},   // left
-    {x: 8, y: 7},    // right
-    {x: 0, y: -7}    // top
+    {x: -8, y: 7},   // bottom left
+    {x: 8, y: 7},    // bottom right
+    {x: -8, y: -7},   // top left
+    {x: 8, y: -7},     // top right
+    {x: 0, y: 0}
 ];
 center.forEach((el, i) => {
     el.style.transform = `translate(${centerOffsets[i].x}vmin, ${centerOffsets[i].y}vmin)`;
 });
 
 // Outer ring (14 items)
-placeRing('.outer-ring a', 14, 35);
+placeRing('.outer-ring a', 15, 35);
 
 document.addEventListener('DOMContentLoaded', () => {
     fetch('../jsons/planes.json')
         .then(response => response.json())
         .then(data => {
             const planes = data.planes;
-            const submenu = document.getElementById('planes-submenu');
-
-            // Populate submenu with all planes
-            for (const planeKey in planes) {
-                const plane = planes[planeKey];
-                const li = document.createElement('li');
-                li.innerHTML = `<a href="?plane=${encodeURIComponent(planeKey)}">${plane.name}</a>`;
-                submenu.appendChild(li);
-            }
-
+        
             // Get selected plane from query string
             const urlParams = new URLSearchParams(window.location.search);
             let planeKey = urlParams.get('plane') || Object.keys(planes)[0];
@@ -75,17 +68,37 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
            // Dread Lords
-if (dl) {
-    document.getElementById('dl-title').textContent = 'Dread Lords';
-    document.getElementById('dl-domain-name').textContent = dl.name;
-    document.getElementById('dl-god-name').textContent = dl.god ? 'God: ' + humanizeGodName(dl.god) : '';
-    document.getElementById('dl-domain-description').textContent = dl.description;
-} else {
-    document.getElementById('dl-title').textContent = '';
-    document.getElementById('dl-domain-name').textContent = '';
-    document.getElementById('dl-god-name').textContent = '';
-    document.getElementById('dl-domain-description').textContent = '';
-}
+            if (dl) {
+                document.getElementById('dl-title').textContent = 'Dread Lords';
+                document.getElementById('dl-domain-name').textContent = dl.name;
+                document.getElementById('dl-god-name').textContent = dl.god ? 'God: ' + humanizeGodName(dl.god) : '';
+                document.getElementById('dl-domain-description').textContent = dl.description;
+            } else {
+                document.getElementById('dl-title').textContent = '';
+                document.getElementById('dl-domain-name').textContent = '';
+                document.getElementById('dl-god-name').textContent = '';
+                document.getElementById('dl-domain-description').textContent = '';
+            }
 })
         .catch(err => console.error('Error loading planes.json:', err));
+});
+// Side menu toggles
+document.addEventListener("DOMContentLoaded", () => {
+  const toggles = document.querySelectorAll("#side-menu .toggle");
+
+  toggles.forEach(toggle => {
+    toggle.addEventListener("click", (e) => {
+      e.preventDefault();
+      const parent = toggle.parentElement;
+      const isOpen = parent.classList.contains("open");
+
+      document.querySelectorAll("#side-menu .menu-parent").forEach(item => {
+        item.classList.remove("open");
+      });
+
+      if (!isOpen) {
+        parent.classList.add("open");
+      }
+    });
+  });
 });

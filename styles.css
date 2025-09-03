@@ -202,8 +202,7 @@ table tbody tr:hover {
 /* .panthBox td, .panthBox th{word-wrap: break-word; white-space: normal; padding: 4px;} */
 .sideHide li{display: hidden;}
 #side-menu {
-  margin: 1%;
-  padding: 1%;
+  
   /* background: #3B3328; dark background for contrast */
   font-family: 'Garamond', serif;
   font-size: 1.25rem;
@@ -225,6 +224,7 @@ table tbody tr:hover {
 }
 .submenu {
   display: none; /* hidden by default */
+  margin: 0px;
   margin-left: 20px;
 }
 .menu-parent.open .submenu {
@@ -242,21 +242,20 @@ table tbody tr:hover {
   justify-content: center;
   align-items: center;
 }
-.info{width: 25%;}
+.info {
+  width: 25%;
+}
 
 .plane-ring-container {
-  width: 100%;   /* original logical size */
+  width: 100%;
   height: 100%;
-  transform: scale(1);   /* JS can adjust this dynamically */
-  /* transform-origin: center center; */
+  transform: scale(1); /* JS can adjust this dynamically */
   top: 0px;
 }
 
 /* All links absolute and centered */
 .plane-ring-container .center-circle a {
   position: absolute;
-  /* top: 50%;
-  left: 50%; */
   transform-origin: center center;
   text-align: center;
   width: 8vmin;
@@ -273,6 +272,7 @@ table tbody tr:hover {
 .center { background-color: #f39c12; }  /* orange */
 .mid1 { background-color: #3498db; }   /* blue */
 .outer { background-color: #9b59b6; }  /* purple */
+
 .center {
   position: absolute;
   top: 25%;
@@ -281,7 +281,7 @@ table tbody tr:hover {
   z-index: 100;
 }
 
-
+/* Default center span (all except Astral) */
 .center span {
   display: flex;
   align-items: center;
@@ -293,28 +293,61 @@ table tbody tr:hover {
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-/* Hover scaling applied to the span */
+/* Hover scaling for normal center spans */
 .center span:hover {
   transform: scale(1.25);
   box-shadow: 0 0 0.8vmin rgba(0,0,0,0.4);
   z-index: 10;
 }
 
-
-/* Mid ring quarter arcs */
-.mid-ring a {
-  position: absolute;
-  top: 50%;
-  left: 45%;
-  width: 20vmin;   /* arc size */
-  height: 20vmin;
-  border: 3px solid #3498db;
+/* === Astral Sea circle === */
+.center-circle .center.astral {
+  background-color: #3498db;
+  opacity: 50%;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
   border-radius: 50%;
-  clip-path: polygon(50% 50%, 100% 0, 100% 100%); /* default quarter */
-  background: rgba(52, 152, 219, 0.3); /* translucent blue */
-  color: #1E1B16;
+  width: 35vmin;   /* restored large size */
+  height: 35vmin;
+  position: absolute;
+  z-index: 12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 43%;
+  top: 7%;
 }
 
+/* Astral Sea label (top by default) */
+.center-circle .center.astral span {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0.8vmin;          /* pushes it down slightly from edge */
+  width: auto;
+  height: auto;
+  line-height: 1.2;
+  font-size: 1.5vmin;
+  background: transparent;
+  border-radius: 0;
+  pointer-events: none;
+  box-shadow: none;
+}
+
+/* Astral Sea label at bottom when .bottom is present */
+.center-circle .center.astral.bottom span {
+  top: auto;
+  bottom: 0.8vmin;
+}
+
+/* Astral hover */
+.center-circle .center.astral:hover {
+  box-shadow: 0 0 0.8vmin rgba(0,0,0,0.4);
+  z-index: 20;
+}
+
+/* Mid ring quarter arcs */
 .mid-ring-svg {
   position: absolute;
   top: 30%;
@@ -322,7 +355,7 @@ table tbody tr:hover {
   transform: translate(-50%, -50%);
   width: 60vmin;      /* matches your mid-ring radius ~20vmin (diameter = 40vmin) */
   height: 60vmin;
-  z-index: 2;         /* under outer ring, over background */
+  z-index: 10;         /* under outer ring, over background */
 }
 /* arc styling = “pizza crust” */
 .mid-arc {
@@ -374,6 +407,7 @@ table tbody tr:hover {
   box-shadow: 0 0 0.8vmin rgba(0,0,0,0.4);
   z-index: 10;
 }
+.side-menu li{list-style: none;}
 
 #cc-domain-name, #dl-domain-name{color: #a03e3e;}
 

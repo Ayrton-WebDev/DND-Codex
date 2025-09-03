@@ -12,6 +12,14 @@
       "name": "Feywilds",
       "description": "The Feywilds"
     },
+    "ethereal": {
+      "name": "Ethereal",
+      "description": "The ethereal plane"
+    },
+    "astral_sea": {
+      "name": "Astral Sea",
+      "description": "The Astral Sea"
+    },
     "earth": {
       "name": "Earth",
       "description": "The elemental plane of Earth"
@@ -222,12 +230,16 @@
     },
     "pandemonium": {
       "name": "Pandemonium",
-      "description": "A chaotic, windswept labyrinth of endless storms and shifting landscapes. Reality bends unpredictably, and whispers of madness echo across jagged cliffs and dark chasms. Mortals who enter risk losing their minds—or discovering hidden truths about themselves in the chaos."
+      "description": "Pandemonium is chaos unbound — a realm where howling winds and shifting caverns erode both stone and sanity. The land is carved by storms that scream like voices, twisting paths that never lead to the same place twice, and caverns where shadows echo louder than light. Madness is not only a danger but a constant companion, wearing down those who linger until they can no longer tell where the world ends and their mind begins. It is a place where chaos births fleeting clarity and whispers of forbidden truths, though few can keep hold of them without breaking."
     },
     "nine_hells": {
       "name": "Nine Hells",
-      "description": "A realm of law and cruelty, where every action is weighed, judged, and punished. Infernal hierarchies dominate, and ambition, fear, and suffering drive the denizens to rise—or fall—through nine meticulously ordered layers."      
-    }    
+      "description": "The Nine Hells are a realm of law bound in cruelty, an infernal hierarchy where every soul is a resource and every bargain carries hidden chains. Each layer embodies both order and torment, rising from brutal wastes to frozen silence, with courts of devils that endlessly scheme for power. Here, suffering is measured and methodical; ambition is both a weapon and a sentence. The Nine Hells are a crucible where only the most cunning endure, and where law is not protection, but prison."
+    },
+    "abyss": {
+      "name": "Abyss",
+      "description": "The Abyss is not the work of gods, but of mortals themselves. Born from ambition, hubris, and whispered corruption, it is a realm of endless torment and grotesque creation. Twisting landscapes of flesh, stone, and shadow spiral without order, reflecting both the darkest desires of mortals and the cruel influence of the Dread Lords. Its layers are infinite, ever-shifting, and each is ruled by warped entities that were once mortal, elevated and damned by their own pursuit of power. To enter the Abyss is to walk into a mirror of mortal folly — a place where nightmares are made flesh and where ambition devours all who dare to claim dominion."      
+    }       
     }
   }
 
