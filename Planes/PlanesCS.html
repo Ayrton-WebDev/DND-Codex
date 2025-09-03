@@ -35,11 +35,11 @@
             <div class="plane-ring-container">
                 <!-- Center circles -->
                <div class="center-circle">
-                    <a href="./planes.html?plane=shadowfell" class="center"><span>Shadowfell</span></a>
-                    <a href="./planes.html?plane=feywild" class="center"><span>Feywilds</span></a>
-                    <a href="./planes.html?plane=takairim" class="center" style="background-color: lightcoral;"><span style="background-color: lightcoral;">Takairim</span></a>
-                    <a href="./planes.html?plane=ethereal" class="center"><span>Ethereal</span></a>
-                    <a href="./planes.html?plane=astral_sea" class="center astral bottom"><span>Astral Sea</span></a>
+                    <a href="./planes.html?plane=shadowfell" class="center shadow"><span>Shadowfell</span></a>
+                    <a href="./planes.html?plane=feywild" class="center fey"><span>Feywilds</span></a>
+                    <a href="./planes.html?plane=takairim" class="center takairim" ><span>Takairim</span></a>
+                    <a href="./planes.html?plane=ethereal" class="center ethereal"><span>Ethereal</span></a>
+                    <a href="./planes.html?plane=astral_sea" class="center astral"><span>Astral Sea</span></a>
                 </div>
                 
            
@@ -96,32 +96,6 @@
         </div>
     
     </div>
-<script>
-    // Function to position items in a circular ring
-function placeRing(selector, count, radius) {
-    const items = document.querySelectorAll(selector);
-    items.forEach((el, i) => {
-        const angle = (360 / count) * i;
-        el.style.transform = `rotate(${angle}deg) translate(${radius}vmin) rotate(${-angle}deg)`;
-    });
-}
-
-// Center circles (around center)
-const center = document.querySelectorAll('.center-circle a');
-const centerOffsets = [
-    {x: -8, y: 8},   // shadowfell
-    {x: 8, y: 8},    // feywilds
-    {x: 0, y: 0},   // takairim
-    {x: -0, y: -10},     // ethereal
-    {x: 0, y: 0}
-];
-center.forEach((el, i) => {
-    el.style.transform = `translate(${centerOffsets[i].x}vmin, ${centerOffsets[i].y}vmin)`;
-});
-
-// Outer ring (14 items)
-placeRing('.outer-ring a', 15, 35);
-
-</script>
+<script src="../js/planes.js"></script>
 </body>
 </html>

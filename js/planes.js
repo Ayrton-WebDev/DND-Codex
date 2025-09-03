@@ -8,7 +8,7 @@ function humanizeGodName(name) {
         .join(' ');                          // Join back
 }
 
-// Function to position items in a circular ring
+ // Function to position items in a circular ring
 function placeRing(selector, count, radius) {
     const items = document.querySelectorAll(selector);
     items.forEach((el, i) => {
@@ -20,10 +20,10 @@ function placeRing(selector, count, radius) {
 // Center circles (around center)
 const center = document.querySelectorAll('.center-circle a');
 const centerOffsets = [
-    {x: -8, y: 7},   // bottom left
-    {x: 8, y: 7},    // bottom right
-    {x: -8, y: -7},   // top left
-    {x: 8, y: -7},     // top right
+    {x: -8, y: 8},   // shadowfell
+    {x: 8, y: 8},    // feywilds
+    {x: 0, y: 0},   // takairim
+    {x: -0, y: -10},     // ethereal
     {x: 0, y: 0}
 ];
 center.forEach((el, i) => {
@@ -32,6 +32,8 @@ center.forEach((el, i) => {
 
 // Outer ring (14 items)
 placeRing('.outer-ring a', 15, 35);
+
+
 
 document.addEventListener('DOMContentLoaded', () => {
     fetch('../jsons/planes.json')

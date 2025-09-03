@@ -269,9 +269,7 @@ table tbody tr:hover {
 }
 
 /* Color coding */
-.center { background-color: #f39c12; }  /* orange */
-.mid1 { background-color: #3498db; }   /* blue */
-.outer { background-color: #9b59b6; }  /* purple */
+.outer { background-color: #9b59b6;}  /* purple */
 
 .center {
   position: absolute;
@@ -289,7 +287,7 @@ table tbody tr:hover {
   width: 8vmin;
   height: 8vmin;
   border-radius: 50%;
-  background-color: #f39c12;
+  /* background-color: #f39c12; */
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
@@ -302,8 +300,8 @@ table tbody tr:hover {
 
 /* === Astral Sea circle === */
 .center-circle .center.astral {
-  background-color: #3498db;
-  opacity: 50%;
+  background-color: #3498DB;
+  opacity: 35%;
   color: white;
   font-weight: bold;
   text-decoration: none;
@@ -342,10 +340,21 @@ table tbody tr:hover {
 }
 
 /* Astral hover */
-.center-circle .center.astral:hover {
-  box-shadow: 0 0 0.8vmin rgba(0,0,0,0.4);
-  z-index: 20;
+.center-circle .center.astral {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease; /* add smooth transition */
+  transform-origin: center center; /* ensure scaling happens from the center */
 }
+.center-circle .center.astral:hover {
+ transform: rotate(0deg) scale(1.2);
+  box-shadow: 0 0 1vmin rgba(0,0,0,0.5);
+  opacity: 0.6; /* slightly more opaque */
+  z-index: 50;  /* ensure it pops above other elements */
+}
+
+.ethereal,.ethereal span{background-color: #D8EAF7; color: black;}
+.shadow, .shadow span{background-color: #2F2F2F;}
+.fey, .fey span{background-color: #FF8ACB;}
+.takairim, .takairim span{background-color: #4CAF50;}
 
 /* Mid ring quarter arcs */
 .mid-ring-svg {
@@ -376,6 +385,7 @@ table tbody tr:hover {
   height: 8vmin;
   border-radius: 50%;
   font-size: 1.25vmin;
+  font-weight: bold;
   display: flex;
   align-items: center;
   justify-content: center;

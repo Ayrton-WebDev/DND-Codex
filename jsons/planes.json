@@ -2,39 +2,39 @@
   "planes": {
     "takairim": {
       "name": "Takairim",
-      "description": "Takairim"
+      "description": "The material plane, Takairim, is a realm of life, conflict, and enduring beauty. Its forests, mountains, and rivers bear the marks of millennia, shaped by gods, mortals, and the lingering scars of war. Cities rise and fall, their stones echoing with the ambitions and failures of those who dwell within. Magic weaves through the land, both gift and burden, influencing the course of kingdoms and the fates of heroes. Though the gods are distant, their remnants linger in sacred groves, hidden libraries, and the hearts of mortals who carry their teachings. Here, every choice resonates: a single act of valor can spark hope across the continents, while a single betrayal can leave shadows that endure for generations. Life and death, creation and destruction, coexist in delicate balance, and the pulse of the world is measured by the courage of its inhabitants."
     },
     "shadowfell": {
       "name": "Shadowfell",
-      "description": "The Shadowfell"
+      "description": "A dim, somber reflection of the material world, where gloom stretches endlessly and shadows hold their own will. The skies are muted, the land cold and still, and echoes of forgotten sorrow drift through silent valleys. The fall of Faramirr, a once-proud bastion of dwarven craft, left scars that permeate this realm; mountains sundered and mines emptied, the echoes of loss lingering in every shadowed hollow. Here, despair seeps into hearts, and mortals tread carefully, lest they lose themselves to the oppressive melancholy. Time itself feels heavy, bending unpredictably, and the dead leave traces that whisper of unfinished stories. Though life lingers, it does so with caution, for every step may bring revelation—or ruin."
     },
     "feywild": {
       "name": "Feywilds",
-      "description": "The Feywilds"
+      "description": "TA vibrant, ever-shifting realm where the laws of nature are amplified and twisted. Light dances in impossible colors, and the air hums with hidden magic. Rivers may flow uphill, trees may walk in silence, and flowers bloom in patterns that defy reason. Mortals who wander here find their senses heightened, their emotions amplified, and their fates entangled with the capricious whims of unseen denizens. Though beauty abounds, danger hides behind every sparkling glade and shadowed hollow, and curiosity may lead to both wonder and peril."
     },
     "ethereal": {
       "name": "Ethereal",
-      "description": "The ethereal plane"
+      "description": "A formless, mist-laden realm that exists alongside all others, where solid matter fades and thought shapes reality. Colors are muted, edges dissolve into fog, and the very air seems alive with drifting possibilities. Travel here is fluid and disorienting, as distances stretch and contract without warning. Spirits and echoes of the living and dead alike move freely, leaving traces of memory and motion in the drifting haze. Mortals who wander too long may forget the material plane entirely, drawn into the delicate currents of this liminal space."
     },
     "astral_sea": {
       "name": "Astral Sea",
-      "description": "The Astral Sea"
+      "description": "An infinite expanse of silver void, where stars float like distant beacons and time stretches to the horizon. Great currents of thought and dream drift across the emptiness, carrying the echoes of countless worlds. Here, beings may travel unbound by physical form, and navigation requires more than sight or strength—it demands will and perception. Though quiet and seemingly endless, the Astral Sea is not empty; travelers feel the pull of unseen forces, whispers of other realms, and the weight of eternity pressing gently yet inexorably against their minds."
     },
     "earth": {
       "name": "Earth",
-      "description": "The elemental plane of Earth"
+      "description": "A vast expanse of stone, mountains, and subterranean halls stretching endlessly in all directions. Caverns echo with unseen rumblings, and minerals shimmer with inner light. Life is hardy, shaped by unyielding rock and the slow patience of the world’s foundation. Travelers may find both refuge and peril in its labyrinthine depths, for the land itself can shift and crush without warning."
     },
     "air": {
       "name": "Air",
-      "description": "The elemental plane of Air"
+      "description": "An endless sky of winds and floating islands, where clouds serve as both path and peril. Currents of air twist unpredictably, and the horizon bends in impossible ways. Mortals move through the openness with awe and fear, for a misstep may carry them to heights or depths unknown. The air itself hums with energy, alive with the whispers of unseen beings."
     },
     "fire": {
       "name": "Fire",
-      "description": "The elemental plane of Fire"
+      "description": "A realm of flame, heat, and ceaseless motion. Rivers of molten rock twist across glowing plains, and the skies shimmer with smoke and ash. Life that survives here is fierce and unyielding, adapted to the relentless blaze. Mortals feel both awe and dread, for a single misstep may consume them entirely. Fire dances with intention, as though aware of those who trespass."
     },
     "water": {
       "name": "Water",
-      "description": "The elemental plane of Water"
+      "description": "A realm of flame, heat, and ceaseless motion. Rivers of molten rock twist across glowing plains, and the skies shimmer with smoke and ash. Life that survives here is fierce and unyielding, adapted to the relentless blaze. Mortals feel both awe and dread, for a single misstep may consume them entirely. Fire dances with intention, as though aware of those who trespass."
     },
     "plane_of_light": {
       "name": "Plane of Light",
