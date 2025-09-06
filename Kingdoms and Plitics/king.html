@@ -13,9 +13,9 @@
          <li><a href="../index.html">Home</a></li>
         <li><a href="../World Maps/MapsCS.html">World Maps</a></li>
         <li><a href="../world history/worldhistory.html">History</a></li>
-        <li><a class="active" href="../Pantheons/PanthCS.html">Planes</a></li>
-         <li><a  href="../Pantheons/PanthCS.html">Pantheon</a></li>
-        <li><a href="../Kingdoms and Plitics/KingCS.html">Kingdons & Politics</a></li>
+        <li><a href="../Pantheons/PanthCS.html">Planes</a></li>
+         <li><a href="../Pantheons/PanthCS.html">Pantheon</a></li>
+        <li><a class="active" href="../Kingdoms and Plitics/KingCS.html">Kingdons & Politics</a></li>
         <li><a href="../campaign/campaign.html">Campaign</a></li>
         </ul>
     </div>
@@ -40,46 +40,60 @@
         </div>
     </div>
 
-    <div class="mainCont"> 
-        <div class="flexit">
-            <div class="disclaimer-box histBox">
-                <h1 id="kingdom-name">Kingdom Name</h1>
-                <p id="kingdom-continent">Kingdom location(s) appear here</p>
+   <div class="mainCont">
+  <div class="flexit">
+    <!-- Left: Kingdom Info -->
+    <div class="disclaimer-box histBox">
+      <header class="kingdom-header">
+        <h1 id="kingdom-name"></h1>
+        <p id="kingdom-continent"></p>
+      </header>
 
-                <h2>Kingdom Overview</h2>
-                <p id="kingdom-values">kingdom values text</p>
-                <p id="kingdom-overveiw">kingdom overveiw text</p>
-                <p id="kingdom-history">kingdom history text</p>
+      <!-- Overview -->
+      <section class="kingdom-section">
+        <h2>Overview</h2>
+        <p id="kingdom-values"></p>
+        <p id="kingdom-overview"></p>
+      </section>
 
-                <h2 id="ruler">ruler's name appears here</h2>
-                <p id="ruler-description">description of the ruler's common knowledge - general policy veiw, maybe appearance, maybe famous acts, etc</p>
-                
-                <div>
-                    <h2>Kingdoms releationships</h2>
-                        <div class="allies">
-                            <h3>Kingdom Allies</h3>
-                            <div>
-                                <h4>allied kingdom</h4>
-                                <p>allied kindom information</p>
-                            </div>
-                        </div>
-                        <div class="enemies">
-                            <h3>Kingdom Enemies</h3>
-                            <div>
-                                <h4>enemy kingdom</h4>
-                                <p>enemy kindom information</p>
-                            </div>
-                        </div>
-                </div>
-            </div>
-            <div class="disclaimer-box imgCont">
-                <img src="../images/Icon-round-Question_mark.svg.png" alt="">
-            </div>
-        </div>
+       <!-- Ruler -->
+      <section class="kingdom-section ruler-section">
+        <h2>Current Ruler</h2>
+        <h3 id="ruler"></h3>
+        <p id="ruler-description"></p>
+      </section>
+
+      <section class="kingdom-section culture">
+        <div id="culture"></div>
+      </section>
+
+      <!-- History -->
+      <section class="kingdom-section">
+        <h2>History</h2>
+        <div id="kingdom-history"></div>
+      </section>
+
+      <!-- Territories -->
+      <section class="kingdom-section" id="territories">
+        <h2>Territories</h2>
+        <!-- JS will populate landmasses here -->
+      </section>
+
+      <!-- Relationships -->
+      <section class="kingdom-section politics">
+        <div id="politics"></div>
+      </section>
+
     </div>
+
+    <!-- Right: Image (optional placeholder) -->
+    <div class="disclaimer-box imgCont">
+      <img id="king-img" src="../images/Icon-round-Question_mark.svg.png" alt="">
+    </div>
+  </div>
 </div>
+
 </div>
-</div>
-<script src=""></script>
+<script src="../js/king.js"></script>
 </body>
 </html>
