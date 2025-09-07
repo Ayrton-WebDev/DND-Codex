@@ -1,0 +1,236 @@
+{
+  "characters": {
+"flint_sticklestrike": {
+      "story_arcs": [
+        {
+          "arc_name": "Arc 1: Stopping Mother",
+          "revealed": true,
+          "missions": [
+            { "mission": "Defeat zombies in Silver hatchet", "completed": true },
+            { "mission": "Investigate Zombie source", "completed": true },
+            { "mission": "Clear the sewers below Summinster", "completed": true },
+            { "mission": "Read Lealres' notebook", "completed": true },
+            { "mission": "Question Lealres", "completed": true },
+            { "mission": "Find Mother", "completed": true },
+            { "mission": "Defeat Mother", "completed": true }
+          ]
+        },
+        {
+          "arc_name": "Arc 2: Apollo's Mercy",
+          "revealed": true,
+          "missions": [
+            { "mission": "Clear Lealres' lair", "completed": true },
+            { "mission": "Read Lealres' other journal", "completed": true },
+            { "mission": "Search for Lealres", "completed": true },
+            { "mission": "Find flints mum", "completed": true },
+            { "mission": "Cure Flints mum's petrification", "completed": true },
+            { "mission": "Learn about Lealres' origins and goals", "completed": true },
+            { "mission": "Go to the Feywild", "completed": true },
+            { "mission": "Find Lealres", "completed": true },
+            { "mission": "Defeat Lealres", "completed": true },
+            { "mission": "Gain Corellon's favour", "completed": true }
+          ]
+        }
+      ]
+    },
+"valamin": {
+     "story_arcs": [
+        {
+        "arc_name": "Arc 1: clearing his name",
+        "revealed": false,
+        "missions": [
+            { "mission": "Summoned to the pack den", "completed": true },
+            { "mission": "Consult a trusted contact", "completed": false },
+            { "mission": "Examine a troubling incident", "completed": false },
+            { "mission": "Follow hidden trails", "completed": false },
+            { "mission": "Confront the threat", "completed": false },
+            { "mission": "Present findings to the leader", "completed": false },
+            { "mission": "Seek recognition of your innocence", "completed": false }
+        ]
+        },
+        {
+        "arc_name": "Arc 2: stopping the alpha",
+        "revealed": false,
+        "missions": [
+            { "mission": "Discover signs of a new menace", "completed": false },
+            { "mission": "Inspect a recent incident", "completed": false },
+            { "mission": "Observe suspicious patterns", "completed": false },
+            { "mission": "Explore a hidden sanctuary", "completed": false },
+            { "mission": "Study mysterious writings", "completed": false },
+            { "mission": "Uncover links between unusual powers", "completed": false },
+            { "mission": "Reveal discoveries to the group", "completed": false },
+            { "mission": "Follow the elusive figure", "completed": false },
+            { "mission": "Face the main adversary", "completed": false },
+            { "mission": "Reach a decision", "completed": false }
+        ]
+        }
+      ]
+    },
+"zandul": {
+  "story_arcs": [
+    {
+      "arc_name": "Arc 1: Taranthos",
+      "revealed": false,
+      "missions": [
+        { "mission": "Hear whispers of a looming threat", "completed": true },
+        { "mission": "Receive warnings of an attack", "completed": false },
+        { "mission": "Travel to safeguard a settlement", "completed": false },
+        { "mission": "Investigate the motives of the intruders", "completed": false },
+        { "mission": "Plan a countermeasure", "completed": false },
+        { "mission": "Discover connections to a powerful figure", "completed": false },
+        { "mission": "Confront the main threat", "completed": false }
+      ]
+    },
+    {
+      "arc_name": "Arc 2: The Curse",
+      "revealed": false,
+      "missions": [
+        { "mission": "Notice a strange affliction", "completed": true },
+        { "mission": "Investigate the mysterious condition", "completed": true },
+        { "mission": "Collect ingredients for a remedy", "completed": true },
+        { "mission": "Perform the ritual", "completed": false },
+        { "mission": "Learn of past events from a trusted ally", "completed": true },
+        { "mission": "Gather artifacts for the previous job", "completed": false },
+        { "mission": "Venture to a shadowed realm", "completed": false },
+        { "mission": "Uncover hidden truths about lineage", "completed": false },
+        { "mission": "Face a personal nemesis", "completed": false },
+        { "mission": "Resolve lingering mysteries", "completed": false }
+      ]
+    }
+    ]
+    },
+"doofpizzle": {
+  "story_arcs": [
+    {
+      "arc_name": "Arc 1: Helena",
+      "revealed": true,
+      "missions": [
+        { "mission": "Meet Helena", "completed": true },
+        { "mission": "Gain Helena's trust", "completed": true },
+        { "mission": "Learn of the shared patron with Helena", "completed": true },
+        { "mission": "Perform minor tasks for Helena", "completed": true },
+        { "mission": "Discover Helena's past", "completed": false },
+        { "mission": "Disrupt Helena's resources", "completed": false },
+        { "mission": "Prepare for Helena's ritual", "completed": false },
+        { "mission": "Confront Helena directly", "completed": false },
+        { "mission": "Deal with the aftermath of Helena's defeat", "completed": false }
+      ]
+    },
+    {
+      "arc_name": "Arc 2: The Clan",
+      "revealed": false,
+      "missions": [
+        { "mission": "Discover giant kin activities", "completed": true },
+        { "mission": "Discover goliath ties to these events", "completed": false },
+        { "mission": "Monitor upcoming giant threats", "completed": false },
+        { "mission": "Intercept the next giant attack", "completed": false },
+        { "mission": "Uncover the clan's involvement", "completed": false },
+        { "mission": "Learn the goals of giants and clan together", "completed": false },
+        { "mission": "Plan a counteraction", "completed": false },
+        { "mission": "Confront the old clan members", "completed": false },
+        { "mission": "Resolve the giant threat", "completed": false }
+      ]
+    }
+  ]
+},
+    "joumas": {
+  "story_arcs": [
+    {
+      "arc_name": "Arc 1: The Cure",
+      "revealed": true,
+      "missions": [
+        { "mission": "Travel to Whiteridge", "completed": true },
+        { "mission": "Learn of the strange affliction", "completed": true },
+        { "mission": "Investigate its source", "completed": true },
+        { "mission": "Examine signs of corruption", "completed": true },
+        { "mission": "Confront the instigator", "completed": true },
+        { "mission": "Study notes on the affliction", "completed": true },
+        { "mission": "Share notes with relevant parties", "completed": true },
+        { "mission": "Verify the cure's effectiveness", "completed": false }
+      ]
+    },
+    {
+      "arc_name": "Arc 2: The Witch Site",
+      "revealed": false,
+      "missions": [
+        { "mission": "Investigate unusual activity", "completed": false },
+        { "mission": "Consult a local shaman", "completed": false },
+        { "mission": "Search island for vital resources", "completed": false },
+        { "mission": "Gather ritual components", "completed": false },
+        { "mission": "Consider ritual options", "completed": false },
+        { "mission": "Perform initial ritual with guidance", "completed": false },
+        { "mission": "Navigate the spirit realm", "completed": false },
+        { "mission": "Confront the site’s guardian", "completed": false },
+        { "mission": "Conduct secondary ritual", "completed": false },
+        { "mission": "Confirm resolution of issue", "completed": false }
+      ]
+    }
+  ]
+},
+    "randal": {
+  "story_arcs": [
+    {
+      "arc_name": "Arc 1: The Curse",
+      "revealed": false,
+      "missions": [
+        { "mission": "Understand strange affliction", "completed": true },
+        { "mission": "Explore newfound powers", "completed": false },
+        { "mission": "Make a challenging choice", "completed": false },
+        { "mission": "Learn of the taken", "completed": false },
+        { "mission": "Investigate disappearance", "completed": false },
+        { "mission": "Recover those lost", "completed": false }
+      ]
+    },
+    {
+      "arc_name": "Arc 2: The Trial",
+      "revealed": false,
+      "missions": [
+        { "mission": "Earn trust of influential figure", "completed": true },
+        { "mission": "Attend divine council", "completed": false },
+        { "mission": "Uncover hidden plans", "completed": false },
+        { "mission": "Participate in the trial", "completed": false },
+        { "mission": "Make a pivotal decision", "completed": false },
+        { "mission": "Gain favour of higher powers", "completed": false },
+        { "mission": "Locate key adversary", "completed": false },
+        { "mission": "Confront family", "completed": false },
+        { "mission": "Conclusion", "completed": false }
+      ]
+    }
+  ]
+}
+,
+    "wizzle": {
+     "story_arcs": [
+        {
+        "arc_name": "Arc 1: The Downfall",
+        "revealed": false,
+        "missions": [
+            { "mission": "Bring party into the plans", "completed": false },
+            { "mission": "", "completed": false },
+            { "mission": "", "completed": false },
+            { "mission": "", "completed": false },
+            { "mission": "", "completed": false },
+            { "mission": "", "completed": false },
+            { "mission": "", "completed": false }
+        ]
+        },
+        {
+        "arc_name": "Arc 2: Mrs. Wizzle",
+        "revealed": false,
+        "missions": [
+            { "mission": "", "completed": false },
+            { "mission": "", "completed": false },
+            { "mission": "", "completed": false },
+            { "mission": "", "completed": false },
+            { "mission": "", "completed": false },
+            { "mission": "", "completed": false },
+            { "mission": "", "completed": false },
+            { "mission": "", "completed": false },
+            { "mission": "", "completed": false },
+            { "mission": "", "completed": false }
+        ]
+        }
+      ]
+    }
+  }
+}

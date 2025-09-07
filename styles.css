@@ -431,6 +431,43 @@ table tbody tr:hover {
 
 #cc-domain-name, #dl-domain-name{color: #a03e3e;}
 
+.progress-container {
+  width: 100%;
+  background: #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 5px 0;
+  height: 20px;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #6a5acd, #00bfff);
+  transition: width 0.5s ease-in-out;
+}
+
+.mission-list {
+  margin-top: 5px;
+  padding-left: 20px;
+}
+
+.mission-list li.completed {
+  color: green;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+.character-progress h4 {
+  margin-top: 10px;
+  font-size: 1.1em;
+  text-decoration: underline;
+}
+
+
+
 @media (max-width: 800px) {
 .parent {
   display: grid;

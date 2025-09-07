@@ -68,6 +68,420 @@
         "image": "",
         "religion": "Predominantly worshippers of Sarenrae, though shrines to other gods exist."
       }
+    },
+    "zeplian_dynasty": {
+      "name": "Zeplian Dynasty",
+      "capital": "Arrowborne",
+      "ruler": {
+        "title": "High Jarl",
+        "name": "Brynhildr Ironfang",
+        "dynasty": "House Ironfang",
+        "traits": ["fierce", "unyielding", "honor-bound"]
+      },
+
+      "territory": {
+        "landmasses": {
+          "Ulgrath (North)": {
+            "description": "Harsh tundras, pine forests, and icy coasts of northern Ulgrath. Home to warrior clans and longship harbors.",
+            "major_cities": [
+              { "name": "Arrowborne", "type": "Capital" },
+              { "name": "Frosthaven", "type": "Port City" },
+              { "name": "Skaldfjord", "type": "Raiders’ Harbor" }
+            ],
+            "notable_locations": ["The Frozen Steppes", "Hall of Shields", "Stormbreaker Fjord"]
+          }
+        }
+      },
+
+      "history": [
+        {
+          "era": "Age of Frost",
+          "summary": "The Zeplian tribes endured centuries of blizzards and famine, forging a people hardened by survival."
+        },
+        {
+          "era": "Rise of the High Jarl",
+          "summary": "Brynhildr Ironfang united the feuding clans under one banner, proclaiming the Zeplian Empire."
+        },
+        {
+          "era": "Wars of the South",
+          "summary": "The Zeplian raiders clashed with the Nudaskian Empire over control of Ulgrath’s borderlands."
+        }
+      ],
+
+      "politics": {
+        "government": "Clannic Monarchy (High Jarl rules over Jarls of great clans)",
+        "nobility": ["Jarls of the Fjords", "Jarls of the Steppes", "Jarls of the Frozen Coast"],
+        "relationships": {
+          "nudaskian_empire": "Constant conflict over the Ulgrath borderlands.",
+          "citadel": "Trade partners in rare ores, though often distrusted.",
+          "isoran_confederacy": "Occasional allies at sea, though wary of southern politics."
+        },
+        "military": {
+        "strengths": ["Fearless warriors", "Superior naval raiders", "Adapted to harsh climates"],
+        "weaknesses": ["Disorganized in large-scale campaigns", "Limited agriculture and supplies"]
+      }
+      },
+      "culture": {
+        "values": ["strength", "honor in battle", "loyalty to clan"],
+        "symbols": {
+          "banner": "A black wolf’s head on a field of ice-blue",
+          "motto": "Strength Through Storms"
+        },
+        "image": "",
+        "religion": "They honor a pantheon of war and sea gods, with rituals dedicated to storms and fallen warriors."
+      }
+    },
+
+    "drazkari_dominion": {
+      "name": "Drazkari Dominion",
+      "capital": "Korthazar",
+      "ruler": {
+        "title": "Overlord",
+        "name": "Xerath Malakar",
+        "dynasty": "The Black Throne",
+        "traits": ["ambitious", "tyrannical", "cunning"]
+      },
+
+      "territory": {
+        "landmasses": {
+          "Drazkar Wastes": {
+            "description": "A harsh desert land of blackened sands, volcanic ridges, and fortified citadels carved into stone cliffs.",
+            "major_cities": [
+              { "name": "Korthazar", "type": "Capital" },
+              { "name": "Ashspire", "type": "Military Stronghold" },
+              { "name": "Dravokh", "type": "Slave Market City" }
+            ],
+            "notable_locations": [
+              "The Black Spire",
+              "The Chains of Dominion",
+              "The Obsidian Gates"
+            ]
+          }
+        }
+      },
+
+      "history": [
+        {
+          "era": "The First Chains",
+          "summary": "The Drazkari rose from scattered tribes, uniting under warlords who enslaved conquered peoples."
+        },
+        {
+          "era": "The Black Throne",
+          "summary": "Xerath Malakar seized power, declaring himself Overlord and binding the Dominion together by fear and force."
+        },
+        {
+          "era": "The Endless Campaigns",
+          "summary": "The Dominion launched raids and invasions across neighboring lands, seeking slaves and territory to fuel their war machine."
+        }
+      ],
+
+      "politics": {
+        "government": "Absolute Monarchy (The Overlord rules with unchecked authority)",
+        "nobility": ["Warlords of the Wastes", "Overseers of Chains", "High Priests of Dominion"],
+        "relationships": {
+          "nudaskian_empire": "Mutual hostility; the Dominion covets fertile Nudaskian lands.",
+          "zeplian_empire": "Distrust; Zeplians see Drazkari as dishonorable slavers, while the Dominion views them as undisciplined barbarians.",
+          "isoran_confederacy": "Target of frequent raids, exploiting their loose political unity."
+        },
+        "military": {
+        "strengths": ["Massive slave legions", "Fortified citadels", "War beasts and siege engines"],
+        "weaknesses": ["Reliance on slavery breeds unrest", "Harsh homeland limits resources"]
+      }
+      },
+      "culture": {
+        "values": ["dominance", "fear", "unyielding obedience"],
+        "symbols": {
+          "banner": "A crimson chain breaking across a black field",
+          "motto": "All Will Kneel"
+        },
+        "image": "",
+        "religion": "They worship dark gods of conquest and subjugation, with sacrifices made in sprawling ziggurats of obsidian."
+      }
+    },
+
+    "velanth_confederacy": {
+      "name": "Velanth Confederacy",
+      "capital": "Marivel",
+      "ruler": {
+        "title": "High Chancellor",
+        "name": "Seliora Veyra",
+        "dynasty": "Elected Office",
+        "traits": ["charismatic", "pragmatic", "diplomatic"]
+      },
+
+      "territory": {
+        "landmasses": {
+          "Velanth Isles": {
+            "description": "A scattered archipelago of fertile islands, bustling harbors, and fortified sea walls.",
+            "major_cities": [
+              { "name": "Marivel", "type": "Capital / Trade Hub" },
+              { "name": "Iskara", "type": "Naval Base" },
+              { "name": "Veyrinth", "type": "Market Port" }
+            ],
+            "notable_locations": [
+              "The Azure Docks",
+              "The Hall of Coins",
+              "The Great Lighthouse of Iskara"
+            ]
+          },
+          "Western Coast of Pilgror": {
+            "description": "Confederacy influence extends to coastal enclaves on Pilgror, where trade posts and garrisons protect merchant interests.",
+            "major_cities": [
+              { "name": "Drelport", "type": "Harbor City" }
+            ],
+            "notable_locations": [
+              "The Merchant’s Court",
+              "Sea Wall of Drelport"
+            ]
+          }
+        }
+      },
+
+      "history": [
+        {
+          "era": "The First Charter",
+          "summary": "Independent island city-states formed an alliance to defend against raiders and pirates, drafting the Charter of Velanth."
+        },
+        {
+          "era": "The Golden Routes",
+          "summary": "Confederate merchants established dominant trade routes across the known seas, bringing immense wealth."
+        },
+        {
+          "era": "Storms of Division",
+          "summary": "Internal rivalries between merchant houses threatened unity, but reforms led to the office of the High Chancellor."
+        }
+      ],
+
+      "politics": {
+        "government": "Confederacy of city-states led by an elected High Chancellor",
+        "nobility": ["Merchant Houses", "Admiralty Council", "Guild Masters"],
+        "relationships": {
+          "nudaskian_empire": "Mutual allies in trade and defense against northern threats.",
+          "zeplian_empire": "Trade rivals; Velanth views them as dangerous marauders.",
+          "drazkari_dominion": "Open hostility; Confederacy fleets constantly battle Dominion raiders.",
+          "citadel": "Respects their neutrality and often hires mercenaries from them."
+        },
+         "military": {
+        "strengths": ["Powerful navy", "Wealth to hire mercenaries", "Fortified harbors"],
+        "weaknesses": ["Fractured leadership", "Land forces are weak compared to rivals"]
+      }
+      },
+
+      "culture": {
+        "values": ["freedom", "prosperity", "loyalty to contracts"],
+        "symbols": {
+          "banner": "A silver ship on a blue field",
+          "motto": "By Sea and Coin"
+        },
+        "image": "",
+        "religion": "A polytheistic society with temples to many gods, though traders especially venerate Waukeen, goddess of trade."
+      }
+    },
+
+    "serican_concord": {
+      "name": "Serican Concord",
+      "capital": "Thalyra",
+      "ruler": {
+        "title": "Archon",
+        "name": "Lyren the Wise",
+        "dynasty": "Council-Appointed",
+        "traits": ["scholarly", "patient", "enigmatic"]
+      },
+
+      "territory": {
+        "landmasses": {
+          "Serica Plateau": {
+            "description": "A highland realm of ancient cities, marble halls, and academies surrounded by mountain barriers.",
+            "major_cities": [
+              { "name": "Thalyra", "type": "Capital / Seat of Learning" },
+              { "name": "Calvessan", "type": "Mystic Stronghold" },
+              { "name": "Orindral", "type": "Trade & Study Hub" }
+            ],
+            "notable_locations": [
+              "The Concordium Spire (center of magical research)",
+              "The Crystal Gardens",
+              "The Hall of Echoes (library said to hold memories of the past)"
+            ]
+          }
+        }
+      },
+
+      "history": [
+        {
+          "era": "The Binding",
+          "summary": "Several city-states ended centuries of rivalry by forming the Concord under a sacred oath of knowledge-sharing."
+        },
+        {
+          "era": "The Age of Scrolls",
+          "summary": "The Concord became renowned for its academies, attracting scholars and mages from across the world."
+        },
+        {
+          "era": "The Veil Wars",
+          "summary": "During the Heavenly War, the Concord defended the arcane veil with wards and lore, though many secrets were lost."
+        }
+      ],
+
+      "politics": {
+        "government": "Council of Archons, elected from the greatest academies and orders",
+        "nobility": ["Mage-Lords", "Lorekeepers", "Archivists"],
+        "relationships": {
+          "nudaskian_empire": "Respectful allies; Concord scholars often advise Nudaskian rulers.",
+          "velanth_confederacy": "Mutual respect; Velanth provides resources while Serica offers knowledge.",
+          "drazkari_dominion": "Deep animosity; Sericans despise their cruelty and often support rebellions.",
+          "zeplian_empire": "Distrust; Zeplians see Sericans as weak intellectuals, while Sericans consider Zeplians barbaric."
+        },
+        "military": {
+        "strengths": ["Powerful battle-mages", "Defensive wards and magical fortresses", "Strategic diplomacy"],
+        "weaknesses": ["Small standing army", "Reliance on magic and scholars", "Slow decision-making by council"]
+      }
+      },      
+
+      "culture": {
+        "values": ["wisdom", "knowledge", "harmony"],
+        "symbols": {
+          "banner": "A silver star within a circle of blue flame",
+          "motto": "Through Knowledge, Unity"
+        },
+        "image": "",
+        "religion": "Sericans venerate deities of knowledge and magic, chiefly Oghma and Mystra, but welcome foreign shrines in their academies."
+      }
+    },
+
+    "tazuun_khaganate": {
+      "name": "Tazuun Khaganate",
+      "capital": "Khagan’s Rest",
+      "ruler": {
+        "title": "Khagan",
+        "name": "Borun Khan",
+        "dynasty": "House of the Eternal Steppe",
+        "traits": ["fierce", "pragmatic", "charismatic"]
+      },
+
+      "territory": {
+        "landmasses": {
+          "Tazuun Steppes": {
+            "description": "Vast rolling plains and grasslands, crisscrossed by rivers and dotted with fortified nomadic encampments.",
+            "major_cities": [
+              { "name": "Khagan’s Rest", "type": "Capital / Nomadic Seat" },
+              { "name": "Orlathar", "type": "Trading Post" },
+              { "name": "Zelmak", "type": "Fortified Encampment" }
+            ],
+            "notable_locations": [
+              "The Endless Plains",
+              "Sacred Sky Circle (used for rituals and oaths)",
+              "Ironhorn Pass (defensive choke point)"
+            ]
+          }
+        }
+      },
+
+      "history": [
+        {
+          "era": "Founding of the Khaganate",
+          "summary": "Borun Khan unified the warring steppe tribes under a single banner, establishing the Khaganate."
+        },
+        {
+          "era": "Age of Raids",
+          "summary": "The Khaganate expanded through strategic raids and alliances, securing trade routes across neighboring lands."
+        },
+        {
+          "era": "Era of Peaceful Expansion",
+          "summary": "Recent generations have focused on trade, diplomacy, and cultural exchange while retaining strong military traditions."
+        }
+      ],
+
+      "politics": {
+        "government": "Tribal Khaganate led by the Khagan, with advisory councils of tribal chiefs",
+        "nobility": ["Tribal Chiefs", "Warlords", "Great Stewards of the Plains"],
+        "relationships": {
+          "nudaskian_empire": "Cautiously respectful; they trade horses and rare steppe resources.",
+          "velanth_confederacy": "Friendly trade partners; value each other’s mobility and resources.",
+          "zeplian_empire": "Neutral; occasional border skirmishes but no long-term hostility.",
+          "serican_concord": "Respect for magical knowledge, though largely indifferent to academic politics."
+        },
+        "military": {
+        "strengths": ["Highly mobile cavalry", "Expert archers", "Adaptable warriors familiar with the plains"],
+        "weaknesses": ["Limited fortifications", "Dependent on food supply from the land", "Smaller naval capacity"]
+      }
+      },      
+
+      "culture": {
+        "values": ["honor in battle", "freedom of movement", "loyalty to tribe and Khagan"],
+        "symbols": {
+          "banner": "A black horse rearing on a golden field",
+          "motto": "Swift as the Wind, Strong as the Steppe"
+        },
+        "image": "",
+        "religion": "The Tazuun worship sky and nature spirits, with strong traditions tied to ancestor reverence and celestial phenomena."
+      }
+    },
+
+    "solmyrian_theocracy": {
+      "name": "Solmyrian Theocracy",
+      "capital": "Sanctum Solmyr",
+      "ruler": {
+        "title": "High Pontiff",
+        "name": "Eliara Voss",
+        "dynasty": "Order of the Radiant Sun",
+        "traits": ["pious", "wise", "disciplined"]
+      },
+
+      "territory": {
+        "landmasses": {
+          "Solmyr": {
+            "description": "A sun-drenched continent with fertile river valleys, sacred mountains, and fortified temple cities.",
+            "major_cities": [
+              { "name": "Sanctum Solmyr", "type": "Capital / Holy Seat" },
+              { "name": "Sunspire", "type": "Temple City" },
+              { "name": "Dawnwatch", "type": "Fortress City" }
+            ],
+            "notable_locations": [
+              "The Grand Cathedral of Light",
+              "Pilgrims’ Road",
+              "Sunforge Monastery"
+            ]
+          }
+        }
+      },
+
+      "history": [
+        {
+          "era": "Founding of the Theocracy",
+          "summary": "Clerical leaders united the local kingdoms under the guidance of the Radiant Sun, establishing the Solmyrian Theocracy."
+        },
+        {
+          "era": "Era of Expansion",
+          "summary": "The Theocracy expanded its influence through missionary work and establishment of temple cities across the continent."
+        },
+        {
+          "era": "Modern Era",
+          "summary": "The Theocracy now balances spiritual leadership with governance, maintaining both religious authority and civil administration."
+        }
+      ],
+
+      "politics": {
+        "government": "Theocratic rule under the High Pontiff, advised by the Council of Cardinals",
+        "nobility": ["Cardinals", "Temple Magistrates", "Grand Priests"],
+        "relationships": {
+          "nudaskian_empire": "Respectful; trade and political alliances are influenced by shared moral values.",
+          "serican_concord": "Friendly; aligned on philosophical and magical studies.",
+          "tazuun_khaganate": "Neutral; occasional disputes over border grazing lands."
+        },
+        "military": {
+        "strengths": ["Disciplined temple guard", "Zealous holy warriors", "Defensive fortifications around sacred sites"],
+        "weaknesses": ["Limited mobility", "Dependent on faith-driven morale", "Smaller standing army"]
+      }
+      },      
+
+      "culture": {
+        "values": ["Devotion", "Faith", "Moral duty", "Charity"],
+        "symbols": {
+          "banner": "A radiant sun on a field of white and gold",
+          "motto": "Through Faith, All Light"
+        },
+        "image": "",
+        "religion": "Predominantly Solmyrian Sun Faith, worshipping the Radiant Sun and its divine virtues."
+      }
     }
-  }
+}
 }
