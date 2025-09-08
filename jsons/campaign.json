@@ -1,6 +1,6 @@
 {
   "characters": {
-"flint_sticklestrike": {
+    "flint_sticklestrike": {
       "story_arcs": [
         {
           "arc_name": "Arc 1: Stopping Mother",
@@ -33,10 +33,10 @@
         }
       ]
     },
-"valamin": {
+    "valamin": {
      "story_arcs": [
         {
-        "arc_name": "Arc 1: clearing his name",
+        "arc_name": "Arc 1: Clearing his name",
         "revealed": false,
         "missions": [
             { "mission": "Summoned to the pack den", "completed": true },
@@ -49,7 +49,7 @@
         ]
         },
         {
-        "arc_name": "Arc 2: stopping the alpha",
+        "arc_name": "Arc 2: Pack problems",
         "revealed": false,
         "missions": [
             { "mission": "Discover signs of a new menace", "completed": false },
@@ -66,7 +66,7 @@
         }
       ]
     },
-"zandul": {
+    "zandul": {
   "story_arcs": [
     {
       "arc_name": "Arc 1: Taranthos",
@@ -99,40 +99,40 @@
     }
     ]
     },
-"doofpizzle": {
-  "story_arcs": [
-    {
-      "arc_name": "Arc 1: Helena",
-      "revealed": true,
-      "missions": [
-        { "mission": "Meet Helena", "completed": true },
-        { "mission": "Gain Helena's trust", "completed": true },
-        { "mission": "Learn of the shared patron with Helena", "completed": true },
-        { "mission": "Perform minor tasks for Helena", "completed": true },
-        { "mission": "Discover Helena's past", "completed": false },
-        { "mission": "Disrupt Helena's resources", "completed": false },
-        { "mission": "Prepare for Helena's ritual", "completed": false },
-        { "mission": "Confront Helena directly", "completed": false },
-        { "mission": "Deal with the aftermath of Helena's defeat", "completed": false }
+    "doofpizzle": {
+      "story_arcs": [
+        {
+          "arc_name": "Arc 1: Helena",
+          "revealed": true,
+          "missions": [
+            { "mission": "Meet Helena", "completed": true },
+            { "mission": "Gain Helena's trust", "completed": true },
+            { "mission": "Learn of the shared patron with Helena", "completed": true },
+            { "mission": "Perform minor tasks for Helena", "completed": true },
+            { "mission": "Discover Helena's past", "completed": false },
+            { "mission": "Disrupt Helena's resources", "completed": false },
+            { "mission": "Prepare for Helena's final task", "completed": false },
+            { "mission": "Turn the tables", "completed": false },
+            { "mission": "Deal with the aftermath of Helena's defeat", "completed": false }
+          ]
+        },
+        {
+          "arc_name": "Arc 2: The Clan",
+          "revealed": false,
+          "missions": [
+            { "mission": "Discover giant kin activities", "completed": true },
+            { "mission": "Discover goliath ties to these events", "completed": false },
+            { "mission": "Monitor upcoming giant threats", "completed": false },
+            { "mission": "Intercept the next giant attack", "completed": false },
+            { "mission": "Uncover the clan's involvement", "completed": false },
+            { "mission": "Learn the goals of giants and clan together", "completed": false },
+            { "mission": "Plan a counteraction", "completed": false },
+            { "mission": "Confront the old clan members", "completed": false },
+            { "mission": "Resolve the giant threat", "completed": false }
+          ]
+        }
       ]
     },
-    {
-      "arc_name": "Arc 2: The Clan",
-      "revealed": false,
-      "missions": [
-        { "mission": "Discover giant kin activities", "completed": true },
-        { "mission": "Discover goliath ties to these events", "completed": false },
-        { "mission": "Monitor upcoming giant threats", "completed": false },
-        { "mission": "Intercept the next giant attack", "completed": false },
-        { "mission": "Uncover the clan's involvement", "completed": false },
-        { "mission": "Learn the goals of giants and clan together", "completed": false },
-        { "mission": "Plan a counteraction", "completed": false },
-        { "mission": "Confront the old clan members", "completed": false },
-        { "mission": "Resolve the giant threat", "completed": false }
-      ]
-    }
-  ]
-},
     "joumas": {
   "story_arcs": [
     {
@@ -166,7 +166,7 @@
       ]
     }
   ]
-},
+    },
     "randal": {
   "story_arcs": [
     {
@@ -197,40 +197,55 @@
       ]
     }
   ]
-}
-,
+    },
     "wizzle": {
-     "story_arcs": [
-        {
-        "arc_name": "Arc 1: The Downfall",
-        "revealed": false,
-        "missions": [
-            { "mission": "Bring party into the plans", "completed": false },
-            { "mission": "", "completed": false },
-            { "mission": "", "completed": false },
-            { "mission": "", "completed": false },
-            { "mission": "", "completed": false },
-            { "mission": "", "completed": false },
-            { "mission": "", "completed": false }
-        ]
-        },
-        {
-        "arc_name": "Arc 2: Mrs. Wizzle",
-        "revealed": false,
-        "missions": [
-            { "mission": "", "completed": false },
-            { "mission": "", "completed": false },
-            { "mission": "", "completed": false },
-            { "mission": "", "completed": false },
-            { "mission": "", "completed": false },
-            { "mission": "", "completed": false },
-            { "mission": "", "completed": false },
-            { "mission": "", "completed": false },
-            { "mission": "", "completed": false },
-            { "mission": "", "completed": false }
-        ]
-        }
+  "story_arcs": [
+    {
+      "arc_name": "Arc 1: Reality",
+      "revealed": false,
+      "missions": [
+        { "mission": "Whispers of an inventor", "completed": false },
+        { "mission": "Recognition", "completed": false },
+        { "mission": "The trail", "completed": false },
+        { "mission": "Workshop", "completed": false },
+        { "mission": "Diary", "completed": false },
+        { "mission": "The reunion", "completed": false },
+        { "mission": "Turning point", "completed": false },
+        { "mission": "Resolution", "completed": false }
+      ]
+    },
+    {
+      "arc_name": "Arc 2: Puzzle of Power",
+      "revealed": false,
+      "missions": [
+        { "mission": "The need", "completed": false },
+        { "mission": "First lead", "completed": false },
+        { "mission": "Gathering the pieces", "completed": false },
+        { "mission": "Figuring out the puzzle", "completed": false },
+        { "mission": "Understanding purpose", "completed": false },
+        { "mission": "Disruption", "completed": false },
+        { "mission": "Finale", "completed": false }
       ]
     }
-  }
-}
+  ]
+    },
+    "campaign":{
+      "story_missions": [
+        { "mission": "Stopping Mother", "completed": true },
+        { "mission": "Apollo's Mercy", "completed": true, "main_story": true},
+        { "mission": "Clearing His Name", "completed": false },
+        { "mission": "Pack Problems", "completed": false, "main_story": true},
+        { "mission": "Taranthos", "completed": false, "main_story": true },
+        { "mission": "The Curse", "completed": false },
+        { "mission": "Helena", "completed": false },
+        { "mission": "The Clan", "completed": false, "main_story": true },
+        { "mission": "The Cure", "completed": false },
+        { "mission": "Witch-site", "completed": false, "main_story": true },
+        { "mission": "The Curse", "completed": false },
+        { "mission": "The Trial", "completed": false, "main_story": true },
+        { "mission": "Reality", "completed": false },
+        { "mission": "Puzzle of Power", "completed": false, "main_story": true },
+        { "mission": "defeat Girx'Thoma", "completed": false, "main_story": true }
+      ]
+    }
+  }}

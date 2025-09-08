@@ -39,5 +39,44 @@ fetch("../jsons/campaign.json")
       document.getElementById(`${key}-progress-text`).innerText =
         `${completedCount}/${totalCount} (${percent}%)`;
     });
+  
+  })
+  .catch(err => console.error("Error loading missions:", err));
+    // campaign progress bar
+  fetch("../jsons/campaign.json")
+  .then(res => res.json())
+  .then(data => {
+    let completedCount = 0;
+    let totalCount = 0;
+
+    // Count all character missions
+    Object.entries(data.characters).forEach(([key, char]) => {
+      if (!char.story_arcs) return;
+      char.story_arcs.forEach(arc => {
+        arc.missions.forEach(mission => {
+          totalCount++;
+          if (mission.completed) completedCount++;
+        });
+      });
+    });
+
+    // Count main story missions
+    const campaignMissions = data.characters.campaign?.story_missions || [];
+    campaignMissions.forEach(mission => {
+      // Only count missions flagged as main_story
+      if (mission.main_story) {
+        totalCount++;
+        if (mission.completed) completedCount++;
+      }
+    });
+
+    // Calculate percentage
+    const percent = totalCount ? Math.round((completedCount / totalCount) * 100) : 0;
+
+    // Update the progress bar
+    const campaignBar = document.getElementById("campaign-bar");
+    const campaignText = document.getElementById("campaign-progress-text");
+    if (campaignBar) campaignBar.style.width = percent + "%";
+    if (campaignText) campaignText.innerText = `${percent}%`;
   })
   .catch(err => console.error("Error loading missions:", err));
