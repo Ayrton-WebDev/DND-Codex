@@ -28,7 +28,7 @@
             { "mission": "Go to the Feywild", "completed": true },
             { "mission": "Find Lealres", "completed": true },
             { "mission": "Defeat Lealres", "completed": true },
-            { "mission": "Gain Corellon's favour", "completed": true }
+            { "mission": "Gain divine favour", "completed": true }
           ]
         }
       ]
@@ -251,7 +251,7 @@
 
         { "mission": "Reality", "completed": false },
         { "mission": "Puzzle of Power", "completed": false, "main_story": true },
-        
+
         { "mission": "defeat Girx'Thoma", "completed": false, "main_story": true }
       ]
     }
