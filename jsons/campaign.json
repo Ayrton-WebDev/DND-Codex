@@ -233,18 +233,25 @@
       "story_missions": [
         { "mission": "Stopping Mother", "completed": true },
         { "mission": "Apollo's Mercy", "completed": true, "main_story": true},
+
         { "mission": "Clearing His Name", "completed": false },
         { "mission": "Pack Problems", "completed": false, "main_story": true},
+
         { "mission": "Taranthos", "completed": false, "main_story": true },
         { "mission": "The Curse", "completed": false },
+
         { "mission": "Helena", "completed": false },
         { "mission": "The Clan", "completed": false, "main_story": true },
+
         { "mission": "The Cure", "completed": false },
         { "mission": "Witch-site", "completed": false, "main_story": true },
+
         { "mission": "The Curse", "completed": false },
         { "mission": "The Trial", "completed": false, "main_story": true },
+
         { "mission": "Reality", "completed": false },
         { "mission": "Puzzle of Power", "completed": false, "main_story": true },
+        
         { "mission": "defeat Girx'Thoma", "completed": false, "main_story": true }
       ]
     }
