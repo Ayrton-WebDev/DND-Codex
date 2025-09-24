@@ -255,4 +255,21 @@
         { "mission": "defeat Girx'Thoma", "completed": false, "main_story": true }
       ]
     }
-  }}
+  },
+  "homebrew": {
+    "rules": [
+      {
+        "title": "Revival Mechanics",
+        "description": "Each time your character dies, it gets harder to pull them back from the afterlife. whenever a revival ritual is performed, the caster must make a roll to see if they succeed. The DC starts at 13 and goes up by 2 each time the character dies. During the ritual, the other party members can assist the caster by contributing to the ritual, a maximum of 3. This can be any skill, ability or spell that the Character thinks will help. Each contribution will need to make a roll determined by the DM, If they pass then the revival DC is reduced by 1, if they fail then it increases by 1."
+      },
+      {
+        "title": "Character's Death Choice",
+        "description": "When a character goes to 0hp, they can make a choice of what to do next. They can choose to go out in a blaze of glory, fighting to the end and taking an enemy with them (if they do this they can make one last attack, if they hit they deal max damage. regardless of if they hit or miss, they die at the end), once revived, the character has a major wound (see wound rules). They can choose to play it safe, falling unconscious but stabilised (no death saves required), Once they wake up they have a minor wound (see wound rules). Or they can choose to risk it all, roll a d20 and on an 11 or higher they go to 1HP instead and immediately take 1 action (no multiattack) this uses their reaction for this round. If they roll a 10 or lower they die instantly and require revival. Either way they roll on both the major and minor wound tables (see wound rules)."
+      },
+      {
+        "title": "Wound Rules",
+        "description": "Both the major and minor wounds tables have 8 outcomes. a character rolls on the table and has the corresponding effect. A character can have any combination of major and minor wounds, however if a character has 3 major wounds or 5 minor wounds, they die permanently. If the player gets 2 of the same type of minor wounds (e.g. 2 minor leg wounds) this will upgrade into a major leg wound. If the player gets 2 of the same major wound type, they get 1 reroll, if it lands on the same wound for a 3rd time (after the reroll), they make a DC 11 death save, if they pass their revival DC increases by 1, if they fail they die. A minor wound can be healed by taking a long rest in a place of safety (Tavern, temple, home, etc - not in a dungeon or while travelling), or with a greater restoration spell (or something similar). A major wound can only be healed with 10 long rests in a safe place (adventuring pauses the process) or with 5 greater restoration spells (or something similar)."
+      }
+    ]
+  }
+}
