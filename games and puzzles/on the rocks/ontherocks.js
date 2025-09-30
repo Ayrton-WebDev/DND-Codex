@@ -67,9 +67,9 @@ switch(difficulty) {
         initRocks();
         break;
     case 'impossible':
-        spawnRate = 0.7; // 70% chance per frame
-        rockSpeedRange = [9, 10];
-        passPhrase = "6723"; // impossible passphrase
+        spawnRate = 0.8; // 70% chance per frame
+        rockSpeedRange = [9, 12];
+        passPhrase = "7359"; // impossible passphrase
         initRocks();
         break;
     default:
