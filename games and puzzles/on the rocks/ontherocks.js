@@ -45,32 +45,38 @@ function initRocks() {
 const safeZoneWidth = 80;
 
 let difficulty = prompt("Choose difficulty: easy, medium, hard, impossible").toLowerCase();
-let spawnRate, rockSpeedRange;
+let spawnRate, rockSpeedRange, passPhrase;
 
 switch(difficulty) {
     case 'easy':
-        spawnRate = 0.2; // 1% chance per frame
+        spawnRate = 0.2; // 20% chance per frame
         rockSpeedRange = [3, 4];
+        passPhrase = "4972"; // easy passphrase
         initRocks();
         break;
     case 'medium':
-        spawnRate = 0.3;
+        spawnRate = 0.3; // 30% chance per frame
         rockSpeedRange = [4, 7];
+        passPhrase = "8391"; // medium passphrase
         initRocks();
         break;
     case 'hard':
-        spawnRate = 0.4;
+        spawnRate = 0.4; // 40% chance per frame
         rockSpeedRange = [5, 10];
+        passPhrase = "2058"; // hard passphrase
         initRocks();
         break;
     case 'impossible':
-        spawnRate = 0.7;
+        spawnRate = 0.7; // 70% chance per frame
         rockSpeedRange = [9, 10];
+        passPhrase = "6723"; // impossible passphrase
         initRocks();
         break;
     default:
-        spawnRate = 0.3;
+        spawnRate = 0.3; // 30% chance per frame
         rockSpeedRange = [4, 7];
+        passPhrase = "8391"; // default to medium
+        alert("Invalid choice, defaulting to medium difficulty.");
         initRocks();
 }
 
@@ -147,7 +153,7 @@ function animate() {
 
   // Check if player reached right side
   if(player.x + player.width >= canvas.width-10) {
-    alert('Welcom to On The Rocks Tavern!\nYou made it safely across!\nCare for a drink?');
+    alert('Welcom to On The Rocks Tavern!\nYou made it safely across!\nCare for a drink?' + `\n(The difficulty passphrase is: ${passPhrase})`);
     player.x = 50;
     player.y = canvas.height - 60;
   }
