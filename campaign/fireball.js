@@ -106,8 +106,8 @@ function drawFireballs() {
 // Update fireballs
 let frame = 0;
 let spawnRate = 80;          // start slow
-const minSpawnRate = 25;     // don’t go too crazy
-const minGap = 75;          // pixels between rows
+const minSpawnRate = 30;     // don’t go too crazy
+const minGap = 70;          // pixels between rows
 
 function canSpawn() {
   if (fireballs.length === 0) return true;
@@ -167,7 +167,9 @@ function loop() {
   } else {
     ctx.fillStyle = "black";
     ctx.font = "40px Arial";
-    ctx.fillText("GAME OVER", canvas.width / 2 - 100, canvas.height / 2);
+    ctx.fillText("GAME OVER", canvas.width / 2 - 100, canvas.height / 2-50);
+   ctx.fillText(`Score: ${score}`, canvas.width / 2 - 100, canvas.height / 2+50);
+
   }
 
   // Score
