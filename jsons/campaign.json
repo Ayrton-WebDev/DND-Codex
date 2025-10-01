@@ -109,7 +109,7 @@
             { "mission": "Gain Helena's trust", "completed": true },
             { "mission": "Learn of the shared patron with Helena", "completed": true },
             { "mission": "Perform minor tasks for Helena", "completed": true },
-            { "mission": "Discover Helena's past", "completed": false },
+            { "mission": "Discover Helena's past", "completed": true },
             { "mission": "Disrupt Helena's resources", "completed": false },
             { "mission": "Prepare for Helena's final task", "completed": false },
             { "mission": "Turn the tables", "completed": false },
@@ -151,10 +151,9 @@
     },
     {
       "arc_name": "Arc 2: The Witch Site",
-      "revealed": false,
+      "revealed": true,
       "missions": [
-        { "mission": "Investigate unusual activity", "completed": false },
-        { "mission": "Consult a local shaman", "completed": false },
+        { "mission": "Consult a local shaman", "completed": true },
         { "mission": "Search island for vital resources", "completed": false },
         { "mission": "Gather ritual components", "completed": false },
         { "mission": "Consider ritual options", "completed": false },
@@ -174,7 +173,7 @@
       "revealed": false,
       "missions": [
         { "mission": "Understand strange affliction", "completed": true },
-        { "mission": "Explore newfound powers", "completed": false },
+        { "mission": "Explore newfound powers", "completed": true },
         { "mission": "Make a challenging choice", "completed": false },
         { "mission": "Learn of the taken", "completed": false },
         { "mission": "Investigate disappearance", "completed": false },
