@@ -4,12 +4,12 @@ const bgCtx = bg.getContext("2d");
 const fgCtx = fg.getContext("2d");
 
 // --- players & words ---
-const players = ["Tyler", "Niamh", "Gareth", "Kat", "Artis", "Jarren", "Kyle"]; 
-const words = ["REVEAL", "THYSELF", "DEMON", "INTO", "THE", "SHADOW", "WORLD"];
+const players = ["tyler", "niamh", "gareth", "kat", "artis", "jarren", "kyle"]; 
+const words = ["SOUTHWEST", "CLAWMARKS", "MOUNTAINS", "FEATHERS", "SAVAGE", "TAILWHIP", "THUNDER"];
 
 // prompt player name
 let playerName = prompt("Enter your name:");
-let playerIndex = players.indexOf(playerName);
+let playerIndex = players.indexOf(playerName.toLowerCase());
 
 // fallback if name not found
 if (playerIndex === -1) {
