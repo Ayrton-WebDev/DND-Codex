@@ -10,7 +10,7 @@ body {
     width: 60%;
     margin: 30px auto;
     background: #fdf1d0;
-    padding: 35px 70px; /* reserve space for borders around the text */
+    padding: 100px 70px; /* reserve space for borders around the text */
     box-shadow: 0 0 50px rgba(0,0,0,0.8);
     box-sizing: border-box;
     animation: parchmentPulse 2s ease-in-out infinite alternate;
@@ -22,12 +22,13 @@ body {
 }
 
 .contract-text {
+    z-index: 5;
     font-size: 18px;
     line-height: 1.6;
     color: #2b0707;
     text-align: justify;
 }
-h4{
+h4, h1{
    background: linear-gradient(
     145deg,
     #2b0000 0%,
@@ -233,7 +234,7 @@ h4{
     100% { transform: scale(1);     opacity: 0.6; }
 }
 
-  #ghostTrail, #ghostFaces {
+  #hangingMen, #ghostTrail, #ghostFaces {
     position: absolute;
     top: 0;
     left: 0;
@@ -244,3 +245,36 @@ h4{
 
   #ghostTrail { z-index: 1; opacity: 30%; }
   #ghostFaces { z-index: 2; opacity: 40%; }
+  #hangingMen {z-index: 0; opacity: 70%;}
+
+  .infernal-signature {
+    
+  position: relative;
+  display: inline-block;
+}
+
+.infernal-signature img {
+  filter: brightness(1.2) contrast(1.1) sepia(0.5) hue-rotate(-10deg) saturate(1.4);
+  animation: infernalGlow 6s ease-in-out infinite;
+  width: 200px;
+}
+
+@keyframes infernalGlow {
+  0% { filter: brightness(1.1) drop-shadow(0 0 3px rgba(255,60,0,0.4)); }
+  50% { filter: brightness(1.5) drop-shadow(0 0 10px rgba(255,100,0,0.7)); }
+  100% { filter: brightness(1.1) drop-shadow(0 0 3px rgba(255,60,0,0.4)); }
+}
+
+.hidden-signature {
+  display: none;
+  width: 150px;   /* adjust to match space for signatures */
+  height: auto;
+  margin: 5px;
+}
+.signature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 10px;
+  justify-items: center;
+  align-items: center;
+}
