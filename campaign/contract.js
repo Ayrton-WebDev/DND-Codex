@@ -8,21 +8,9 @@
   const DPR = window.devicePixelRatio || 1;
 
   let width, height;
+  let ghosts = [];
 
-  function resize() {
-    const rect = container.getBoundingClientRect();
-    width = rect.width;
-    height = rect.height;
-    [canvasTrail, canvasFaces].forEach(c => {
-      c.width = width * DPR;
-      c.height = height * DPR;
-      const ctx = c.getContext("2d");
-      ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
-    });
-  }
-  resize();
-  window.addEventListener("resize", resize);
-
+  // Face images
   const faceImages = {
     pain: "../images/pain.png",
     pain2: "../images/pain2.png",
@@ -38,10 +26,9 @@
     loadedImages[key] = img;
   });
 
-  const GHOST_COUNT = 100;
   const MIN_SIZE = 40;
   const MAX_SIZE = 80;
-  const BASE_SPEED = 0.3; // fixed constant speed
+  const BASE_SPEED = 0.3;
   const VERTICAL_SCALE = 1.4;
 
   class Ghost {
@@ -54,7 +41,7 @@
       const speed = BASE_SPEED * (this.size / MAX_SIZE);
       this.vx = Math.cos(angle) * speed;
       this.vy = Math.sin(angle) * speed;
-      this.speed = speed; // store base speed
+      this.speed = speed;
 
       this.alpha = Math.random() * 0.05 + 0.05;
       this.faceType = faceKeys[Math.floor(Math.random() * faceKeys.length)];
@@ -69,7 +56,6 @@
       const marginX = 35;
       const marginY = 25;
 
-      // Bounce off edges (invert velocity, not add)
       if (this.x < rX + marginX) {
         this.x = rX + marginX;
         this.vx = Math.abs(this.vx);
@@ -86,7 +72,6 @@
         this.vy = -Math.abs(this.vy);
       }
 
-      // Slight wandering, but normalize to keep constant speed
       this.vx += (Math.random() - 0.5) * 0.01;
       this.vy += (Math.random() - 0.5) * 0.01;
 
@@ -110,7 +95,33 @@
     }
   }
 
-  const ghosts = Array.from({ length: GHOST_COUNT }, () => new Ghost());
+  // Determine ghost count based on width
+  function getGhostCount(width) {
+    const baseCount = 20; // minimum
+    const maxCount = 100; // maximum
+    const maxWidth = 1200; // width where maxCount reached
+    return Math.round(baseCount + (maxCount - baseCount) * Math.min(width, maxWidth) / maxWidth);
+  }
+
+  function resize() {
+    const rect = container.getBoundingClientRect();
+    width = rect.width;
+    height = rect.height;
+
+    [canvasTrail, canvasFaces].forEach(c => {
+      c.width = width * DPR;
+      c.height = height * DPR;
+      const ctx = c.getContext("2d");
+      ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+    });
+
+    // Recreate ghosts based on current width
+    const ghostCount = getGhostCount(width);
+    ghosts = Array.from({ length: ghostCount }, () => new Ghost());
+  }
+
+  window.addEventListener("resize", resize);
+  resize();
 
   function handleGhostCollisions() {
     for (let i = 0; i < ghosts.length; i++) {
@@ -127,13 +138,11 @@
           const ny = dy / dist;
           const overlap = minDist - dist;
 
-          // separate them without changing speed
           g1.x -= nx * overlap * 0.5;
           g1.y -= ny * overlap * 0.5 * VERTICAL_SCALE;
           g2.x += nx * overlap * 0.5;
           g2.y += ny * overlap * 0.5 * VERTICAL_SCALE;
 
-          // simple deflection: swap velocity directions
           const tempVx = g1.vx;
           const tempVy = g1.vy;
           g1.vx = g2.vx;
@@ -141,7 +150,6 @@
           g2.vx = tempVx;
           g2.vy = tempVy;
 
-          // re-normalize speeds so they never gain/lose energy
           const len1 = Math.hypot(g1.vx, g1.vy);
           const len2 = Math.hypot(g2.vx, g2.vy);
           g1.vx = (g1.vx / len1) * g1.speed;
@@ -174,6 +182,7 @@
 
   animate();
 })();
+
 // hanging men
 (() => {
   const canvas = document.getElementById("hangingMen");
@@ -182,39 +191,12 @@
   const DPR = window.devicePixelRatio || 1;
 
   let width, height;
-  function resize() {
-    const rect = container.getBoundingClientRect();
-    width = rect.width;
-    height = rect.height;
-    canvas.width = width * DPR;
-    canvas.height = height * DPR;
-    ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
-  }
-  resize();
-  window.addEventListener("resize", resize);
-
-  const NUM_HANGERS = 15; // can be any number now
   const SCALE = 0.25;
   const BASE_ROPE = 250;
   const BASE_BODY = 200;
-  const hangers = [];
+  let hangers = [];
 
-  for (let i = 0; i < NUM_HANGERS; i++) {
-    const spacing = width / (NUM_HANGERS + 1); // auto spacing
-    hangers.push({
-      scale: SCALE,
-      posX: spacing * (i + 1),
-      anchorY: 43 + Math.random(), // subtle vertical variance
-      ropeLength: BASE_ROPE * SCALE * (0.9 + Math.random() * 0.3), // slightly different rope lengths
-      bodySize: BASE_BODY * SCALE,
-      seqIndex: Math.floor(Math.random() * 4), // random starting stage
-      t: Math.random(), // random start phase
-      paused: false,
-      swingTime: Math.random() * Math.PI * 2,
-      swingSpeed: (Math.random() > 0.5 ? 1 : -1) * (0.015 + Math.random() * 0.008) // random direction & speed
-    });
-  }
-
+  // === Poses for animation ===
   const poses = [
     [[-4,-10,-20],[4,10,10],[-3,-10,-10],[3,10,10]].map(a=>a.map(n=>n*SCALE)),
     [[-2,10,-10],[2,10,5],[-2,-10,5],[2,-5,15]].map(a=>a.map(n=>n*SCALE)),
@@ -225,6 +207,48 @@
 
   function lerp(a,b,t){ return a + (b-a)*t; }
 
+  // === Calculate number of hangers based on width ===
+  function calculateNumHangers() {
+    const minSpacing = 80; // minimum horizontal space per hanger
+    return Math.max(1, Math.floor(width / minSpacing));
+  }
+
+  // === Create hangers dynamically ===
+  function createHangers() {
+    hangers = [];
+    const numHangers = calculateNumHangers();
+    const spacing = width / (numHangers + 1);
+
+    for (let i = 0; i < numHangers; i++) {
+      hangers.push({
+        scale: SCALE,
+        posX: spacing * (i + 1),
+        anchorY: 43 + Math.random(),
+        ropeLength: BASE_ROPE * SCALE * (0.9 + Math.random() * 0.3),
+        bodySize: BASE_BODY * SCALE,
+        seqIndex: Math.floor(Math.random() * sequence.length),
+        t: Math.random(),
+        paused: false,
+        swingTime: Math.random() * Math.PI * 2,
+        swingSpeed: (Math.random() > 0.5 ? 1 : -1) * (0.015 + Math.random() * 0.008)
+      });
+    }
+  }
+
+  // === Handle canvas resizing ===
+  function resize() {
+    const rect = container.getBoundingClientRect();
+    width = rect.width;
+    height = rect.height;
+    canvas.width = width * DPR;
+    canvas.height = height * DPR;
+    ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+    createHangers(); // regenerate hangers on resize
+  }
+  resize();
+  window.addEventListener("resize", resize);
+
+  // === Draw a single hanger ===
   function drawHanger(h) {
     const swingOffset = Math.sin(h.swingTime) * h.ropeLength * Math.sin(0.015);
     const bodyX = h.posX + swingOffset;
@@ -289,7 +313,7 @@
     ctx.fill();
     ctx.stroke();
 
-    // update animation
+    // animation updates
     if (!h.paused) {
       h.t += 0.01;
       if (h.t >= 1) {
@@ -301,10 +325,10 @@
         }
       }
     }
-
     h.swingTime += h.swingSpeed;
   }
 
+  // === Animate all hangers ===
   function animate() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     for (const h of hangers) drawHanger(h);
@@ -313,6 +337,7 @@
 
   animate();
 })();
+
 // signature
 (() => {
   const canvas = document.getElementById("signatureCanvas");
