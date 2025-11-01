@@ -21,8 +21,8 @@ function drawBackground() {
   bgCtx.textAlign = "center";
   bgCtx.textBaseline = "middle";
 
-  const words = ["REVEAL", "THYSELF", "DEMON"];
-  const colours = ["white", "yellow", "red"];
+  const words = ["SNOWMAN", "CHESTNUTS", "OPEN FIRE", "BELL", "DECAS", "SANDY", "CLAW"];
+  const colours = ["white", "yellow", "red", "green", "black", "orange", "purple"];
 
   const placedLetters = [];
   const fontSize = 48;
@@ -76,7 +76,7 @@ function drawOverlay() {
   // cut a circular hole where the mouse is
   fgCtx.globalCompositeOperation = "destination-out";
   fgCtx.beginPath();
-  fgCtx.arc(pointer.x,pointer.y,150,0,Math.PI*2);
+  fgCtx.arc(pointer.x,pointer.y,250,0,Math.PI*2);
   fgCtx.fill();
 
   // reset for next frame
