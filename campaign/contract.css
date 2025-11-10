@@ -271,8 +271,7 @@ h4, h1{
   100% { filter: brightness(1.1) drop-shadow(0 0 3px rgba(255,60,0,0.4)); }
 }
 
-.hidden-signature {
-  display: none;
+.signature {
   width: 150px;   /* adjust to match space for signatures */
   height: auto;
   margin: 5px;
